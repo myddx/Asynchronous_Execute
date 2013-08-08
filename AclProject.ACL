@@ -1,0 +1,2539 @@
+@ACL1000
+
+
+
+
+
+
+^LAYOUT   Tab20GBFIL                         485 D.T,
+DATA_BASE      ASCII       1   6    
+FOC_CD_HASH_OPER ASCII       7  28    
+CNPJ_ID        ASCII      35  11    
+CNPJ_CPF_CLIENTE ASCII      52  11   WIDTH 14  
+IND_CNPJ       ASCII      60   1    
+CONTRATO       ASCII      61  40    
+MODALIDADE     ASCII     101   4    
+ORIGEM_RECURSOS ASCII     105   4    
+NATUREZA       ASCII     109   2    
+RISCO_OP       ASCII     111   2    
+INDEXADOR      ASCII     113   2    
+CNAE           ASCII     115  10    
+CONGLOM_FINANC ASCII     125   8    
+RISCO_CLI      ASCII     133   2    
+VARIACAO_CAMB  ASCII     135   3    
+GRUPO_ECON     ASCII     138  40    
+CLI_NOVO       ASCII     178   1    
+CLI_NOVO_IF    ASCII     179   1    
+CLI_NOVO_CONGL ASCII     180   1    
+DIAS_ATRASO    NUMERIC   181  10 0  
+TX_EFETIVA_ANUAL NUMERIC   211  19 7  
+VL_PROV_IF     NUMERIC   230  19 2  
+VL_A_VENCER    NUMERIC   249  19 2  
+VL_VENCIDO     NUMERIC   268  19 2  
+CARTEIRA_ATIVA NUMERIC   287  19 2  
+VL_PREJU       NUMERIC   306  19 2  
+VL_CART_CREDITO NUMERIC   325  19 2  
+RESP_TOTAL     NUMERIC   344  19 2  
+VL_LIMITE      NUMERIC   363  19 2  
+VL_CRED_A_LIBERAR NUMERIC   382  19 2  
+RENEGOCIACAO   ASCII     401   1    
+^LAYOUT   Tab20GBFIL2                        485 D.T,
+DATA_BASE      ASCII       1   6    
+FOC_CD_HASH_OPER ASCII       7  28    
+CNPJ_ID        ASCII      35  11    
+CNPJ_CPF_CLIENTE ASCII      52  11   WIDTH 14  
+IND_CNPJ       ASCII      60   1    
+CONTRATO       ASCII      61  40    
+MODALIDADE     ASCII     101   4    
+ORIGEM_RECURSOS ASCII     105   4    
+NATUREZA       ASCII     109   2    
+RISCO_OP       ASCII     111   2    
+INDEXADOR      ASCII     113   2    
+CNAE           ASCII     115  10    
+CONGLOM_FINANC ASCII     125   8    
+RISCO_CLI      ASCII     133   2    
+VARIACAO_CAMB  ASCII     135   3    
+GRUPO_ECON     ASCII     138  40    
+CLI_NOVO       ASCII     178   1    
+CLI_NOVO_IF    ASCII     179   1    
+CLI_NOVO_CONGL ASCII     180   1    
+DIAS_ATRASO    NUMERIC   181  10 0  
+TX_EFETIVA_ANUAL NUMERIC   211  19 7  
+VL_PROV_IF     NUMERIC   230  19 2  
+VL_A_VENCER    NUMERIC   249  19 2  
+VL_VENCIDO     NUMERIC   268  19 2  
+CARTEIRA_ATIVA NUMERIC   287  19 2  
+VL_PREJU       NUMERIC   306  19 2  
+VL_CART_CREDITO NUMERIC   325  19 2  
+RESP_TOTAL     NUMERIC   344  19 2  
+VL_LIMITE      NUMERIC   363  19 2  
+VL_CRED_A_LIBERAR NUMERIC   382  19 2  
+RENEGOCIACAO   ASCII     401   1    
+^LAYOUT   Tab20GBFIL3                        485 D.T,
+DATA_BASE      ASCII       1   6    
+FOC_CD_HASH_OPER ASCII       7  28    
+CNPJ_ID        ASCII      35  11    
+CNPJ_CPF_CLIENTE ASCII      52  11   WIDTH 14  
+IND_CNPJ       ASCII      60   1    
+CONTRATO       ASCII      61  40    
+MODALIDADE     ASCII     101   4    
+ORIGEM_RECURSOS ASCII     105   4    
+NATUREZA       ASCII     109   2    
+RISCO_OP       ASCII     111   2    
+INDEXADOR      ASCII     113   2    
+CNAE           ASCII     115  10    
+CONGLOM_FINANC ASCII     125   8    
+RISCO_CLI      ASCII     133   2    
+VARIACAO_CAMB  ASCII     135   3    
+GRUPO_ECON     ASCII     138  40    
+CLI_NOVO       ASCII     178   1    
+CLI_NOVO_IF    ASCII     179   1    
+CLI_NOVO_CONGL ASCII     180   1    
+DIAS_ATRASO    NUMERIC   181  10 0  
+TX_EFETIVA_ANUAL NUMERIC   211  19 7  
+VL_PROV_IF     NUMERIC   230  19 2  
+VL_A_VENCER    NUMERIC   249  19 2  
+VL_VENCIDO     NUMERIC   268  19 2  
+CARTEIRA_ATIVA NUMERIC   287  19 2  
+VL_PREJU       NUMERIC   306  19 2  
+VL_CART_CREDITO NUMERIC   325  19 2  
+RESP_TOTAL     NUMERIC   344  19 2  
+VL_LIMITE      NUMERIC   363  19 2  
+VL_CRED_A_LIBERAR NUMERIC   382  19 2  
+RENEGOCIACAO   ASCII     401   1    
+^LAYOUT   Tab20GBFIL4                        485 D.T,
+DATA_BASE      ASCII       1   6    
+FOC_CD_HASH_OPER ASCII       7  28    
+CNPJ_ID        ASCII      35  11    
+CNPJ_CPF_CLIENTE ASCII      52  11   WIDTH 14  
+IND_CNPJ       ASCII      60   1    
+CONTRATO       ASCII      61  40    
+MODALIDADE     ASCII     101   4    
+ORIGEM_RECURSOS ASCII     105   4    
+NATUREZA       ASCII     109   2    
+RISCO_OP       ASCII     111   2    
+INDEXADOR      ASCII     113   2    
+CNAE           ASCII     115  10    
+CONGLOM_FINANC ASCII     125   8    
+RISCO_CLI      ASCII     133   2    
+VARIACAO_CAMB  ASCII     135   3    
+GRUPO_ECON     ASCII     138  40    
+CLI_NOVO       ASCII     178   1    
+CLI_NOVO_IF    ASCII     179   1    
+CLI_NOVO_CONGL ASCII     180   1    
+DIAS_ATRASO    NUMERIC   181  10 0  
+TX_EFETIVA_ANUAL NUMERIC   211  19 7  
+VL_PROV_IF     NUMERIC   230  19 2  
+VL_A_VENCER    NUMERIC   249  19 2  
+VL_VENCIDO     NUMERIC   268  19 2  
+CARTEIRA_ATIVA NUMERIC   287  19 2  
+VL_PREJU       NUMERIC   306  19 2  
+VL_CART_CREDITO NUMERIC   325  19 2  
+RESP_TOTAL     NUMERIC   344  19 2  
+VL_LIMITE      NUMERIC   363  19 2  
+VL_CRED_A_LIBERAR NUMERIC   382  19 2  
+RENEGOCIACAO   ASCII     401   1    
+^LAYOUT   Tab20GBFIL5                        485 D.T,
+DATA_BASE      ASCII       1   6    
+FOC_CD_HASH_OPER ASCII       7  28    
+CNPJ_ID        ASCII      35  11    
+CNPJ_CPF_CLIENTE ASCII      52  11   WIDTH 14  
+IND_CNPJ       ASCII      60   1    
+CONTRATO       ASCII      61  40    
+MODALIDADE     ASCII     101   4    
+ORIGEM_RECURSOS ASCII     105   4    
+NATUREZA       ASCII     109   2    
+RISCO_OP       ASCII     111   2    
+INDEXADOR      ASCII     113   2    
+CNAE           ASCII     115  10    
+CONGLOM_FINANC ASCII     125   8    
+RISCO_CLI      ASCII     133   2    
+VARIACAO_CAMB  ASCII     135   3    
+GRUPO_ECON     ASCII     138  40    
+CLI_NOVO       ASCII     178   1    
+CLI_NOVO_IF    ASCII     179   1    
+CLI_NOVO_CONGL ASCII     180   1    
+DIAS_ATRASO    NUMERIC   181  10 0  
+TX_EFETIVA_ANUAL NUMERIC   211  19 7  
+VL_PROV_IF     NUMERIC   230  19 2  
+VL_A_VENCER    NUMERIC   249  19 2  
+VL_VENCIDO     NUMERIC   268  19 2  
+CARTEIRA_ATIVA NUMERIC   287  19 2  
+VL_PREJU       NUMERIC   306  19 2  
+VL_CART_CREDITO NUMERIC   325  19 2  
+RESP_TOTAL     NUMERIC   344  19 2  
+VL_LIMITE      NUMERIC   363  19 2  
+VL_CRED_A_LIBERAR NUMERIC   382  19 2  
+RENEGOCIACAO   ASCII     401   1    
+^LAYOUT   testCountDone                      316 D.T,
+FILE_NAME      ASCII       1 256   AS "FileName" WIDTH 35  
+FILE_SIZE      ACL       257  12 0 AS "File;Size" WIDTH 16  
+FILE_ATTRIBUTES ASCII     269   6   AS "Attributes"  
+FILE_CREATE_DATE DATETIME  275   8   PICTURE "YYYYMMDD" AS "Create;Date"  
+FILE_CREATE_TIME DATETIME  283   6   PICTURE "hhmmss" AS "Create;Time" WIDTH 14  
+FILE_ACCESS_DATE DATETIME  289   8   PICTURE "YYYYMMDD" AS "Access;Date"  
+FILE_ACCESS_TIME DATETIME  297   6   PICTURE "hhmmss" AS "Access;Time" WIDTH 14  
+FILE_WRITE_DATE DATETIME  303   8   PICTURE "YYYYMMDD" AS "Modified;Date"  
+FILE_WRITE_TIME DATETIME  311   6   PICTURE "hhmmss" AS "Modified;Time" WIDTH 14  
+^LAYOUT   test333                            1639 D.T,
+Name           ASCII       1  20    
+Phone_CAD      ASCII      21  14    
+PhoneFax       ASCII      35  14    
+Email          ASCII      49  51    
+Date1          DATETIME  100  12   PICTURE "MMM DD,YYYY"  
+DateTime       DATETIME  112  19   PICTURE "YYYY-MM-DD hh:mm:ss" WIDTH 27  
+Company        ASCII     131  38    
+Street_Add     ASCII     169  35    
+Text1          ASCII     204 158    
+Test2          ASCII     362 200    
+Password1      ASCII     762  11    
+GuID           ASCII     773  36    
+F13            ASCII     809  10    
+Colors         ASCII     819   6    
+Extanded_100   ASCII     825 100    
+Extanded_10    ASCII     925  10    
+NUM1           PRINT     935  21 18  
+NUM2           PRINT     956  17 7  
+NUM3           PRINT     973  17 8  
+Curency1       ASCII     990   6    
+Curency2       ASCII     996   6    
+Currency3      PRINT    1002   4 2  
+Currency4      ASCII    1006   6    
+Currency5      ASCII    1012   8    
+DateField      DATETIME 1020   8   PICTURE "DD.MM.YY"  
+DateTimeField2 DATETIME 1028  17   PICTURE "DD.MM.YY hh:mm:ss" WIDTH 27  
+TimeField_     DATETIME 1056   8   PICTURE "hh:mm:ss" WIDTH 14  
+DateField_     DATETIME 1064  19   PICTURE "YYYY-MM-DD"  
+DateTimeField_ DATETIME 1083  19   PICTURE "YYYY-MM-DD hh:mm:ss" WIDTH 27  
+DateTimeField21 DATETIME 1102  14   PICTURE "DD.MM.YY hh:mm" WIDTH 27  
+DateTimeField22 DATETIME 1116  22   PICTURE "YYYY/MM/DD hh:mm:ss AM" WIDTH 27  
+DateTimeField23 DATETIME 1138  22   PICTURE "DD/MM/YYYY hh:mm:ss AM" WIDTH 27  
+DateTimeField24 DATETIME 1160  20   PICTURE "MMMDD,YYYYhh:mm AM" WIDTH 27  
+TimeField      DATETIME 1180   8   PICTURE "hh:mm AM" WIDTH 14  
+TimeField2     DATETIME 1188  11   PICTURE "hh:mm:ss AM" WIDTH 14  
+TimeField1     DATETIME 1199   5   PICTURE "hh:mm" WIDTH 14  
+DateTimeField25 DATETIME 1204  20   PICTURE "DD.MMM.YYYY hh:mmAM" WIDTH 27  
+DateField1     DATETIME 1224   9   PICTURE "DD.MMM.YY"  
+DateTimeField26 DATETIME 1233  18   PICTURE "DD.MMM.YY hh:mm:ss" WIDTH 27  
+DateField2     DATETIME 1251  11   PICTURE "DD.MMM.YYYY"  
+DateTimeField27 DATETIME 1262  20   PICTURE "DD.MMM.YYYY hh:mm:ss" WIDTH 27  
+DateField3     DATETIME 1282   8   PICTURE "DD/MM/YY"  
+DateTimeField28 DATETIME 1290  17   PICTURE "DD/MM/YY hh:mm:ss" WIDTH 27  
+DateField4     DATETIME 1307  10   PICTURE "DD/MM/YYYY"  
+DateTimeField29 DATETIME 1317  19   PICTURE "DD/MM/YYYY hh:mm:ss" WIDTH 27  
+DateField5     DATETIME 1336   9   PICTURE "DDMMMYYYY"  
+DateTimeField210 ASCII    1345  18    
+DateField6     PRINT    1363   6 0  
+DateTimeField211 ASCII    1369  15    
+DateField7     PRINT    1384   8 0  
+DateTimeField212 ASCII    1392  17    
+DateField8     DATETIME 1409   8   PICTURE "MM/DD/YY"  
+DateTimeField213 DATETIME 1417  17   PICTURE "MM/DD/YY hh:mm:ss" WIDTH 27  
+DateField9     DATETIME 1434  10   PICTURE "MM/DD/YYYY"  
+DateTimeField214 DATETIME 1444  19   PICTURE "MM/DD/YYYY hh:mm:ss" WIDTH 27  
+DateField10    DATETIME 1463  11   PICTURE "MMMDD,YYYY"  
+DateTimeField215 DATETIME 1474  20   PICTURE "MMMDD,YYYYhh:mm:ss" WIDTH 27  
+DateField11    DATETIME 1494   9   PICTURE "MMMDD,YY"  
+DateTimeField216 DATETIME 1503  18   PICTURE "MMMDD,YYhh:mm:ss" WIDTH 27  
+DateField12    DATETIME 1521   9   PICTURE "MMMDDYYYY"  
+DateTimeField217 ASCII    1530  18    
+DateField13    PRINT    1548   5 0  
+DateTimeField218 ASCII    1553  14    
+DateField14    PRINT    1567   6 0  
+DateTimeField219 ASCII    1573  15    
+DateField15    DATETIME 1588  10   PICTURE "YYYY/MM/DD"  
+DateTimeField220 DATETIME 1598  19   PICTURE "YYYY/MM/DD hh:mm:ss" WIDTH 27  
+DateField16    DATETIME 1617   7   PICTURE "YYYYDDD"  
+DateTimeField221 ASCII    1624  16    
+^LAYOUT   sampleData1                        1639 D.T,
+Name           ASCII       1  20    
+Phone_CAD      ASCII      21  14    
+PhoneFax       ASCII      35  14    
+Email          ASCII      49  51    
+Date1          DATETIME  100  12   PICTURE "MMM DD,YYYY"  
+DateTime       DATETIME  112  19   PICTURE "YYYY-MM-DD hh:mm:ss" WIDTH 27  
+Company        ASCII     131  38    
+Street_Add     ASCII     169  35    
+Text1          ASCII     204 158    
+Test2          ASCII     362 200    
+Password1      ASCII     762  11    
+GuID           ASCII     773  36    
+F13            ASCII     809  10    
+Colors         ASCII     819   6    
+Extanded_100   ASCII     825 100    
+Extanded_10    ASCII     925  10    
+NUM1           PRINT     935  21 18  
+NUM2           PRINT     956  17 7  
+NUM3           PRINT     973  17 8  
+Curency1       ASCII     990   6    
+Curency2       ASCII     996   6    
+Currency3      PRINT    1002   4 2  
+Currency4      ASCII    1006   6    
+Currency5      ASCII    1012   8    
+DateField      DATETIME 1020   8   PICTURE "DD.MM.YY"  
+DateTimeField2 DATETIME 1028  17   PICTURE "DD.MM.YY hh:mm:ss" WIDTH 27  
+TimeField_     DATETIME 1056   8   PICTURE "hh:mm:ss" WIDTH 14  
+DateField_     DATETIME 1064  19   PICTURE "YYYY-MM-DD"  
+DateTimeField_ DATETIME 1083  19   PICTURE "YYYY-MM-DD hh:mm:ss" WIDTH 27  
+DateTimeField21 DATETIME 1102  14   PICTURE "DD.MM.YY hh:mm" WIDTH 27  
+DateTimeField22 DATETIME 1116  22   PICTURE "YYYY/MM/DD hh:mm:ss AM" WIDTH 27  
+DateTimeField23 DATETIME 1138  22   PICTURE "DD/MM/YYYY hh:mm:ss AM" WIDTH 27  
+DateTimeField24 DATETIME 1160  20   PICTURE "MMMDD,YYYYhh:mm AM" WIDTH 27  
+TimeField      DATETIME 1180   8   PICTURE "hh:mm AM" WIDTH 14  
+TimeField2     DATETIME 1188  11   PICTURE "hh:mm:ss AM" WIDTH 14  
+TimeField1     DATETIME 1199   5   PICTURE "hh:mm" WIDTH 14  
+DateTimeField25 DATETIME 1204  20   PICTURE "DD.MMM.YYYY hh:mmAM" WIDTH 27  
+DateField1     DATETIME 1224   9   PICTURE "DD.MMM.YY"  
+DateTimeField26 DATETIME 1233  18   PICTURE "DD.MMM.YY hh:mm:ss" WIDTH 27  
+DateField2     DATETIME 1251  11   PICTURE "DD.MMM.YYYY"  
+DateTimeField27 DATETIME 1262  20   PICTURE "DD.MMM.YYYY hh:mm:ss" WIDTH 27  
+DateField3     DATETIME 1282   8   PICTURE "DD/MM/YY"  
+DateTimeField28 DATETIME 1290  17   PICTURE "DD/MM/YY hh:mm:ss" WIDTH 27  
+DateField4     DATETIME 1307  10   PICTURE "DD/MM/YYYY"  
+DateTimeField29 DATETIME 1317  19   PICTURE "DD/MM/YYYY hh:mm:ss" WIDTH 27  
+DateField5     DATETIME 1336   9   PICTURE "DDMMMYYYY"  
+DateTimeField210 ASCII    1345  18    
+DateField6     PRINT    1363   6 0  
+DateTimeField211 ASCII    1369  15    
+DateField7     PRINT    1384   8 0  
+DateTimeField212 ASCII    1392  17    
+DateField8     DATETIME 1409   8   PICTURE "MM/DD/YY"  
+DateTimeField213 DATETIME 1417  17   PICTURE "MM/DD/YY hh:mm:ss" WIDTH 27  
+DateField9     DATETIME 1434  10   PICTURE "MM/DD/YYYY"  
+DateTimeField214 DATETIME 1444  19   PICTURE "MM/DD/YYYY hh:mm:ss" WIDTH 27  
+DateField10    DATETIME 1463  11   PICTURE "MMMDD,YYYY"  
+DateTimeField215 DATETIME 1474  20   PICTURE "MMMDD,YYYYhh:mm:ss" WIDTH 27  
+DateField11    DATETIME 1494   9   PICTURE "MMMDD,YY"  
+DateTimeField216 DATETIME 1503  18   PICTURE "MMMDD,YYhh:mm:ss" WIDTH 27  
+DateField12    DATETIME 1521   9   PICTURE "MMMDDYYYY"  
+DateTimeField217 ASCII    1530  18    
+DateField13    PRINT    1548   5 0  
+DateTimeField218 ASCII    1553  14    
+DateField14    PRINT    1567   6 0  
+DateTimeField219 ASCII    1573  15    
+DateField15    DATETIME 1588  10   PICTURE "YYYY/MM/DD"  
+DateTimeField220 DATETIME 1598  19   PICTURE "YYYY/MM/DD hh:mm:ss" WIDTH 27  
+DateField16    DATETIME 1617   7   PICTURE "YYYYDDD"  
+DateTimeField221 ASCII    1624  16    
+^LAYOUT   sampleData2                        1639 D.T,
+Name           ASCII       1  20    
+Phone_CAD      ASCII      21  14    
+PhoneFax       ASCII      35  14    
+Email          ASCII      49  51    
+Date1          DATETIME  100  12   PICTURE "MMM DD,YYYY"  
+DateTime       DATETIME  112  19   PICTURE "YYYY-MM-DD hh:mm:ss" WIDTH 27  
+Company        ASCII     131  38    
+Street_Add     ASCII     169  35    
+Text1          ASCII     204 158    
+Test2          ASCII     362 200    
+Password1      ASCII     762  11    
+GuID           ASCII     773  36    
+F13            ASCII     809  10    
+Colors         ASCII     819   6    
+Extanded_100   ASCII     825 100    
+Extanded_10    ASCII     925  10    
+NUM1           PRINT     935  21 18  
+NUM2           PRINT     956  17 7  
+NUM3           PRINT     973  17 8  
+Curency1       ASCII     990   6    
+Curency2       ASCII     996   6    
+Currency3      PRINT    1002   4 2  
+Currency4      ASCII    1006   6    
+Currency5      ASCII    1012   8    
+DateField      DATETIME 1020   8   PICTURE "DD.MM.YY"  
+DateTimeField2 DATETIME 1028  17   PICTURE "DD.MM.YY hh:mm:ss" WIDTH 27  
+TimeField_     DATETIME 1056   8   PICTURE "hh:mm:ss" WIDTH 14  
+DateField_     DATETIME 1064  19   PICTURE "YYYY-MM-DD"  
+DateTimeField_ DATETIME 1083  19   PICTURE "YYYY-MM-DD hh:mm:ss" WIDTH 27  
+DateTimeField21 DATETIME 1102  14   PICTURE "DD.MM.YY hh:mm" WIDTH 27  
+DateTimeField22 DATETIME 1116  22   PICTURE "YYYY/MM/DD hh:mm:ss AM" WIDTH 27  
+DateTimeField23 DATETIME 1138  22   PICTURE "DD/MM/YYYY hh:mm:ss AM" WIDTH 27  
+DateTimeField24 DATETIME 1160  20   PICTURE "MMMDD,YYYYhh:mm AM" WIDTH 27  
+TimeField      DATETIME 1180   8   PICTURE "hh:mm AM" WIDTH 14  
+TimeField2     DATETIME 1188  11   PICTURE "hh:mm:ss AM" WIDTH 14  
+TimeField1     DATETIME 1199   5   PICTURE "hh:mm" WIDTH 14  
+DateTimeField25 DATETIME 1204  20   PICTURE "DD.MMM.YYYY hh:mmAM" WIDTH 27  
+DateField1     DATETIME 1224   9   PICTURE "DD.MMM.YY"  
+DateTimeField26 DATETIME 1233  18   PICTURE "DD.MMM.YY hh:mm:ss" WIDTH 27  
+DateField2     DATETIME 1251  11   PICTURE "DD.MMM.YYYY"  
+DateTimeField27 DATETIME 1262  20   PICTURE "DD.MMM.YYYY hh:mm:ss" WIDTH 27  
+DateField3     DATETIME 1282   8   PICTURE "DD/MM/YY"  
+DateTimeField28 DATETIME 1290  17   PICTURE "DD/MM/YY hh:mm:ss" WIDTH 27  
+DateField4     DATETIME 1307  10   PICTURE "DD/MM/YYYY"  
+DateTimeField29 DATETIME 1317  19   PICTURE "DD/MM/YYYY hh:mm:ss" WIDTH 27  
+DateField5     DATETIME 1336   9   PICTURE "DDMMMYYYY"  
+DateTimeField210 ASCII    1345  18    
+DateField6     PRINT    1363   6 0  
+DateTimeField211 ASCII    1369  15    
+DateField7     PRINT    1384   8 0  
+DateTimeField212 ASCII    1392  17    
+DateField8     DATETIME 1409   8   PICTURE "MM/DD/YY"  
+DateTimeField213 DATETIME 1417  17   PICTURE "MM/DD/YY hh:mm:ss" WIDTH 27  
+DateField9     DATETIME 1434  10   PICTURE "MM/DD/YYYY"  
+DateTimeField214 DATETIME 1444  19   PICTURE "MM/DD/YYYY hh:mm:ss" WIDTH 27  
+DateField10    DATETIME 1463  11   PICTURE "MMMDD,YYYY"  
+DateTimeField215 DATETIME 1474  20   PICTURE "MMMDD,YYYYhh:mm:ss" WIDTH 27  
+DateField11    DATETIME 1494   9   PICTURE "MMMDD,YY"  
+DateTimeField216 DATETIME 1503  18   PICTURE "MMMDD,YYhh:mm:ss" WIDTH 27  
+DateField12    DATETIME 1521   9   PICTURE "MMMDDYYYY"  
+DateTimeField217 ASCII    1530  18    
+DateField13    PRINT    1548   5 0  
+DateTimeField218 ASCII    1553  14    
+DateField14    PRINT    1567   6 0  
+DateTimeField219 ASCII    1573  15    
+DateField15    DATETIME 1588  10   PICTURE "YYYY/MM/DD"  
+DateTimeField220 DATETIME 1598  19   PICTURE "YYYY/MM/DD hh:mm:ss" WIDTH 27  
+DateField16    DATETIME 1617   7   PICTURE "YYYYDDD"  
+DateTimeField221 ASCII    1624  16    
+^LAYOUT   sampleData3                        1639 D.T,
+Name           ASCII       1  20    
+Phone_CAD      ASCII      21  14    
+PhoneFax       ASCII      35  14    
+Email          ASCII      49  51    
+Date1          DATETIME  100  12   PICTURE "MMM DD,YYYY"  
+DateTime       DATETIME  112  19   PICTURE "YYYY-MM-DD hh:mm:ss" WIDTH 27  
+Company        ASCII     131  38    
+Street_Add     ASCII     169  35    
+Text1          ASCII     204 158    
+Test2          ASCII     362 200    
+Password1      ASCII     762  11    
+GuID           ASCII     773  36    
+F13            ASCII     809  10    
+Colors         ASCII     819   6    
+Extanded_100   ASCII     825 100    
+Extanded_10    ASCII     925  10    
+NUM1           PRINT     935  21 18  
+NUM2           PRINT     956  17 7  
+NUM3           PRINT     973  17 8  
+Curency1       ASCII     990   6    
+Curency2       ASCII     996   6    
+Currency3      PRINT    1002   4 2  
+Currency4      ASCII    1006   6    
+Currency5      ASCII    1012   8    
+DateField      DATETIME 1020   8   PICTURE "DD.MM.YY"  
+DateTimeField2 DATETIME 1028  17   PICTURE "DD.MM.YY hh:mm:ss" WIDTH 27  
+TimeField_     DATETIME 1056   8   PICTURE "hh:mm:ss" WIDTH 14  
+DateField_     DATETIME 1064  19   PICTURE "YYYY-MM-DD"  
+DateTimeField_ DATETIME 1083  19   PICTURE "YYYY-MM-DD hh:mm:ss" WIDTH 27  
+DateTimeField21 DATETIME 1102  14   PICTURE "DD.MM.YY hh:mm" WIDTH 27  
+DateTimeField22 DATETIME 1116  22   PICTURE "YYYY/MM/DD hh:mm:ss AM" WIDTH 27  
+DateTimeField23 DATETIME 1138  22   PICTURE "DD/MM/YYYY hh:mm:ss AM" WIDTH 27  
+DateTimeField24 DATETIME 1160  20   PICTURE "MMMDD,YYYYhh:mm AM" WIDTH 27  
+TimeField      DATETIME 1180   8   PICTURE "hh:mm AM" WIDTH 14  
+TimeField2     DATETIME 1188  11   PICTURE "hh:mm:ss AM" WIDTH 14  
+TimeField1     DATETIME 1199   5   PICTURE "hh:mm" WIDTH 14  
+DateTimeField25 DATETIME 1204  20   PICTURE "DD.MMM.YYYY hh:mmAM" WIDTH 27  
+DateField1     DATETIME 1224   9   PICTURE "DD.MMM.YY"  
+DateTimeField26 DATETIME 1233  18   PICTURE "DD.MMM.YY hh:mm:ss" WIDTH 27  
+DateField2     DATETIME 1251  11   PICTURE "DD.MMM.YYYY"  
+DateTimeField27 DATETIME 1262  20   PICTURE "DD.MMM.YYYY hh:mm:ss" WIDTH 27  
+DateField3     DATETIME 1282   8   PICTURE "DD/MM/YY"  
+DateTimeField28 DATETIME 1290  17   PICTURE "DD/MM/YY hh:mm:ss" WIDTH 27  
+DateField4     DATETIME 1307  10   PICTURE "DD/MM/YYYY"  
+DateTimeField29 DATETIME 1317  19   PICTURE "DD/MM/YYYY hh:mm:ss" WIDTH 27  
+DateField5     DATETIME 1336   9   PICTURE "DDMMMYYYY"  
+DateTimeField210 ASCII    1345  18    
+DateField6     PRINT    1363   6 0  
+DateTimeField211 ASCII    1369  15    
+DateField7     PRINT    1384   8 0  
+DateTimeField212 ASCII    1392  17    
+DateField8     DATETIME 1409   8   PICTURE "MM/DD/YY"  
+DateTimeField213 DATETIME 1417  17   PICTURE "MM/DD/YY hh:mm:ss" WIDTH 27  
+DateField9     DATETIME 1434  10   PICTURE "MM/DD/YYYY"  
+DateTimeField214 DATETIME 1444  19   PICTURE "MM/DD/YYYY hh:mm:ss" WIDTH 27  
+DateField10    DATETIME 1463  11   PICTURE "MMMDD,YYYY"  
+DateTimeField215 DATETIME 1474  20   PICTURE "MMMDD,YYYYhh:mm:ss" WIDTH 27  
+DateField11    DATETIME 1494   9   PICTURE "MMMDD,YY"  
+DateTimeField216 DATETIME 1503  18   PICTURE "MMMDD,YYhh:mm:ss" WIDTH 27  
+DateField12    DATETIME 1521   9   PICTURE "MMMDDYYYY"  
+DateTimeField217 ASCII    1530  18    
+DateField13    PRINT    1548   5 0  
+DateTimeField218 ASCII    1553  14    
+DateField14    PRINT    1567   6 0  
+DateTimeField219 ASCII    1573  15    
+DateField15    DATETIME 1588  10   PICTURE "YYYY/MM/DD"  
+DateTimeField220 DATETIME 1598  19   PICTURE "YYYY/MM/DD hh:mm:ss" WIDTH 27  
+DateField16    DATETIME 1617   7   PICTURE "YYYYDDD"  
+DateTimeField221 ASCII    1624  16    
+^LAYOUT   sampleData4                        1639 D.T,
+Name           ASCII       1  20    
+Phone_CAD      ASCII      21  14    
+PhoneFax       ASCII      35  14    
+Email          ASCII      49  51    
+Date1          DATETIME  100  12   PICTURE "MMM DD,YYYY"  
+DateTime       DATETIME  112  19   PICTURE "YYYY-MM-DD hh:mm:ss" WIDTH 27  
+Company        ASCII     131  38    
+Street_Add     ASCII     169  35    
+Text1          ASCII     204 158    
+Test2          ASCII     362 200    
+Password1      ASCII     762  11    
+GuID           ASCII     773  36    
+F13            ASCII     809  10    
+Colors         ASCII     819   6    
+Extanded_100   ASCII     825 100    
+Extanded_10    ASCII     925  10    
+NUM1           PRINT     935  21 18  
+NUM2           PRINT     956  17 7  
+NUM3           PRINT     973  17 8  
+Curency1       ASCII     990   6    
+Curency2       ASCII     996   6    
+Currency3      PRINT    1002   4 2  
+Currency4      ASCII    1006   6    
+Currency5      ASCII    1012   8    
+DateField      DATETIME 1020   8   PICTURE "DD.MM.YY"  
+DateTimeField2 DATETIME 1028  17   PICTURE "DD.MM.YY hh:mm:ss" WIDTH 27  
+TimeField_     DATETIME 1056   8   PICTURE "hh:mm:ss" WIDTH 14  
+DateField_     DATETIME 1064  19   PICTURE "YYYY-MM-DD"  
+DateTimeField_ DATETIME 1083  19   PICTURE "YYYY-MM-DD hh:mm:ss" WIDTH 27  
+DateTimeField21 DATETIME 1102  14   PICTURE "DD.MM.YY hh:mm" WIDTH 27  
+DateTimeField22 DATETIME 1116  22   PICTURE "YYYY/MM/DD hh:mm:ss AM" WIDTH 27  
+DateTimeField23 DATETIME 1138  22   PICTURE "DD/MM/YYYY hh:mm:ss AM" WIDTH 27  
+DateTimeField24 DATETIME 1160  20   PICTURE "MMMDD,YYYYhh:mm AM" WIDTH 27  
+TimeField      DATETIME 1180   8   PICTURE "hh:mm AM" WIDTH 14  
+TimeField2     DATETIME 1188  11   PICTURE "hh:mm:ss AM" WIDTH 14  
+TimeField1     DATETIME 1199   5   PICTURE "hh:mm" WIDTH 14  
+DateTimeField25 DATETIME 1204  20   PICTURE "DD.MMM.YYYY hh:mmAM" WIDTH 27  
+DateField1     DATETIME 1224   9   PICTURE "DD.MMM.YY"  
+DateTimeField26 DATETIME 1233  18   PICTURE "DD.MMM.YY hh:mm:ss" WIDTH 27  
+DateField2     DATETIME 1251  11   PICTURE "DD.MMM.YYYY"  
+DateTimeField27 DATETIME 1262  20   PICTURE "DD.MMM.YYYY hh:mm:ss" WIDTH 27  
+DateField3     DATETIME 1282   8   PICTURE "DD/MM/YY"  
+DateTimeField28 DATETIME 1290  17   PICTURE "DD/MM/YY hh:mm:ss" WIDTH 27  
+DateField4     DATETIME 1307  10   PICTURE "DD/MM/YYYY"  
+DateTimeField29 DATETIME 1317  19   PICTURE "DD/MM/YYYY hh:mm:ss" WIDTH 27  
+DateField5     DATETIME 1336   9   PICTURE "DDMMMYYYY"  
+DateTimeField210 ASCII    1345  18    
+DateField6     PRINT    1363   6 0  
+DateTimeField211 ASCII    1369  15    
+DateField7     PRINT    1384   8 0  
+DateTimeField212 ASCII    1392  17    
+DateField8     DATETIME 1409   8   PICTURE "MM/DD/YY"  
+DateTimeField213 DATETIME 1417  17   PICTURE "MM/DD/YY hh:mm:ss" WIDTH 27  
+DateField9     DATETIME 1434  10   PICTURE "MM/DD/YYYY"  
+DateTimeField214 DATETIME 1444  19   PICTURE "MM/DD/YYYY hh:mm:ss" WIDTH 27  
+DateField10    DATETIME 1463  11   PICTURE "MMMDD,YYYY"  
+DateTimeField215 DATETIME 1474  20   PICTURE "MMMDD,YYYYhh:mm:ss" WIDTH 27  
+DateField11    DATETIME 1494   9   PICTURE "MMMDD,YY"  
+DateTimeField216 DATETIME 1503  18   PICTURE "MMMDD,YYhh:mm:ss" WIDTH 27  
+DateField12    DATETIME 1521   9   PICTURE "MMMDDYYYY"  
+DateTimeField217 ASCII    1530  18    
+DateField13    PRINT    1548   5 0  
+DateTimeField218 ASCII    1553  14    
+DateField14    PRINT    1567   6 0  
+DateTimeField219 ASCII    1573  15    
+DateField15    DATETIME 1588  10   PICTURE "YYYY/MM/DD"  
+DateTimeField220 DATETIME 1598  19   PICTURE "YYYY/MM/DD hh:mm:ss" WIDTH 27  
+DateField16    DATETIME 1617   7   PICTURE "YYYYDDD"  
+DateTimeField221 ASCII    1624  16    
+^LAYOUT   sampleData5                        1639 D.T,
+Name           ASCII       1  20    
+Phone_CAD      ASCII      21  14    
+PhoneFax       ASCII      35  14    
+Email          ASCII      49  51    
+Date1          DATETIME  100  12   PICTURE "MMM DD,YYYY"  
+DateTime       DATETIME  112  19   PICTURE "YYYY-MM-DD hh:mm:ss" WIDTH 27  
+Company        ASCII     131  38    
+Street_Add     ASCII     169  35    
+Text1          ASCII     204 158    
+Test2          ASCII     362 200    
+Password1      ASCII     762  11    
+GuID           ASCII     773  36    
+F13            ASCII     809  10    
+Colors         ASCII     819   6    
+Extanded_100   ASCII     825 100    
+Extanded_10    ASCII     925  10    
+NUM1           PRINT     935  21 18  
+NUM2           PRINT     956  17 7  
+NUM3           PRINT     973  17 8  
+Curency1       ASCII     990   6    
+Curency2       ASCII     996   6    
+Currency3      PRINT    1002   4 2  
+Currency4      ASCII    1006   6    
+Currency5      ASCII    1012   8    
+DateField      DATETIME 1020   8   PICTURE "DD.MM.YY"  
+DateTimeField2 DATETIME 1028  17   PICTURE "DD.MM.YY hh:mm:ss" WIDTH 27  
+TimeField_     DATETIME 1056   8   PICTURE "hh:mm:ss" WIDTH 14  
+DateField_     DATETIME 1064  19   PICTURE "YYYY-MM-DD"  
+DateTimeField_ DATETIME 1083  19   PICTURE "YYYY-MM-DD hh:mm:ss" WIDTH 27  
+DateTimeField21 DATETIME 1102  14   PICTURE "DD.MM.YY hh:mm" WIDTH 27  
+DateTimeField22 DATETIME 1116  22   PICTURE "YYYY/MM/DD hh:mm:ss AM" WIDTH 27  
+DateTimeField23 DATETIME 1138  22   PICTURE "DD/MM/YYYY hh:mm:ss AM" WIDTH 27  
+DateTimeField24 DATETIME 1160  20   PICTURE "MMMDD,YYYYhh:mm AM" WIDTH 27  
+TimeField      DATETIME 1180   8   PICTURE "hh:mm AM" WIDTH 14  
+TimeField2     DATETIME 1188  11   PICTURE "hh:mm:ss AM" WIDTH 14  
+TimeField1     DATETIME 1199   5   PICTURE "hh:mm" WIDTH 14  
+DateTimeField25 DATETIME 1204  20   PICTURE "DD.MMM.YYYY hh:mmAM" WIDTH 27  
+DateField1     DATETIME 1224   9   PICTURE "DD.MMM.YY"  
+DateTimeField26 DATETIME 1233  18   PICTURE "DD.MMM.YY hh:mm:ss" WIDTH 27  
+DateField2     DATETIME 1251  11   PICTURE "DD.MMM.YYYY"  
+DateTimeField27 DATETIME 1262  20   PICTURE "DD.MMM.YYYY hh:mm:ss" WIDTH 27  
+DateField3     DATETIME 1282   8   PICTURE "DD/MM/YY"  
+DateTimeField28 DATETIME 1290  17   PICTURE "DD/MM/YY hh:mm:ss" WIDTH 27  
+DateField4     DATETIME 1307  10   PICTURE "DD/MM/YYYY"  
+DateTimeField29 DATETIME 1317  19   PICTURE "DD/MM/YYYY hh:mm:ss" WIDTH 27  
+DateField5     DATETIME 1336   9   PICTURE "DDMMMYYYY"  
+DateTimeField210 ASCII    1345  18    
+DateField6     PRINT    1363   6 0  
+DateTimeField211 ASCII    1369  15    
+DateField7     PRINT    1384   8 0  
+DateTimeField212 ASCII    1392  17    
+DateField8     DATETIME 1409   8   PICTURE "MM/DD/YY"  
+DateTimeField213 DATETIME 1417  17   PICTURE "MM/DD/YY hh:mm:ss" WIDTH 27  
+DateField9     DATETIME 1434  10   PICTURE "MM/DD/YYYY"  
+DateTimeField214 DATETIME 1444  19   PICTURE "MM/DD/YYYY hh:mm:ss" WIDTH 27  
+DateField10    DATETIME 1463  11   PICTURE "MMMDD,YYYY"  
+DateTimeField215 DATETIME 1474  20   PICTURE "MMMDD,YYYYhh:mm:ss" WIDTH 27  
+DateField11    DATETIME 1494   9   PICTURE "MMMDD,YY"  
+DateTimeField216 DATETIME 1503  18   PICTURE "MMMDD,YYhh:mm:ss" WIDTH 27  
+DateField12    DATETIME 1521   9   PICTURE "MMMDDYYYY"  
+DateTimeField217 ASCII    1530  18    
+DateField13    PRINT    1548   5 0  
+DateTimeField218 ASCII    1553  14    
+DateField14    PRINT    1567   6 0  
+DateTimeField219 ASCII    1573  15    
+DateField15    DATETIME 1588  10   PICTURE "YYYY/MM/DD"  
+DateTimeField220 DATETIME 1598  19   PICTURE "YYYY/MM/DD hh:mm:ss" WIDTH 27  
+DateField16    DATETIME 1617   7   PICTURE "YYYYDDD"  
+DateTimeField221 ASCII    1624  16    
+^WINDOWS 2 1 782 447 235 0 804 322 235 322 804 466 10 10 100 100 16 15 616 393 -1 -1 236 466 9 9 9 9 9 9 0 0 0 0 0 0
+^REPORT   Summary_Report                     Accounts_Receivable_Month        D.T,
+[SKIP] 0
+[FONT] NT_01/-12/0/0/0/400/0/0/0/0/3/2/1/34/Arial
+[FONT_TITLES] NT_01/-12/0/0/0/400/0/0/0/0/3/2/1/34/Arial
+[FONT_TOTALS] NT_01/-12/0/0/0/400/0/0/0/0/3/2/1/34/Arial
+[FONT_HEADER] NT_01/-12/0/0/0/400/0/0/0/0/3/2/1/34/Arial
+[FONT_FOOTER] NT_01/-12/0/0/0/400/0/0/0/0/3/2/1/34/Arial
+[TLINES] 2
+[RLINES] 1
+[LINE] 1
+No                   WIDTH 12 PICTURE ""
+Customer.Name        WIDTH 26 PICTURE ""
+Customer.Sales_Rep_No WIDTH 13 PICTURE ""
+Due                  WIDTH 11
+Date                 WIDTH 13
+Ref                  WIDTH 7 PICTURE ""
+Amount               WIDTH 15 PICTURE "(9,999,999.99)"
+Type                 WIDTH 11 PICTURE ""
+^REPORT   Summary                            Accounts_Receivable_Month        D.T,
+[SKIP] 0
+[TLINES] 1
+[RLINES] 1
+[LINE] 1
+Amount               WIDTH 14 PICTURE "(9,999,999.99)"
+Date                 WIDTH 10
+Due                  WIDTH 10
+No                   WIDTH 7 PICTURE ""
+Ref                  WIDTH 6 PICTURE ""
+Type                 WIDTH 5 PICTURE ""
+^REPORT   Default_View                       CASHDBLT                         D.T,
+[SKIP] 0
+[TLINES] 0
+[RLINES] 1
+[LINE] 1
+CHARACTER1           WIDTH 10 PICTURE ""
+DATE1                WIDTH 12
+NUMERIC1             WIDTH 14 PICTURE ""
+NUMERIC2             WIDTH 15 PICTURE ""
+NUMERIC3             WIDTH 15 PICTURE ""
+CHARACTER2           WIDTH 10 PICTURE ""
+CHARACTER3           WIDTH 10 PICTURE ""
+NUMERIC4             WIDTH 25 PICTURE ""
+NUMERIC5             WIDTH 10 PICTURE ""
+CHARACTER4           WIDTH 23 PICTURE ""
+^REPORT   Exibição_padrão                    Tab20GBFIL                       D.T,
+[SKIP] 0
+[TLINES] 1
+[RLINES] 1
+[LINE] 1
+DATA_BASE            WIDTH 9 PICTURE ""
+[LINE] 1
+FOC_CD_HASH_OPER     PICTURE ""
+[LINE] 1
+CNPJ_ID              PICTURE ""
+[LINE] 1
+CNPJ_CPF_CLIENTE     WIDTH 16 PICTURE ""
+[LINE] 1
+IND_CNPJ             WIDTH 8 PICTURE ""
+[LINE] 1
+CONTRATO             PICTURE ""
+[LINE] 1
+MODALIDADE           WIDTH 10 PICTURE ""
+[LINE] 1
+ORIGEM_RECURSOS      WIDTH 15 PICTURE ""
+[LINE] 1
+NATUREZA             WIDTH 8 PICTURE ""
+[LINE] 1
+RISCO_OP             WIDTH 8 PICTURE ""
+[LINE] 1
+INDEXADOR            WIDTH 9 PICTURE ""
+[LINE] 1
+CNAE                 PICTURE ""
+[LINE] 1
+CONGLOM_FINANC       WIDTH 14 PICTURE ""
+[LINE] 1
+RISCO_CLI            WIDTH 9 PICTURE ""
+[LINE] 1
+VARIACAO_CAMB        WIDTH 13 PICTURE ""
+[LINE] 1
+GRUPO_ECON           PICTURE ""
+[LINE] 1
+CLI_NOVO             WIDTH 8 PICTURE ""
+[LINE] 1
+CLI_NOVO_IF          WIDTH 11 PICTURE ""
+[LINE] 1
+CLI_NOVO_CONGL       WIDTH 14 PICTURE ""
+[LINE] 1
+DIAS_ATRASO          PICTURE ""
+[LINE] 1
+TX_EFETIVA_ANUAL     PICTURE ""
+[LINE] 1
+VL_PROV_IF           PICTURE ""
+[LINE] 1
+VL_A_VENCER          PICTURE ""
+[LINE] 1
+VL_VENCIDO           PICTURE ""
+[LINE] 1
+CARTEIRA_ATIVA       PICTURE ""
+[LINE] 1
+VL_PREJU             PICTURE ""
+[LINE] 1
+VL_CART_CREDITO      PICTURE ""
+[LINE] 1
+RESP_TOTAL           PICTURE ""
+[LINE] 1
+VL_LIMITE            PICTURE ""
+[LINE] 1
+VL_CRED_A_LIBERAR    PICTURE ""
+[LINE] 1
+RENEGOCIACAO         WIDTH 12 PICTURE ""
+^REPORT   Exibição_padrão                    Tab20GBFIL2                      D.T,
+[SKIP] 0
+[TLINES] 1
+[RLINES] 1
+[LINE] 1
+DATA_BASE            WIDTH 9 PICTURE ""
+[LINE] 1
+FOC_CD_HASH_OPER     PICTURE ""
+[LINE] 1
+CNPJ_ID              PICTURE ""
+[LINE] 1
+CNPJ_CPF_CLIENTE     WIDTH 16 PICTURE ""
+[LINE] 1
+IND_CNPJ             WIDTH 8 PICTURE ""
+[LINE] 1
+CONTRATO             PICTURE ""
+[LINE] 1
+MODALIDADE           WIDTH 10 PICTURE ""
+[LINE] 1
+ORIGEM_RECURSOS      WIDTH 15 PICTURE ""
+[LINE] 1
+NATUREZA             WIDTH 8 PICTURE ""
+[LINE] 1
+RISCO_OP             WIDTH 8 PICTURE ""
+[LINE] 1
+INDEXADOR            WIDTH 9 PICTURE ""
+[LINE] 1
+CNAE                 PICTURE ""
+[LINE] 1
+CONGLOM_FINANC       WIDTH 14 PICTURE ""
+[LINE] 1
+RISCO_CLI            WIDTH 9 PICTURE ""
+[LINE] 1
+VARIACAO_CAMB        WIDTH 13 PICTURE ""
+[LINE] 1
+GRUPO_ECON           PICTURE ""
+[LINE] 1
+CLI_NOVO             WIDTH 8 PICTURE ""
+[LINE] 1
+CLI_NOVO_IF          WIDTH 11 PICTURE ""
+[LINE] 1
+CLI_NOVO_CONGL       WIDTH 14 PICTURE ""
+[LINE] 1
+DIAS_ATRASO          PICTURE ""
+[LINE] 1
+TX_EFETIVA_ANUAL     PICTURE ""
+[LINE] 1
+VL_PROV_IF           PICTURE ""
+[LINE] 1
+VL_A_VENCER          PICTURE ""
+[LINE] 1
+VL_VENCIDO           PICTURE ""
+[LINE] 1
+CARTEIRA_ATIVA       PICTURE ""
+[LINE] 1
+VL_PREJU             PICTURE ""
+[LINE] 1
+VL_CART_CREDITO      PICTURE ""
+[LINE] 1
+RESP_TOTAL           PICTURE ""
+[LINE] 1
+VL_LIMITE            PICTURE ""
+[LINE] 1
+VL_CRED_A_LIBERAR    PICTURE ""
+[LINE] 1
+RENEGOCIACAO         WIDTH 12 PICTURE ""
+^REPORT   Exibição_padrão                    Tab20GBFIL3                      D.T,
+[SKIP] 0
+[TLINES] 1
+[RLINES] 1
+[LINE] 1
+DATA_BASE            WIDTH 9 PICTURE ""
+[LINE] 1
+FOC_CD_HASH_OPER     PICTURE ""
+[LINE] 1
+CNPJ_ID              PICTURE ""
+[LINE] 1
+CNPJ_CPF_CLIENTE     WIDTH 16 PICTURE ""
+[LINE] 1
+IND_CNPJ             WIDTH 8 PICTURE ""
+[LINE] 1
+CONTRATO             PICTURE ""
+[LINE] 1
+MODALIDADE           WIDTH 10 PICTURE ""
+[LINE] 1
+ORIGEM_RECURSOS      WIDTH 15 PICTURE ""
+[LINE] 1
+NATUREZA             WIDTH 8 PICTURE ""
+[LINE] 1
+RISCO_OP             WIDTH 8 PICTURE ""
+[LINE] 1
+INDEXADOR            WIDTH 9 PICTURE ""
+[LINE] 1
+CNAE                 PICTURE ""
+[LINE] 1
+CONGLOM_FINANC       WIDTH 14 PICTURE ""
+[LINE] 1
+RISCO_CLI            WIDTH 9 PICTURE ""
+[LINE] 1
+VARIACAO_CAMB        WIDTH 13 PICTURE ""
+[LINE] 1
+GRUPO_ECON           PICTURE ""
+[LINE] 1
+CLI_NOVO             WIDTH 8 PICTURE ""
+[LINE] 1
+CLI_NOVO_IF          WIDTH 11 PICTURE ""
+[LINE] 1
+CLI_NOVO_CONGL       WIDTH 14 PICTURE ""
+[LINE] 1
+DIAS_ATRASO          PICTURE ""
+[LINE] 1
+TX_EFETIVA_ANUAL     PICTURE ""
+[LINE] 1
+VL_PROV_IF           PICTURE ""
+[LINE] 1
+VL_A_VENCER          PICTURE ""
+[LINE] 1
+VL_VENCIDO           PICTURE ""
+[LINE] 1
+CARTEIRA_ATIVA       PICTURE ""
+[LINE] 1
+VL_PREJU             PICTURE ""
+[LINE] 1
+VL_CART_CREDITO      PICTURE ""
+[LINE] 1
+RESP_TOTAL           PICTURE ""
+[LINE] 1
+VL_LIMITE            PICTURE ""
+[LINE] 1
+VL_CRED_A_LIBERAR    PICTURE ""
+[LINE] 1
+RENEGOCIACAO         WIDTH 12 PICTURE ""
+^REPORT   Exibição_padrão                    Tab20GBFIL4                      D.T,
+[SKIP] 0
+[TLINES] 1
+[RLINES] 1
+[LINE] 1
+DATA_BASE            WIDTH 9 PICTURE ""
+[LINE] 1
+FOC_CD_HASH_OPER     PICTURE ""
+[LINE] 1
+CNPJ_ID              PICTURE ""
+[LINE] 1
+CNPJ_CPF_CLIENTE     WIDTH 16 PICTURE ""
+[LINE] 1
+IND_CNPJ             WIDTH 8 PICTURE ""
+[LINE] 1
+CONTRATO             PICTURE ""
+[LINE] 1
+MODALIDADE           WIDTH 10 PICTURE ""
+[LINE] 1
+ORIGEM_RECURSOS      WIDTH 15 PICTURE ""
+[LINE] 1
+NATUREZA             WIDTH 8 PICTURE ""
+[LINE] 1
+RISCO_OP             WIDTH 8 PICTURE ""
+[LINE] 1
+INDEXADOR            WIDTH 9 PICTURE ""
+[LINE] 1
+CNAE                 PICTURE ""
+[LINE] 1
+CONGLOM_FINANC       WIDTH 14 PICTURE ""
+[LINE] 1
+RISCO_CLI            WIDTH 9 PICTURE ""
+[LINE] 1
+VARIACAO_CAMB        WIDTH 13 PICTURE ""
+[LINE] 1
+GRUPO_ECON           PICTURE ""
+[LINE] 1
+CLI_NOVO             WIDTH 8 PICTURE ""
+[LINE] 1
+CLI_NOVO_IF          WIDTH 11 PICTURE ""
+[LINE] 1
+CLI_NOVO_CONGL       WIDTH 14 PICTURE ""
+[LINE] 1
+DIAS_ATRASO          PICTURE ""
+[LINE] 1
+TX_EFETIVA_ANUAL     PICTURE ""
+[LINE] 1
+VL_PROV_IF           PICTURE ""
+[LINE] 1
+VL_A_VENCER          PICTURE ""
+[LINE] 1
+VL_VENCIDO           PICTURE ""
+[LINE] 1
+CARTEIRA_ATIVA       PICTURE ""
+[LINE] 1
+VL_PREJU             PICTURE ""
+[LINE] 1
+VL_CART_CREDITO      PICTURE ""
+[LINE] 1
+RESP_TOTAL           PICTURE ""
+[LINE] 1
+VL_LIMITE            PICTURE ""
+[LINE] 1
+VL_CRED_A_LIBERAR    PICTURE ""
+[LINE] 1
+RENEGOCIACAO         WIDTH 12 PICTURE ""
+^REPORT   Exibição_padrão                    Tab20GBFIL5                      D.T,
+[SKIP] 0
+[TLINES] 1
+[RLINES] 1
+[LINE] 1
+DATA_BASE            WIDTH 9 PICTURE ""
+[LINE] 1
+FOC_CD_HASH_OPER     PICTURE ""
+[LINE] 1
+CNPJ_ID              PICTURE ""
+[LINE] 1
+CNPJ_CPF_CLIENTE     WIDTH 16 PICTURE ""
+[LINE] 1
+IND_CNPJ             WIDTH 8 PICTURE ""
+[LINE] 1
+CONTRATO             PICTURE ""
+[LINE] 1
+MODALIDADE           WIDTH 10 PICTURE ""
+[LINE] 1
+ORIGEM_RECURSOS      WIDTH 15 PICTURE ""
+[LINE] 1
+NATUREZA             WIDTH 8 PICTURE ""
+[LINE] 1
+RISCO_OP             WIDTH 8 PICTURE ""
+[LINE] 1
+INDEXADOR            WIDTH 9 PICTURE ""
+[LINE] 1
+CNAE                 PICTURE ""
+[LINE] 1
+CONGLOM_FINANC       WIDTH 14 PICTURE ""
+[LINE] 1
+RISCO_CLI            WIDTH 9 PICTURE ""
+[LINE] 1
+VARIACAO_CAMB        WIDTH 13 PICTURE ""
+[LINE] 1
+GRUPO_ECON           PICTURE ""
+[LINE] 1
+CLI_NOVO             WIDTH 8 PICTURE ""
+[LINE] 1
+CLI_NOVO_IF          WIDTH 11 PICTURE ""
+[LINE] 1
+CLI_NOVO_CONGL       WIDTH 14 PICTURE ""
+[LINE] 1
+DIAS_ATRASO          PICTURE ""
+[LINE] 1
+TX_EFETIVA_ANUAL     PICTURE ""
+[LINE] 1
+VL_PROV_IF           PICTURE ""
+[LINE] 1
+VL_A_VENCER          PICTURE ""
+[LINE] 1
+VL_VENCIDO           PICTURE ""
+[LINE] 1
+CARTEIRA_ATIVA       PICTURE ""
+[LINE] 1
+VL_PREJU             PICTURE ""
+[LINE] 1
+VL_CART_CREDITO      PICTURE ""
+[LINE] 1
+RESP_TOTAL           PICTURE ""
+[LINE] 1
+VL_LIMITE            PICTURE ""
+[LINE] 1
+VL_CRED_A_LIBERAR    PICTURE ""
+[LINE] 1
+RENEGOCIACAO         WIDTH 12 PICTURE ""
+^REPORT   Exibição_padrão                    Untitled                         D.T,
+[PARENT_FOLDER_ID] -2
+[SKIP] 0
+[TLINES] 1
+[RLINES] 1
+[LINE] 1
+DATA_BASE            WIDTH 9 PICTURE ""
+[LINE] 1
+FOC_CD_HASH_OPER     WIDTH 28 PICTURE ""
+[LINE] 1
+CNPJ_ID              WIDTH 11 PICTURE ""
+[LINE] 1
+CNPJ_CPF_CLIENTE     WIDTH 16 PICTURE ""
+[LINE] 1
+IND_CNPJ             WIDTH 8 PICTURE ""
+[LINE] 1
+CONTRATO             WIDTH 40 PICTURE ""
+[LINE] 1
+MODALIDADE           WIDTH 10 PICTURE ""
+[LINE] 1
+ORIGEM_RECURSOS      WIDTH 15 PICTURE ""
+[LINE] 1
+NATUREZA             WIDTH 8 PICTURE ""
+[LINE] 1
+RISCO_OP             WIDTH 8 PICTURE ""
+[LINE] 1
+INDEXADOR            WIDTH 9 PICTURE ""
+[LINE] 1
+CNAE                 WIDTH 10 PICTURE ""
+[LINE] 1
+CONGLOM_FINANC       WIDTH 14 PICTURE ""
+[LINE] 1
+RISCO_CLI            WIDTH 9 PICTURE ""
+[LINE] 1
+VARIACAO_CAMB        WIDTH 13 PICTURE ""
+[LINE] 1
+GRUPO_ECON           WIDTH 40 PICTURE ""
+[LINE] 1
+CLI_NOVO             WIDTH 8 PICTURE ""
+[LINE] 1
+CLI_NOVO_IF          WIDTH 11 PICTURE ""
+[LINE] 1
+CLI_NOVO_CONGL       WIDTH 14 PICTURE ""
+[LINE] 1
+DIAS_ATRASO          WIDTH 13 PICTURE ""
+[LINE] 1
+DT_CONTR             WIDTH 12
+[LINE] 1
+DT_VCO               WIDTH 12
+[LINE] 1
+TX_EFETIVA_ANUAL     WIDTH 23 PICTURE ""
+[LINE] 1
+VL_PROV_IF           WIDTH 23 PICTURE ""
+[LINE] 1
+VL_A_VENCER          WIDTH 23 PICTURE ""
+[LINE] 1
+VL_VENCIDO           WIDTH 23 PICTURE ""
+[LINE] 1
+CARTEIRA_ATIVA       WIDTH 23 PICTURE ""
+[LINE] 1
+VL_PREJU             WIDTH 23 PICTURE ""
+[LINE] 1
+VL_CART_CREDITO      WIDTH 23 PICTURE ""
+[LINE] 1
+RESP_TOTAL           WIDTH 23 PICTURE ""
+[LINE] 1
+VL_LIMITE            WIDTH 23 PICTURE ""
+[LINE] 1
+VL_CRED_A_LIBERAR    WIDTH 23 PICTURE ""
+[LINE] 1
+RENEGOCIACAO         WIDTH 12 PICTURE ""
+^REPORT   Exibição_padrão2                   Untitled                         D.T,
+[SKIP] 0
+[TLINES] 1
+[RLINES] 1
+[LINE] 1
+DATA_BASE            WIDTH 9 PICTURE ""
+[LINE] 1
+FOC_CD_HASH_OPER     PICTURE ""
+[LINE] 1
+CNPJ_ID              PICTURE ""
+[LINE] 1
+CNPJ_CPF_CLIENTE     WIDTH 16 PICTURE ""
+[LINE] 1
+IND_CNPJ             WIDTH 8 PICTURE ""
+[LINE] 1
+CONTRATO             PICTURE ""
+[LINE] 1
+MODALIDADE           WIDTH 10 PICTURE ""
+[LINE] 1
+ORIGEM_RECURSOS      WIDTH 15 PICTURE ""
+[LINE] 1
+NATUREZA             WIDTH 8 PICTURE ""
+[LINE] 1
+RISCO_OP             WIDTH 8 PICTURE ""
+[LINE] 1
+INDEXADOR            WIDTH 9 PICTURE ""
+[LINE] 1
+CNAE                 PICTURE ""
+[LINE] 1
+CONGLOM_FINANC       WIDTH 14 PICTURE ""
+[LINE] 1
+RISCO_CLI            WIDTH 9 PICTURE ""
+[LINE] 1
+VARIACAO_CAMB        WIDTH 13 PICTURE ""
+[LINE] 1
+GRUPO_ECON           PICTURE ""
+[LINE] 1
+CLI_NOVO             WIDTH 8 PICTURE ""
+[LINE] 1
+CLI_NOVO_IF          WIDTH 11 PICTURE ""
+[LINE] 1
+CLI_NOVO_CONGL       WIDTH 14 PICTURE ""
+[LINE] 1
+DIAS_ATRASO          PICTURE ""
+[LINE] 1
+TX_EFETIVA_ANUAL     PICTURE ""
+[LINE] 1
+VL_PROV_IF           PICTURE ""
+[LINE] 1
+VL_A_VENCER          PICTURE ""
+[LINE] 1
+VL_VENCIDO           PICTURE ""
+[LINE] 1
+CARTEIRA_ATIVA       PICTURE ""
+[LINE] 1
+VL_PREJU             PICTURE ""
+[LINE] 1
+VL_CART_CREDITO      PICTURE ""
+[LINE] 1
+RESP_TOTAL           PICTURE ""
+[LINE] 1
+VL_LIMITE            PICTURE ""
+[LINE] 1
+VL_CRED_A_LIBERAR    PICTURE ""
+[LINE] 1
+RENEGOCIACAO         WIDTH 12 PICTURE ""
+^REPORT   Exibição_padrão3                   Untitled                         D.T,
+[SKIP] 0
+[TLINES] 1
+[RLINES] 1
+[LINE] 1
+DATA_BASE            WIDTH 9 PICTURE ""
+[LINE] 1
+FOC_CD_HASH_OPER     PICTURE ""
+[LINE] 1
+CNPJ_ID              PICTURE ""
+[LINE] 1
+CNPJ_CPF_CLIENTE     WIDTH 16 PICTURE ""
+[LINE] 1
+IND_CNPJ             WIDTH 8 PICTURE ""
+[LINE] 1
+CONTRATO             PICTURE ""
+[LINE] 1
+MODALIDADE           WIDTH 10 PICTURE ""
+[LINE] 1
+ORIGEM_RECURSOS      WIDTH 15 PICTURE ""
+[LINE] 1
+NATUREZA             WIDTH 8 PICTURE ""
+[LINE] 1
+RISCO_OP             WIDTH 8 PICTURE ""
+[LINE] 1
+INDEXADOR            WIDTH 9 PICTURE ""
+[LINE] 1
+CNAE                 PICTURE ""
+[LINE] 1
+CONGLOM_FINANC       WIDTH 14 PICTURE ""
+[LINE] 1
+RISCO_CLI            WIDTH 9 PICTURE ""
+[LINE] 1
+VARIACAO_CAMB        WIDTH 13 PICTURE ""
+[LINE] 1
+GRUPO_ECON           PICTURE ""
+[LINE] 1
+CLI_NOVO             WIDTH 8 PICTURE ""
+[LINE] 1
+CLI_NOVO_IF          WIDTH 11 PICTURE ""
+[LINE] 1
+CLI_NOVO_CONGL       WIDTH 14 PICTURE ""
+[LINE] 1
+DIAS_ATRASO          PICTURE ""
+[LINE] 1
+TX_EFETIVA_ANUAL     PICTURE ""
+[LINE] 1
+VL_PROV_IF           PICTURE ""
+[LINE] 1
+VL_A_VENCER          PICTURE ""
+[LINE] 1
+VL_VENCIDO           PICTURE ""
+[LINE] 1
+CARTEIRA_ATIVA       PICTURE ""
+[LINE] 1
+VL_PREJU             PICTURE ""
+[LINE] 1
+VL_CART_CREDITO      PICTURE ""
+[LINE] 1
+RESP_TOTAL           PICTURE ""
+[LINE] 1
+VL_LIMITE            PICTURE ""
+[LINE] 1
+VL_CRED_A_LIBERAR    PICTURE ""
+[LINE] 1
+RENEGOCIACAO         WIDTH 12 PICTURE ""
+^REPORT   Exibição_padrão4                   Untitled                         D.T,
+[SKIP] 0
+[TLINES] 1
+[RLINES] 1
+[LINE] 1
+DATA_BASE            WIDTH 9 PICTURE ""
+[LINE] 1
+FOC_CD_HASH_OPER     PICTURE ""
+[LINE] 1
+CNPJ_ID              PICTURE ""
+[LINE] 1
+CNPJ_CPF_CLIENTE     WIDTH 16 PICTURE ""
+[LINE] 1
+IND_CNPJ             WIDTH 8 PICTURE ""
+[LINE] 1
+CONTRATO             PICTURE ""
+[LINE] 1
+MODALIDADE           WIDTH 10 PICTURE ""
+[LINE] 1
+ORIGEM_RECURSOS      WIDTH 15 PICTURE ""
+[LINE] 1
+NATUREZA             WIDTH 8 PICTURE ""
+[LINE] 1
+RISCO_OP             WIDTH 8 PICTURE ""
+[LINE] 1
+INDEXADOR            WIDTH 9 PICTURE ""
+[LINE] 1
+CNAE                 PICTURE ""
+[LINE] 1
+CONGLOM_FINANC       WIDTH 14 PICTURE ""
+[LINE] 1
+RISCO_CLI            WIDTH 9 PICTURE ""
+[LINE] 1
+VARIACAO_CAMB        WIDTH 13 PICTURE ""
+[LINE] 1
+GRUPO_ECON           PICTURE ""
+[LINE] 1
+CLI_NOVO             WIDTH 8 PICTURE ""
+[LINE] 1
+CLI_NOVO_IF          WIDTH 11 PICTURE ""
+[LINE] 1
+CLI_NOVO_CONGL       WIDTH 14 PICTURE ""
+[LINE] 1
+DIAS_ATRASO          PICTURE ""
+[LINE] 1
+TX_EFETIVA_ANUAL     PICTURE ""
+[LINE] 1
+VL_PROV_IF           PICTURE ""
+[LINE] 1
+VL_A_VENCER          PICTURE ""
+[LINE] 1
+VL_VENCIDO           PICTURE ""
+[LINE] 1
+CARTEIRA_ATIVA       PICTURE ""
+[LINE] 1
+VL_PREJU             PICTURE ""
+[LINE] 1
+VL_CART_CREDITO      PICTURE ""
+[LINE] 1
+RESP_TOTAL           PICTURE ""
+[LINE] 1
+VL_LIMITE            PICTURE ""
+[LINE] 1
+VL_CRED_A_LIBERAR    PICTURE ""
+[LINE] 1
+RENEGOCIACAO         WIDTH 12 PICTURE ""
+^REPORT   Exibição_padrão5                   Untitled                         D.T,
+[SKIP] 0
+[TLINES] 1
+[RLINES] 1
+[LINE] 1
+DATA_BASE            WIDTH 9 PICTURE ""
+[LINE] 1
+FOC_CD_HASH_OPER     PICTURE ""
+[LINE] 1
+CNPJ_ID              PICTURE ""
+[LINE] 1
+CNPJ_CPF_CLIENTE     WIDTH 16 PICTURE ""
+[LINE] 1
+IND_CNPJ             WIDTH 8 PICTURE ""
+[LINE] 1
+CONTRATO             PICTURE ""
+[LINE] 1
+MODALIDADE           WIDTH 10 PICTURE ""
+[LINE] 1
+ORIGEM_RECURSOS      WIDTH 15 PICTURE ""
+[LINE] 1
+NATUREZA             WIDTH 8 PICTURE ""
+[LINE] 1
+RISCO_OP             WIDTH 8 PICTURE ""
+[LINE] 1
+INDEXADOR            WIDTH 9 PICTURE ""
+[LINE] 1
+CNAE                 PICTURE ""
+[LINE] 1
+CONGLOM_FINANC       WIDTH 14 PICTURE ""
+[LINE] 1
+RISCO_CLI            WIDTH 9 PICTURE ""
+[LINE] 1
+VARIACAO_CAMB        WIDTH 13 PICTURE ""
+[LINE] 1
+GRUPO_ECON           PICTURE ""
+[LINE] 1
+CLI_NOVO             WIDTH 8 PICTURE ""
+[LINE] 1
+CLI_NOVO_IF          WIDTH 11 PICTURE ""
+[LINE] 1
+CLI_NOVO_CONGL       WIDTH 14 PICTURE ""
+[LINE] 1
+DIAS_ATRASO          PICTURE ""
+[LINE] 1
+TX_EFETIVA_ANUAL     PICTURE ""
+[LINE] 1
+VL_PROV_IF           PICTURE ""
+[LINE] 1
+VL_A_VENCER          PICTURE ""
+[LINE] 1
+VL_VENCIDO           PICTURE ""
+[LINE] 1
+CARTEIRA_ATIVA       PICTURE ""
+[LINE] 1
+VL_PREJU             PICTURE ""
+[LINE] 1
+VL_CART_CREDITO      PICTURE ""
+[LINE] 1
+RESP_TOTAL           PICTURE ""
+[LINE] 1
+VL_LIMITE            PICTURE ""
+[LINE] 1
+VL_CRED_A_LIBERAR    PICTURE ""
+[LINE] 1
+RENEGOCIACAO         WIDTH 12 PICTURE ""
+^LOGFILE  AclProject                          "" "AclProject.LOG"
+[PARENT_FOLDER_ID] 0
+^BATCH    SequentialSort                     
+[PARENT_FOLDER_ID] 0
+set safety off
+
+OPEN Tab20GBFIL
+SORT ON DATA_BASE TO "Tab20GBFIL111" 
+OPEN Tab20GBFIL2
+SORT ON DATA_BASE TO "Tab20GBFIL222" 
+OPEN Tab20GBFIL3
+SORT ON DATA_BASE TO "Tab20GBFIL333" 
+OPEN Tab20GBFIL4
+SORT ON DATA_BASE TO "Tab20GBFIL444" 
+OPEN Tab20GBFIL5
+SORT ON DATA_BASE TO "Tab20GBFIL555" 
+^FOLDER   AsynchronousSort                    1375901128
+[PARENT_FOLDER_ID] 0
+^BATCH    BC2                                
+[PARENT_FOLDER_ID] 1375901128
+
+set safety off
+
+OPEN Tab20GBFIL2
+SORT ON DATA_BASE TO "Tab20GBFIL22"
+
+Open Tab20GBFIL22
+
+extra field "DATA_BASE" first 1 to "done2.txt"
+
+quit 
+^BATCH    BC4                                
+[PARENT_FOLDER_ID] 1375901128
+
+set safety off
+
+OPEN Tab20GBFIL4
+SORT ON DATA_BASE TO "Tab20GBFIL44"
+
+Open Tab20GBFIL44
+
+extra field "DATA_BASE" first 1 to "done4.txt"
+
+quit 
+^BATCH    BC5                                
+[PARENT_FOLDER_ID] 1375901128
+
+set safety off
+
+OPEN Tab20GBFIL5
+SORT ON DATA_BASE TO "Tab20GBFIL55"
+
+Open Tab20GBFIL55
+
+extra field "DATA_BASE" first 1 to "done5.txt"
+
+quit 
+^BATCH    BC                                 
+[PARENT_FOLDER_ID] 1375901128
+
+set safety off
+
+OPEN Tab20GBFIL
+SORT ON DATA_BASE TO "Tab20GBFIL11" 
+
+
+Open Tab20GBFIL11
+
+extra field "DATA_BASE" first 1 to "done1.txt"
+
+quit 
+
+^BATCH    BC3                                
+[PARENT_FOLDER_ID] 1375901128
+
+set safety off
+
+OPEN Tab20GBFIL3
+SORT ON DATA_BASE TO "Tab20GBFIL33"
+
+Open Tab20GBFIL33
+
+extra field "DATA_BASE" first 1 to "done3.txt"
+
+quit 
+^BATCH    Main1                              
+[PARENT_FOLDER_ID] 1375901128
+COMMENT
+//ANALYTIC Teste Sum Tab20GB_FIL
+//RESULT LOG
+END
+set safety off
+
+execute 'cmd /c copy /y AclProject.ACL AclProject1.ACL'
+execute 'cmd /c copy /y AclProject.ACL AclProject2.ACL'
+execute 'cmd /c copy /y AclProject.ACL AclProject3.ACL'
+execute 'cmd /c copy /y AclProject.ACL AclProject4.ACL'
+execute 'cmd /c copy /y AclProject.ACL AclProject5.ACL'
+
+
+
+execute async 'cmd /c ACLscript.exe "AclProject1.ACL" /bBC'
+execute async 'cmd /c ACLscript.exe "AclProject2.ACL" /bBC2'
+execute async 'cmd /c ACLscript.exe "AclProject3.ACL" /bBC3'
+execute async 'cmd /c ACLscript.exe "AclProject4.ACL" /bBC4'
+execute async 'cmd /c ACLscript.exe "AclProject5.ACL" /bBC5'
+
+counter=0
+set echo none
+do testDone while  counter<5
+set echo on
+
+DO SCRIPT New_Script3
+^BATCH    testDone                           
+[PARENT_FOLDER_ID] 1375901128
+directory "done*.txt" to testCountDone
+open testCountDone
+count
+counter=count1
+close testCountDone
+^BATCH    New_Script3                        
+[PARENT_FOLDER_ID] 1375901128
+OPEN "Tab20GBFIL11" FORMAT Tab20GBFIL
+OPEN "Tab20GBFIL22" FORMAT Tab20GBFIL2
+OPEN "Tab20GBFIL33" FORMAT Tab20GBFIL3
+OPEN "Tab20GBFIL44" FORMAT Tab20GBFIL4
+OPEN "Tab20GBFIL55" FORMAT Tab20GBFIL5
+
+
+set safety off
+OPEN Tab20GBFIL5
+EXTRACT RECORD TO "test333" OPEN FIRST 10
+^FOLDER   Test                                1375901421
+[PARENT_FOLDER_ID] 0
+^BATCH    ReturnTest                         
+[PARENT_FOLDER_ID] 1375901421
+set safety off
+
+open Tab20GBFIL
+
+EXTRACT RECORD TO "test123" OPEN FIRST 1000
+
+Open test123
+
+extra field "DATA_BASE" first 1 to "done.txt"
+
+quit 
+^BATCH    ReturnTest2                        
+[PARENT_FOLDER_ID] 1375901421
+set safety off
+
+open test123 format  test123.fil
+
+EXTRACT all TO "test222"
+
+quit 
+^BATCH    ReturnTest3                        
+[PARENT_FOLDER_ID] 1375901421
+execute async 'cmd /c ACLscript.exe "AclProject1.ACL" /bReturnTest' 
+^FOLDER   AsynchronousExcelImport             1375901682
+[PARENT_FOLDER_ID] 0
+^BATCH    testDone2                          
+[PARENT_FOLDER_ID] 1375901682
+directory "done*.txt" to testCountDone
+open testCountDone
+count
+counter=count1
+close testCountDone
+^BATCH    testDone3                          
+[PARENT_FOLDER_ID] 1375901421
+directory "done*.txt" to testCountDone
+open testCountDone
+count
+counter=count1
+close testCountDone
+^BATCH    Main2                              
+[PARENT_FOLDER_ID] 1375901421
+set safety off
+execute 'cmd /c copy /y AclProject.ACL AclProject1.ACL'
+DO SCRIPT ReturnTest3
+counter=0
+set echo none
+do testDone3 while  counter<1
+set echo on
+DO SCRIPT ReturnTest2 
+
+^REPORT   Default_View                       sampleData2                      D.T,
+[SKIP] 0
+[TLINES] 0
+[RLINES] 1
+[LINE] 1
+Name                 PICTURE ""
+[LINE] 1
+Phone_CAD            PICTURE ""
+[LINE] 1
+PhoneFax             PICTURE ""
+[LINE] 1
+Email                PICTURE ""
+[LINE] 1
+Date1                PICTURE ""
+[LINE] 1
+DateTime             PICTURE ""
+[LINE] 1
+Company              PICTURE ""
+[LINE] 1
+Street_Add           PICTURE ""
+[LINE] 1
+Text1                PICTURE ""
+[LINE] 1
+Test2                PICTURE ""
+[LINE] 1
+Password1            PICTURE ""
+[LINE] 1
+GuID                 PICTURE ""
+[LINE] 1
+F13                  PICTURE ""
+[LINE] 1
+Colors               PICTURE ""
+[LINE] 1
+Extanded_100         PICTURE ""
+[LINE] 1
+Extanded_10          WIDTH 11 PICTURE ""
+[LINE] 1
+NUM1                 PICTURE ""
+[LINE] 1
+NUM2                 PICTURE ""
+[LINE] 1
+NUM3                 PICTURE ""
+[LINE] 1
+Curency1             WIDTH 8 PICTURE ""
+[LINE] 1
+Curency2             WIDTH 8 PICTURE ""
+[LINE] 1
+Currency3            WIDTH 9 PICTURE ""
+[LINE] 1
+Currency4            WIDTH 9 PICTURE ""
+[LINE] 1
+Currency5            WIDTH 9 PICTURE ""
+[LINE] 1
+DateField            PICTURE ""
+[LINE] 1
+DateTimeField2       PICTURE ""
+[LINE] 1
+TimeField_           PICTURE ""
+[LINE] 1
+DateField_           PICTURE ""
+[LINE] 1
+DateTimeField_       PICTURE ""
+[LINE] 1
+DateTimeField21      PICTURE ""
+[LINE] 1
+DateTimeField22      PICTURE ""
+[LINE] 1
+DateTimeField23      PICTURE ""
+[LINE] 1
+DateTimeField24      PICTURE ""
+[LINE] 1
+TimeField            PICTURE ""
+[LINE] 1
+TimeField2           PICTURE ""
+[LINE] 1
+TimeField1           PICTURE ""
+[LINE] 1
+DateTimeField25      PICTURE ""
+[LINE] 1
+DateField1           PICTURE ""
+[LINE] 1
+DateTimeField26      PICTURE ""
+[LINE] 1
+DateField2           PICTURE ""
+[LINE] 1
+DateTimeField27      PICTURE ""
+[LINE] 1
+DateField3           PICTURE ""
+[LINE] 1
+DateTimeField28      PICTURE ""
+[LINE] 1
+DateField4           PICTURE ""
+[LINE] 1
+DateTimeField29      PICTURE ""
+[LINE] 1
+DateField5           PICTURE ""
+[LINE] 1
+DateTimeField210     PICTURE ""
+[LINE] 1
+DateField6           WIDTH 10 PICTURE ""
+[LINE] 1
+DateTimeField211     WIDTH 16 PICTURE ""
+[LINE] 1
+DateField7           PICTURE ""
+[LINE] 1
+DateTimeField212     PICTURE ""
+[LINE] 1
+DateField8           PICTURE ""
+[LINE] 1
+DateTimeField213     PICTURE ""
+[LINE] 1
+DateField9           PICTURE ""
+[LINE] 1
+DateTimeField214     PICTURE ""
+[LINE] 1
+DateField10          PICTURE ""
+[LINE] 1
+DateTimeField215     PICTURE ""
+[LINE] 1
+DateField11          PICTURE ""
+[LINE] 1
+DateTimeField216     PICTURE ""
+[LINE] 1
+DateField12          PICTURE ""
+[LINE] 1
+DateTimeField217     PICTURE ""
+[LINE] 1
+DateField13          WIDTH 11 PICTURE ""
+[LINE] 1
+DateTimeField218     WIDTH 16 PICTURE ""
+[LINE] 1
+DateField14          WIDTH 11 PICTURE ""
+[LINE] 1
+DateTimeField219     WIDTH 16 PICTURE ""
+[LINE] 1
+DateField15          PICTURE ""
+[LINE] 1
+DateTimeField220     PICTURE ""
+[LINE] 1
+DateField16          PICTURE ""
+[LINE] 1
+DateTimeField221     PICTURE ""
+^REPORT   Default_View                       sampleData3                      D.T,
+[SKIP] 0
+[TLINES] 0
+[RLINES] 1
+[LINE] 1
+Name                 PICTURE ""
+[LINE] 1
+Phone_CAD            PICTURE ""
+[LINE] 1
+PhoneFax             PICTURE ""
+[LINE] 1
+Email                PICTURE ""
+[LINE] 1
+Date1                PICTURE ""
+[LINE] 1
+DateTime             PICTURE ""
+[LINE] 1
+Company              PICTURE ""
+[LINE] 1
+Street_Add           PICTURE ""
+[LINE] 1
+Text1                PICTURE ""
+[LINE] 1
+Test2                PICTURE ""
+[LINE] 1
+Password1            PICTURE ""
+[LINE] 1
+GuID                 PICTURE ""
+[LINE] 1
+F13                  PICTURE ""
+[LINE] 1
+Colors               PICTURE ""
+[LINE] 1
+Extanded_100         PICTURE ""
+[LINE] 1
+Extanded_10          WIDTH 11 PICTURE ""
+[LINE] 1
+NUM1                 PICTURE ""
+[LINE] 1
+NUM2                 PICTURE ""
+[LINE] 1
+NUM3                 PICTURE ""
+[LINE] 1
+Curency1             WIDTH 8 PICTURE ""
+[LINE] 1
+Curency2             WIDTH 8 PICTURE ""
+[LINE] 1
+Currency3            WIDTH 9 PICTURE ""
+[LINE] 1
+Currency4            WIDTH 9 PICTURE ""
+[LINE] 1
+Currency5            WIDTH 9 PICTURE ""
+[LINE] 1
+DateField            PICTURE ""
+[LINE] 1
+DateTimeField2       PICTURE ""
+[LINE] 1
+TimeField_           PICTURE ""
+[LINE] 1
+DateField_           PICTURE ""
+[LINE] 1
+DateTimeField_       PICTURE ""
+[LINE] 1
+DateTimeField21      PICTURE ""
+[LINE] 1
+DateTimeField22      PICTURE ""
+[LINE] 1
+DateTimeField23      PICTURE ""
+[LINE] 1
+DateTimeField24      PICTURE ""
+[LINE] 1
+TimeField            PICTURE ""
+[LINE] 1
+TimeField2           PICTURE ""
+[LINE] 1
+TimeField1           PICTURE ""
+[LINE] 1
+DateTimeField25      PICTURE ""
+[LINE] 1
+DateField1           PICTURE ""
+[LINE] 1
+DateTimeField26      PICTURE ""
+[LINE] 1
+DateField2           PICTURE ""
+[LINE] 1
+DateTimeField27      PICTURE ""
+[LINE] 1
+DateField3           PICTURE ""
+[LINE] 1
+DateTimeField28      PICTURE ""
+[LINE] 1
+DateField4           PICTURE ""
+[LINE] 1
+DateTimeField29      PICTURE ""
+[LINE] 1
+DateField5           PICTURE ""
+[LINE] 1
+DateTimeField210     PICTURE ""
+[LINE] 1
+DateField6           WIDTH 10 PICTURE ""
+[LINE] 1
+DateTimeField211     WIDTH 16 PICTURE ""
+[LINE] 1
+DateField7           PICTURE ""
+[LINE] 1
+DateTimeField212     PICTURE ""
+[LINE] 1
+DateField8           PICTURE ""
+[LINE] 1
+DateTimeField213     PICTURE ""
+[LINE] 1
+DateField9           PICTURE ""
+[LINE] 1
+DateTimeField214     PICTURE ""
+[LINE] 1
+DateField10          PICTURE ""
+[LINE] 1
+DateTimeField215     PICTURE ""
+[LINE] 1
+DateField11          PICTURE ""
+[LINE] 1
+DateTimeField216     PICTURE ""
+[LINE] 1
+DateField12          PICTURE ""
+[LINE] 1
+DateTimeField217     PICTURE ""
+[LINE] 1
+DateField13          WIDTH 11 PICTURE ""
+[LINE] 1
+DateTimeField218     WIDTH 16 PICTURE ""
+[LINE] 1
+DateField14          WIDTH 11 PICTURE ""
+[LINE] 1
+DateTimeField219     WIDTH 16 PICTURE ""
+[LINE] 1
+DateField15          PICTURE ""
+[LINE] 1
+DateTimeField220     PICTURE ""
+[LINE] 1
+DateField16          PICTURE ""
+[LINE] 1
+DateTimeField221     PICTURE ""
+^REPORT   Default_View                       sampleData4                      D.T,
+[SKIP] 0
+[TLINES] 0
+[RLINES] 1
+[LINE] 1
+Name                 PICTURE ""
+[LINE] 1
+Phone_CAD            PICTURE ""
+[LINE] 1
+PhoneFax             PICTURE ""
+[LINE] 1
+Email                PICTURE ""
+[LINE] 1
+Date1                PICTURE ""
+[LINE] 1
+DateTime             PICTURE ""
+[LINE] 1
+Company              PICTURE ""
+[LINE] 1
+Street_Add           PICTURE ""
+[LINE] 1
+Text1                PICTURE ""
+[LINE] 1
+Test2                PICTURE ""
+[LINE] 1
+Password1            PICTURE ""
+[LINE] 1
+GuID                 PICTURE ""
+[LINE] 1
+F13                  PICTURE ""
+[LINE] 1
+Colors               PICTURE ""
+[LINE] 1
+Extanded_100         PICTURE ""
+[LINE] 1
+Extanded_10          WIDTH 11 PICTURE ""
+[LINE] 1
+NUM1                 PICTURE ""
+[LINE] 1
+NUM2                 PICTURE ""
+[LINE] 1
+NUM3                 PICTURE ""
+[LINE] 1
+Curency1             WIDTH 8 PICTURE ""
+[LINE] 1
+Curency2             WIDTH 8 PICTURE ""
+[LINE] 1
+Currency3            WIDTH 9 PICTURE ""
+[LINE] 1
+Currency4            WIDTH 9 PICTURE ""
+[LINE] 1
+Currency5            WIDTH 9 PICTURE ""
+[LINE] 1
+DateField            PICTURE ""
+[LINE] 1
+DateTimeField2       PICTURE ""
+[LINE] 1
+TimeField_           PICTURE ""
+[LINE] 1
+DateField_           PICTURE ""
+[LINE] 1
+DateTimeField_       PICTURE ""
+[LINE] 1
+DateTimeField21      PICTURE ""
+[LINE] 1
+DateTimeField22      PICTURE ""
+[LINE] 1
+DateTimeField23      PICTURE ""
+[LINE] 1
+DateTimeField24      PICTURE ""
+[LINE] 1
+TimeField            PICTURE ""
+[LINE] 1
+TimeField2           PICTURE ""
+[LINE] 1
+TimeField1           PICTURE ""
+[LINE] 1
+DateTimeField25      PICTURE ""
+[LINE] 1
+DateField1           PICTURE ""
+[LINE] 1
+DateTimeField26      PICTURE ""
+[LINE] 1
+DateField2           PICTURE ""
+[LINE] 1
+DateTimeField27      PICTURE ""
+[LINE] 1
+DateField3           PICTURE ""
+[LINE] 1
+DateTimeField28      PICTURE ""
+[LINE] 1
+DateField4           PICTURE ""
+[LINE] 1
+DateTimeField29      PICTURE ""
+[LINE] 1
+DateField5           PICTURE ""
+[LINE] 1
+DateTimeField210     PICTURE ""
+[LINE] 1
+DateField6           WIDTH 10 PICTURE ""
+[LINE] 1
+DateTimeField211     WIDTH 16 PICTURE ""
+[LINE] 1
+DateField7           PICTURE ""
+[LINE] 1
+DateTimeField212     PICTURE ""
+[LINE] 1
+DateField8           PICTURE ""
+[LINE] 1
+DateTimeField213     PICTURE ""
+[LINE] 1
+DateField9           PICTURE ""
+[LINE] 1
+DateTimeField214     PICTURE ""
+[LINE] 1
+DateField10          PICTURE ""
+[LINE] 1
+DateTimeField215     PICTURE ""
+[LINE] 1
+DateField11          PICTURE ""
+[LINE] 1
+DateTimeField216     PICTURE ""
+[LINE] 1
+DateField12          PICTURE ""
+[LINE] 1
+DateTimeField217     PICTURE ""
+[LINE] 1
+DateField13          WIDTH 11 PICTURE ""
+[LINE] 1
+DateTimeField218     WIDTH 16 PICTURE ""
+[LINE] 1
+DateField14          WIDTH 11 PICTURE ""
+[LINE] 1
+DateTimeField219     WIDTH 16 PICTURE ""
+[LINE] 1
+DateField15          PICTURE ""
+[LINE] 1
+DateTimeField220     PICTURE ""
+[LINE] 1
+DateField16          PICTURE ""
+[LINE] 1
+DateTimeField221     PICTURE ""
+^REPORT   Default_View                       sampleData5                      D.T,
+[SKIP] 0
+[TLINES] 0
+[RLINES] 1
+[LINE] 1
+Name                 PICTURE ""
+[LINE] 1
+Phone_CAD            PICTURE ""
+[LINE] 1
+PhoneFax             PICTURE ""
+[LINE] 1
+Email                PICTURE ""
+[LINE] 1
+Date1                PICTURE ""
+[LINE] 1
+DateTime             PICTURE ""
+[LINE] 1
+Company              PICTURE ""
+[LINE] 1
+Street_Add           PICTURE ""
+[LINE] 1
+Text1                PICTURE ""
+[LINE] 1
+Test2                PICTURE ""
+[LINE] 1
+Password1            PICTURE ""
+[LINE] 1
+GuID                 PICTURE ""
+[LINE] 1
+F13                  PICTURE ""
+[LINE] 1
+Colors               PICTURE ""
+[LINE] 1
+Extanded_100         PICTURE ""
+[LINE] 1
+Extanded_10          WIDTH 11 PICTURE ""
+[LINE] 1
+NUM1                 PICTURE ""
+[LINE] 1
+NUM2                 PICTURE ""
+[LINE] 1
+NUM3                 PICTURE ""
+[LINE] 1
+Curency1             WIDTH 8 PICTURE ""
+[LINE] 1
+Curency2             WIDTH 8 PICTURE ""
+[LINE] 1
+Currency3            WIDTH 9 PICTURE ""
+[LINE] 1
+Currency4            WIDTH 9 PICTURE ""
+[LINE] 1
+Currency5            WIDTH 9 PICTURE ""
+[LINE] 1
+DateField            PICTURE ""
+[LINE] 1
+DateTimeField2       PICTURE ""
+[LINE] 1
+TimeField_           PICTURE ""
+[LINE] 1
+DateField_           PICTURE ""
+[LINE] 1
+DateTimeField_       PICTURE ""
+[LINE] 1
+DateTimeField21      PICTURE ""
+[LINE] 1
+DateTimeField22      PICTURE ""
+[LINE] 1
+DateTimeField23      PICTURE ""
+[LINE] 1
+DateTimeField24      PICTURE ""
+[LINE] 1
+TimeField            PICTURE ""
+[LINE] 1
+TimeField2           PICTURE ""
+[LINE] 1
+TimeField1           PICTURE ""
+[LINE] 1
+DateTimeField25      PICTURE ""
+[LINE] 1
+DateField1           PICTURE ""
+[LINE] 1
+DateTimeField26      PICTURE ""
+[LINE] 1
+DateField2           PICTURE ""
+[LINE] 1
+DateTimeField27      PICTURE ""
+[LINE] 1
+DateField3           PICTURE ""
+[LINE] 1
+DateTimeField28      PICTURE ""
+[LINE] 1
+DateField4           PICTURE ""
+[LINE] 1
+DateTimeField29      PICTURE ""
+[LINE] 1
+DateField5           PICTURE ""
+[LINE] 1
+DateTimeField210     PICTURE ""
+[LINE] 1
+DateField6           WIDTH 10 PICTURE ""
+[LINE] 1
+DateTimeField211     WIDTH 16 PICTURE ""
+[LINE] 1
+DateField7           PICTURE ""
+[LINE] 1
+DateTimeField212     PICTURE ""
+[LINE] 1
+DateField8           PICTURE ""
+[LINE] 1
+DateTimeField213     PICTURE ""
+[LINE] 1
+DateField9           PICTURE ""
+[LINE] 1
+DateTimeField214     PICTURE ""
+[LINE] 1
+DateField10          PICTURE ""
+[LINE] 1
+DateTimeField215     PICTURE ""
+[LINE] 1
+DateField11          PICTURE ""
+[LINE] 1
+DateTimeField216     PICTURE ""
+[LINE] 1
+DateField12          PICTURE ""
+[LINE] 1
+DateTimeField217     PICTURE ""
+[LINE] 1
+DateField13          WIDTH 11 PICTURE ""
+[LINE] 1
+DateTimeField218     WIDTH 16 PICTURE ""
+[LINE] 1
+DateField14          WIDTH 11 PICTURE ""
+[LINE] 1
+DateTimeField219     WIDTH 16 PICTURE ""
+[LINE] 1
+DateField15          PICTURE ""
+[LINE] 1
+DateTimeField220     PICTURE ""
+[LINE] 1
+DateField16          PICTURE ""
+[LINE] 1
+DateTimeField221     PICTURE ""
+^BATCH    BCimp2                             
+[PARENT_FOLDER_ID] 1375901682
+
+set safety off
+
+IMPORT EXCEL TO sampleData2 "D:\Brazil\sampleData22.fil" FROM "SampleData_XLSX_100kR2.xlsx" TABLE "SampleData_100kR_XLSX$" KEEPTITLE FIELD "Name" C WID 20 AS "" FIELD "Phone_CAD" C WID 14 AS "" FIELD "PhoneFax" C WID 14 AS "" FIELD "Email" C WID 51 AS "" FIELD "Date1" D WID 12 PIC "MMM DD,YYYY" AS "" FIELD "DateTime" D WID 19 PIC "YYYY-MM-DD hh:mm:ss" AS "" FIELD "Company" C WID 38 AS "" FIELD "Street_Add" C WID 35 AS "" FIELD "Text1" C WID 158 AS "" FIELD "Test2" C WID 400 AS "" FIELD "Password1" C WID 11 AS "" FIELD "GuID" C WID 36 AS "" FIELD "F13" C WID 10 AS "" FIELD "Colors" C WID 6 AS "" FIELD "Extanded_100" C WID 100 AS "" FIELD "Extanded_10" C WID 10 AS "" FIELD "NUM1" N WID 21 DEC 18 AS "" FIELD "NUM2" N WID 17 DEC 7 AS "" FIELD "NUM3" N WID 17 DEC 8 AS "" FIELD "Curency1" C WID 6 AS "" FIELD "Curency2" C WID 6 AS "" FIELD "Currency3" N WID 4 DEC 2 AS "" FIELD "Currency4" C WID 6 AS "" FIELD "Currency5" C WID 8 AS "" FIELD "DateField" D WID 8 PIC "DD.MM.YY" AS "" FIELD "DateTimeField2" D WID 17 PIC "DD.MM.YY hh:mm:ss" AS "" FIELD "TimeField_" D WID 19 PIC "hh:mm:ss" AS "" FIELD "DateField_" D WID 19 PIC "YYYY-MM-DD" AS "" FIELD "DateTimeField_" D WID 19 PIC "YYYY-MM-DD hh:mm:ss" AS "" FIELD "DateTimeField21" D WID 14 PIC "DD.MM.YY hh:mm" AS "" FIELD "DateTimeField22" D WID 22 PIC "YYYY/MM/DD hh:mm:ss AM" AS "" FIELD "DateTimeField23" D WID 22 PIC "DD/MM/YYYY hh:mm:ss AM" AS "" FIELD "DateTimeField24" D WID 20 PIC "MMMDD,YYYYhh:mm AM" AS "" FIELD "TimeField" D WID 8 PIC "hh:mm AM" AS "" FIELD "TimeField2" D WID 11 PIC "hh:mm:ss AM" AS "" FIELD "TimeField1" D WID 5 PIC "hh:mm" AS "" FIELD "DateTimeField25" D WID 20 PIC "DD.MMM.YYYY hh:mmAM" AS "" FIELD "DateField1" D WID 9 PIC "DD.MMM.YY" AS "" FIELD "DateTimeField26" D WID 18 PIC "DD.MMM.YY hh:mm:ss" AS "" FIELD "DateField2" D WID 11 PIC "DD.MMM.YYYY" AS "" FIELD "DateTimeField27" D WID 20 PIC "DD.MMM.YYYY hh:mm:ss" AS "" FIELD "DateField3" D WID 8 PIC "DD/MM/YY" AS "" FIELD "DateTimeField28" D WID 17 PIC "DD/MM/YY hh:mm:ss" AS "" FIELD "DateField4" D WID 10 PIC "DD/MM/YYYY" AS "" FIELD "DateTimeField29" D WID 19 PIC "DD/MM/YYYY hh:mm:ss" AS "" FIELD "DateField5" D WID 9 PIC "DDMMMYYYY" AS "" FIELD "DateTimeField210" C WID 18 AS "" FIELD "DateField6" N WID 6 DEC 0 AS "" FIELD "DateTimeField211" C WID 15 AS "" FIELD "DateField7" N WID 8 DEC 0 AS "" FIELD "DateTimeField212" C WID 17 AS "" FIELD "DateField8" D WID 8 PIC "MM/DD/YY" AS "" FIELD "DateTimeField213" D WID 17 PIC "MM/DD/YY hh:mm:ss" AS "" FIELD "DateField9" D WID 10 PIC "MM/DD/YYYY" AS "" FIELD "DateTimeField214" D WID 19 PIC "MM/DD/YYYY hh:mm:ss" AS "" FIELD "DateField10" D WID 11 PIC "MMMDD,YYYY" AS "" FIELD "DateTimeField215" D WID 20 PIC "MMMDD,YYYYhh:mm:ss" AS "" FIELD "DateField11" D WID 9 PIC "MMMDD,YY" AS "" FIELD "DateTimeField216" D WID 18 PIC "MMMDD,YYhh:mm:ss" AS "" FIELD "DateField12" D WID 9 PIC "MMMDDYYYY" AS "" FIELD "DateTimeField217" C WID 18 AS "" FIELD "DateField13" N WID 5 DEC 0 AS "" FIELD "DateTimeField218" C WID 14 AS "" FIELD "DateField14" N WID 6 DEC 0 AS "" FIELD "DateTimeField219" C WID 15 AS "" FIELD "DateField15" D WID 10 PIC "YYYY/MM/DD" AS "" FIELD "DateTimeField220" D WID 19 PIC "YYYY/MM/DD hh:mm:ss" AS "" FIELD "DateField16" D WID 7 PIC "YYYYDDD" AS "" FIELD "DateTimeField221" C WID 16 AS ""
+
+
+
+Open sampleData2
+
+extra field "Name" first 1 to "done2.txt"
+
+quit 
+^BATCH    BCimp3                             
+[PARENT_FOLDER_ID] 1375901682
+
+set safety off
+
+IMPORT EXCEL TO sampleData3 "D:\Brazil\sampleData33.fil" FROM "SampleData_XLSX_100kR3.xlsx" TABLE "SampleData_100kR_XLSX$" KEEPTITLE FIELD "Name" C WID 20 AS "" FIELD "Phone_CAD" C WID 14 AS "" FIELD "PhoneFax" C WID 14 AS "" FIELD "Email" C WID 51 AS "" FIELD "Date1" D WID 12 PIC "MMM DD,YYYY" AS "" FIELD "DateTime" D WID 19 PIC "YYYY-MM-DD hh:mm:ss" AS "" FIELD "Company" C WID 38 AS "" FIELD "Street_Add" C WID 35 AS "" FIELD "Text1" C WID 158 AS "" FIELD "Test2" C WID 400 AS "" FIELD "Password1" C WID 11 AS "" FIELD "GuID" C WID 36 AS "" FIELD "F13" C WID 10 AS "" FIELD "Colors" C WID 6 AS "" FIELD "Extanded_100" C WID 100 AS "" FIELD "Extanded_10" C WID 10 AS "" FIELD "NUM1" N WID 21 DEC 18 AS "" FIELD "NUM2" N WID 17 DEC 7 AS "" FIELD "NUM3" N WID 17 DEC 8 AS "" FIELD "Curency1" C WID 6 AS "" FIELD "Curency2" C WID 6 AS "" FIELD "Currency3" N WID 4 DEC 2 AS "" FIELD "Currency4" C WID 6 AS "" FIELD "Currency5" C WID 8 AS "" FIELD "DateField" D WID 8 PIC "DD.MM.YY" AS "" FIELD "DateTimeField2" D WID 17 PIC "DD.MM.YY hh:mm:ss" AS "" FIELD "TimeField_" D WID 19 PIC "hh:mm:ss" AS "" FIELD "DateField_" D WID 19 PIC "YYYY-MM-DD" AS "" FIELD "DateTimeField_" D WID 19 PIC "YYYY-MM-DD hh:mm:ss" AS "" FIELD "DateTimeField21" D WID 14 PIC "DD.MM.YY hh:mm" AS "" FIELD "DateTimeField22" D WID 22 PIC "YYYY/MM/DD hh:mm:ss AM" AS "" FIELD "DateTimeField23" D WID 22 PIC "DD/MM/YYYY hh:mm:ss AM" AS "" FIELD "DateTimeField24" D WID 20 PIC "MMMDD,YYYYhh:mm AM" AS "" FIELD "TimeField" D WID 8 PIC "hh:mm AM" AS "" FIELD "TimeField2" D WID 11 PIC "hh:mm:ss AM" AS "" FIELD "TimeField1" D WID 5 PIC "hh:mm" AS "" FIELD "DateTimeField25" D WID 20 PIC "DD.MMM.YYYY hh:mmAM" AS "" FIELD "DateField1" D WID 9 PIC "DD.MMM.YY" AS "" FIELD "DateTimeField26" D WID 18 PIC "DD.MMM.YY hh:mm:ss" AS "" FIELD "DateField2" D WID 11 PIC "DD.MMM.YYYY" AS "" FIELD "DateTimeField27" D WID 20 PIC "DD.MMM.YYYY hh:mm:ss" AS "" FIELD "DateField3" D WID 8 PIC "DD/MM/YY" AS "" FIELD "DateTimeField28" D WID 17 PIC "DD/MM/YY hh:mm:ss" AS "" FIELD "DateField4" D WID 10 PIC "DD/MM/YYYY" AS "" FIELD "DateTimeField29" D WID 19 PIC "DD/MM/YYYY hh:mm:ss" AS "" FIELD "DateField5" D WID 9 PIC "DDMMMYYYY" AS "" FIELD "DateTimeField210" C WID 18 AS "" FIELD "DateField6" N WID 6 DEC 0 AS "" FIELD "DateTimeField211" C WID 15 AS "" FIELD "DateField7" N WID 8 DEC 0 AS "" FIELD "DateTimeField212" C WID 17 AS "" FIELD "DateField8" D WID 8 PIC "MM/DD/YY" AS "" FIELD "DateTimeField213" D WID 17 PIC "MM/DD/YY hh:mm:ss" AS "" FIELD "DateField9" D WID 10 PIC "MM/DD/YYYY" AS "" FIELD "DateTimeField214" D WID 19 PIC "MM/DD/YYYY hh:mm:ss" AS "" FIELD "DateField10" D WID 11 PIC "MMMDD,YYYY" AS "" FIELD "DateTimeField215" D WID 20 PIC "MMMDD,YYYYhh:mm:ss" AS "" FIELD "DateField11" D WID 9 PIC "MMMDD,YY" AS "" FIELD "DateTimeField216" D WID 18 PIC "MMMDD,YYhh:mm:ss" AS "" FIELD "DateField12" D WID 9 PIC "MMMDDYYYY" AS "" FIELD "DateTimeField217" C WID 18 AS "" FIELD "DateField13" N WID 5 DEC 0 AS "" FIELD "DateTimeField218" C WID 14 AS "" FIELD "DateField14" N WID 6 DEC 0 AS "" FIELD "DateTimeField219" C WID 15 AS "" FIELD "DateField15" D WID 10 PIC "YYYY/MM/DD" AS "" FIELD "DateTimeField220" D WID 19 PIC "YYYY/MM/DD hh:mm:ss" AS "" FIELD "DateField16" D WID 7 PIC "YYYYDDD" AS "" FIELD "DateTimeField221" C WID 16 AS ""
+
+
+
+Open sampleData3
+
+extra field "Name" first 1 to "done3.txt"
+
+quit 
+^BATCH    BCimp4                             
+[PARENT_FOLDER_ID] 1375901682
+
+set safety off
+
+IMPORT EXCEL TO sampleData4 "D:\Brazil\sampleData44.fil" FROM "SampleData_XLSX_100kR4.xlsx" TABLE "SampleData_100kR_XLSX$" KEEPTITLE FIELD "Name" C WID 20 AS "" FIELD "Phone_CAD" C WID 14 AS "" FIELD "PhoneFax" C WID 14 AS "" FIELD "Email" C WID 51 AS "" FIELD "Date1" D WID 12 PIC "MMM DD,YYYY" AS "" FIELD "DateTime" D WID 19 PIC "YYYY-MM-DD hh:mm:ss" AS "" FIELD "Company" C WID 38 AS "" FIELD "Street_Add" C WID 35 AS "" FIELD "Text1" C WID 158 AS "" FIELD "Test2" C WID 400 AS "" FIELD "Password1" C WID 11 AS "" FIELD "GuID" C WID 36 AS "" FIELD "F13" C WID 10 AS "" FIELD "Colors" C WID 6 AS "" FIELD "Extanded_100" C WID 100 AS "" FIELD "Extanded_10" C WID 10 AS "" FIELD "NUM1" N WID 21 DEC 18 AS "" FIELD "NUM2" N WID 17 DEC 7 AS "" FIELD "NUM3" N WID 17 DEC 8 AS "" FIELD "Curency1" C WID 6 AS "" FIELD "Curency2" C WID 6 AS "" FIELD "Currency3" N WID 4 DEC 2 AS "" FIELD "Currency4" C WID 6 AS "" FIELD "Currency5" C WID 8 AS "" FIELD "DateField" D WID 8 PIC "DD.MM.YY" AS "" FIELD "DateTimeField2" D WID 17 PIC "DD.MM.YY hh:mm:ss" AS "" FIELD "TimeField_" D WID 19 PIC "hh:mm:ss" AS "" FIELD "DateField_" D WID 19 PIC "YYYY-MM-DD" AS "" FIELD "DateTimeField_" D WID 19 PIC "YYYY-MM-DD hh:mm:ss" AS "" FIELD "DateTimeField21" D WID 14 PIC "DD.MM.YY hh:mm" AS "" FIELD "DateTimeField22" D WID 22 PIC "YYYY/MM/DD hh:mm:ss AM" AS "" FIELD "DateTimeField23" D WID 22 PIC "DD/MM/YYYY hh:mm:ss AM" AS "" FIELD "DateTimeField24" D WID 20 PIC "MMMDD,YYYYhh:mm AM" AS "" FIELD "TimeField" D WID 8 PIC "hh:mm AM" AS "" FIELD "TimeField2" D WID 11 PIC "hh:mm:ss AM" AS "" FIELD "TimeField1" D WID 5 PIC "hh:mm" AS "" FIELD "DateTimeField25" D WID 20 PIC "DD.MMM.YYYY hh:mmAM" AS "" FIELD "DateField1" D WID 9 PIC "DD.MMM.YY" AS "" FIELD "DateTimeField26" D WID 18 PIC "DD.MMM.YY hh:mm:ss" AS "" FIELD "DateField2" D WID 11 PIC "DD.MMM.YYYY" AS "" FIELD "DateTimeField27" D WID 20 PIC "DD.MMM.YYYY hh:mm:ss" AS "" FIELD "DateField3" D WID 8 PIC "DD/MM/YY" AS "" FIELD "DateTimeField28" D WID 17 PIC "DD/MM/YY hh:mm:ss" AS "" FIELD "DateField4" D WID 10 PIC "DD/MM/YYYY" AS "" FIELD "DateTimeField29" D WID 19 PIC "DD/MM/YYYY hh:mm:ss" AS "" FIELD "DateField5" D WID 9 PIC "DDMMMYYYY" AS "" FIELD "DateTimeField210" C WID 18 AS "" FIELD "DateField6" N WID 6 DEC 0 AS "" FIELD "DateTimeField211" C WID 15 AS "" FIELD "DateField7" N WID 8 DEC 0 AS "" FIELD "DateTimeField212" C WID 17 AS "" FIELD "DateField8" D WID 8 PIC "MM/DD/YY" AS "" FIELD "DateTimeField213" D WID 17 PIC "MM/DD/YY hh:mm:ss" AS "" FIELD "DateField9" D WID 10 PIC "MM/DD/YYYY" AS "" FIELD "DateTimeField214" D WID 19 PIC "MM/DD/YYYY hh:mm:ss" AS "" FIELD "DateField10" D WID 11 PIC "MMMDD,YYYY" AS "" FIELD "DateTimeField215" D WID 20 PIC "MMMDD,YYYYhh:mm:ss" AS "" FIELD "DateField11" D WID 9 PIC "MMMDD,YY" AS "" FIELD "DateTimeField216" D WID 18 PIC "MMMDD,YYhh:mm:ss" AS "" FIELD "DateField12" D WID 9 PIC "MMMDDYYYY" AS "" FIELD "DateTimeField217" C WID 18 AS "" FIELD "DateField13" N WID 5 DEC 0 AS "" FIELD "DateTimeField218" C WID 14 AS "" FIELD "DateField14" N WID 6 DEC 0 AS "" FIELD "DateTimeField219" C WID 15 AS "" FIELD "DateField15" D WID 10 PIC "YYYY/MM/DD" AS "" FIELD "DateTimeField220" D WID 19 PIC "YYYY/MM/DD hh:mm:ss" AS "" FIELD "DateField16" D WID 7 PIC "YYYYDDD" AS "" FIELD "DateTimeField221" C WID 16 AS ""
+
+
+
+Open sampleData4
+
+extra field "Name" first 1 to "done4.txt"
+
+quit 
+^BATCH    BCimp5                             
+[PARENT_FOLDER_ID] 1375901682
+
+set safety off
+
+IMPORT EXCEL TO sampleData5 "D:\Brazil\sampleData55.fil" FROM "SampleData_XLSX_100kR5.xlsx" TABLE "SampleData_100kR_XLSX$" KEEPTITLE FIELD "Name" C WID 20 AS "" FIELD "Phone_CAD" C WID 14 AS "" FIELD "PhoneFax" C WID 14 AS "" FIELD "Email" C WID 51 AS "" FIELD "Date1" D WID 12 PIC "MMM DD,YYYY" AS "" FIELD "DateTime" D WID 19 PIC "YYYY-MM-DD hh:mm:ss" AS "" FIELD "Company" C WID 38 AS "" FIELD "Street_Add" C WID 35 AS "" FIELD "Text1" C WID 158 AS "" FIELD "Test2" C WID 400 AS "" FIELD "Password1" C WID 11 AS "" FIELD "GuID" C WID 36 AS "" FIELD "F13" C WID 10 AS "" FIELD "Colors" C WID 6 AS "" FIELD "Extanded_100" C WID 100 AS "" FIELD "Extanded_10" C WID 10 AS "" FIELD "NUM1" N WID 21 DEC 18 AS "" FIELD "NUM2" N WID 17 DEC 7 AS "" FIELD "NUM3" N WID 17 DEC 8 AS "" FIELD "Curency1" C WID 6 AS "" FIELD "Curency2" C WID 6 AS "" FIELD "Currency3" N WID 4 DEC 2 AS "" FIELD "Currency4" C WID 6 AS "" FIELD "Currency5" C WID 8 AS "" FIELD "DateField" D WID 8 PIC "DD.MM.YY" AS "" FIELD "DateTimeField2" D WID 17 PIC "DD.MM.YY hh:mm:ss" AS "" FIELD "TimeField_" D WID 19 PIC "hh:mm:ss" AS "" FIELD "DateField_" D WID 19 PIC "YYYY-MM-DD" AS "" FIELD "DateTimeField_" D WID 19 PIC "YYYY-MM-DD hh:mm:ss" AS "" FIELD "DateTimeField21" D WID 14 PIC "DD.MM.YY hh:mm" AS "" FIELD "DateTimeField22" D WID 22 PIC "YYYY/MM/DD hh:mm:ss AM" AS "" FIELD "DateTimeField23" D WID 22 PIC "DD/MM/YYYY hh:mm:ss AM" AS "" FIELD "DateTimeField24" D WID 20 PIC "MMMDD,YYYYhh:mm AM" AS "" FIELD "TimeField" D WID 8 PIC "hh:mm AM" AS "" FIELD "TimeField2" D WID 11 PIC "hh:mm:ss AM" AS "" FIELD "TimeField1" D WID 5 PIC "hh:mm" AS "" FIELD "DateTimeField25" D WID 20 PIC "DD.MMM.YYYY hh:mmAM" AS "" FIELD "DateField1" D WID 9 PIC "DD.MMM.YY" AS "" FIELD "DateTimeField26" D WID 18 PIC "DD.MMM.YY hh:mm:ss" AS "" FIELD "DateField2" D WID 11 PIC "DD.MMM.YYYY" AS "" FIELD "DateTimeField27" D WID 20 PIC "DD.MMM.YYYY hh:mm:ss" AS "" FIELD "DateField3" D WID 8 PIC "DD/MM/YY" AS "" FIELD "DateTimeField28" D WID 17 PIC "DD/MM/YY hh:mm:ss" AS "" FIELD "DateField4" D WID 10 PIC "DD/MM/YYYY" AS "" FIELD "DateTimeField29" D WID 19 PIC "DD/MM/YYYY hh:mm:ss" AS "" FIELD "DateField5" D WID 9 PIC "DDMMMYYYY" AS "" FIELD "DateTimeField210" C WID 18 AS "" FIELD "DateField6" N WID 6 DEC 0 AS "" FIELD "DateTimeField211" C WID 15 AS "" FIELD "DateField7" N WID 8 DEC 0 AS "" FIELD "DateTimeField212" C WID 17 AS "" FIELD "DateField8" D WID 8 PIC "MM/DD/YY" AS "" FIELD "DateTimeField213" D WID 17 PIC "MM/DD/YY hh:mm:ss" AS "" FIELD "DateField9" D WID 10 PIC "MM/DD/YYYY" AS "" FIELD "DateTimeField214" D WID 19 PIC "MM/DD/YYYY hh:mm:ss" AS "" FIELD "DateField10" D WID 11 PIC "MMMDD,YYYY" AS "" FIELD "DateTimeField215" D WID 20 PIC "MMMDD,YYYYhh:mm:ss" AS "" FIELD "DateField11" D WID 9 PIC "MMMDD,YY" AS "" FIELD "DateTimeField216" D WID 18 PIC "MMMDD,YYhh:mm:ss" AS "" FIELD "DateField12" D WID 9 PIC "MMMDDYYYY" AS "" FIELD "DateTimeField217" C WID 18 AS "" FIELD "DateField13" N WID 5 DEC 0 AS "" FIELD "DateTimeField218" C WID 14 AS "" FIELD "DateField14" N WID 6 DEC 0 AS "" FIELD "DateTimeField219" C WID 15 AS "" FIELD "DateField15" D WID 10 PIC "YYYY/MM/DD" AS "" FIELD "DateTimeField220" D WID 19 PIC "YYYY/MM/DD hh:mm:ss" AS "" FIELD "DateField16" D WID 7 PIC "YYYYDDD" AS "" FIELD "DateTimeField221" C WID 16 AS ""
+
+
+
+Open sampleData5
+
+extra field "Name" first 1 to "done5.txt"
+
+quit 
+^BATCH    Main3                              
+[PARENT_FOLDER_ID] 1375901682
+COMMENT
+//ANALYTIC Teste Sum Tab20GB_FIL
+//RESULT LOG
+END
+set safety off
+
+execute 'cmd /c copy /y AclProject.ACL AclProject1.ACL'
+execute 'cmd /c copy /y AclProject.ACL AclProject2.ACL'
+execute 'cmd /c copy /y AclProject.ACL AclProject3.ACL'
+execute 'cmd /c copy /y AclProject.ACL AclProject4.ACL'
+execute 'cmd /c copy /y AclProject.ACL AclProject5.ACL'
+
+
+
+execute async 'cmd /c ACLscript.exe "AclProject1.ACL" /bBCimp1'
+execute async 'cmd /c ACLscript.exe "AclProject2.ACL" /bBCimp2'
+execute async 'cmd /c ACLscript.exe "AclProject3.ACL" /bBCimp3'
+execute async 'cmd /c ACLscript.exe "AclProject4.ACL" /bBCimp4'
+execute async 'cmd /c ACLscript.exe "AclProject5.ACL" /bBCimp5'
+
+counter=0
+set echo none
+do testDone2 while  counter<5
+set echo on
+
+DO SCRIPT New_Script32
+^FORMAT   Tab20GBFIL                         Tab20GBFIL                       "" "Tab20GBFILdatafiles" 0 ASCII 
+[PARENT_FOLDER_ID] 1375901128
+[LASTVIEW] "Exibição_padrão"
+^FORMAT   Tab20GBFIL3                        Tab20GBFIL3                      "" "Tab20GBFIL3datafiles" 0 ASCII 
+[PARENT_FOLDER_ID] 1375901128
+[LASTVIEW] "Exibição_padrão"
+^FORMAT   Tab20GBFIL5                        Tab20GBFIL5                      "" "Tab20GBFIL5datafiles" 0 ASCII 
+[PARENT_FOLDER_ID] 1375901128
+[LASTVIEW] "Exibição_padrão"
+^FORMAT   Tab20GBFIL2                        Tab20GBFIL2                      "" "Tab20GBFIL2datafiles" 0 ASCII 
+[PARENT_FOLDER_ID] 1375901128
+[LASTVIEW] "Exibição_padrão"
+^FORMAT   Tab20GBFIL4                        Tab20GBFIL4                      "" "Tab20GBFIL4datafiles" 0 ASCII 
+[PARENT_FOLDER_ID] 1375901128
+[LASTVIEW] "Exibição_padrão"
+^BATCH    SequentialExcelImport              
+[PARENT_FOLDER_ID] 0
+set safety off
+
+IMPORT EXCEL TO sampleDataS "D:\Brazil\sampleDataS11.fil" FROM "SampleData_XLSX_100kR.xlsx" TABLE "SampleData_100kR_XLSX$" KEEPTITLE FIELD "Name" C WID 20 AS "" FIELD "Phone_CAD" C WID 14 AS "" FIELD "PhoneFax" C WID 14 AS "" FIELD "Email" C WID 51 AS "" FIELD "Date1" D WID 12 PIC "MMM DD,YYYY" AS "" FIELD "DateTime" D WID 19 PIC "YYYY-MM-DD hh:mm:ss" AS "" FIELD "Company" C WID 38 AS "" FIELD "Street_Add" C WID 35 AS "" FIELD "Text1" C WID 158 AS "" FIELD "Test2" C WID 400 AS "" FIELD "Password1" C WID 11 AS "" FIELD "GuID" C WID 36 AS "" FIELD "F13" C WID 10 AS "" FIELD "Colors" C WID 6 AS "" FIELD "Extanded_100" C WID 100 AS "" FIELD "Extanded_10" C WID 10 AS "" FIELD "NUM1" N WID 21 DEC 18 AS "" FIELD "NUM2" N WID 17 DEC 7 AS "" FIELD "NUM3" N WID 17 DEC 8 AS "" FIELD "Curency1" C WID 6 AS "" FIELD "Curency2" C WID 6 AS "" FIELD "Currency3" N WID 4 DEC 2 AS "" FIELD "Currency4" C WID 6 AS "" FIELD "Currency5" C WID 8 AS "" FIELD "DateField" D WID 8 PIC "DD.MM.YY" AS "" FIELD "DateTimeField2" D WID 17 PIC "DD.MM.YY hh:mm:ss" AS "" FIELD "TimeField_" D WID 19 PIC "hh:mm:ss" AS "" FIELD "DateField_" D WID 19 PIC "YYYY-MM-DD" AS "" FIELD "DateTimeField_" D WID 19 PIC "YYYY-MM-DD hh:mm:ss" AS "" FIELD "DateTimeField21" D WID 14 PIC "DD.MM.YY hh:mm" AS "" FIELD "DateTimeField22" D WID 22 PIC "YYYY/MM/DD hh:mm:ss AM" AS "" FIELD "DateTimeField23" D WID 22 PIC "DD/MM/YYYY hh:mm:ss AM" AS "" FIELD "DateTimeField24" D WID 20 PIC "MMMDD,YYYYhh:mm AM" AS "" FIELD "TimeField" D WID 8 PIC "hh:mm AM" AS "" FIELD "TimeField2" D WID 11 PIC "hh:mm:ss AM" AS "" FIELD "TimeField1" D WID 5 PIC "hh:mm" AS "" FIELD "DateTimeField25" D WID 20 PIC "DD.MMM.YYYY hh:mmAM" AS "" FIELD "DateField1" D WID 9 PIC "DD.MMM.YY" AS "" FIELD "DateTimeField26" D WID 18 PIC "DD.MMM.YY hh:mm:ss" AS "" FIELD "DateField2" D WID 11 PIC "DD.MMM.YYYY" AS "" FIELD "DateTimeField27" D WID 20 PIC "DD.MMM.YYYY hh:mm:ss" AS "" FIELD "DateField3" D WID 8 PIC "DD/MM/YY" AS "" FIELD "DateTimeField28" D WID 17 PIC "DD/MM/YY hh:mm:ss" AS "" FIELD "DateField4" D WID 10 PIC "DD/MM/YYYY" AS "" FIELD "DateTimeField29" D WID 19 PIC "DD/MM/YYYY hh:mm:ss" AS "" FIELD "DateField5" D WID 9 PIC "DDMMMYYYY" AS "" FIELD "DateTimeField210" C WID 18 AS "" FIELD "DateField6" N WID 6 DEC 0 AS "" FIELD "DateTimeField211" C WID 15 AS "" FIELD "DateField7" N WID 8 DEC 0 AS "" FIELD "DateTimeField212" C WID 17 AS "" FIELD "DateField8" D WID 8 PIC "MM/DD/YY" AS "" FIELD "DateTimeField213" D WID 17 PIC "MM/DD/YY hh:mm:ss" AS "" FIELD "DateField9" D WID 10 PIC "MM/DD/YYYY" AS "" FIELD "DateTimeField214" D WID 19 PIC "MM/DD/YYYY hh:mm:ss" AS "" FIELD "DateField10" D WID 11 PIC "MMMDD,YYYY" AS "" FIELD "DateTimeField215" D WID 20 PIC "MMMDD,YYYYhh:mm:ss" AS "" FIELD "DateField11" D WID 9 PIC "MMMDD,YY" AS "" FIELD "DateTimeField216" D WID 18 PIC "MMMDD,YYhh:mm:ss" AS "" FIELD "DateField12" D WID 9 PIC "MMMDDYYYY" AS "" FIELD "DateTimeField217" C WID 18 AS "" FIELD "DateField13" N WID 5 DEC 0 AS "" FIELD "DateTimeField218" C WID 14 AS "" FIELD "DateField14" N WID 6 DEC 0 AS "" FIELD "DateTimeField219" C WID 15 AS "" FIELD "DateField15" D WID 10 PIC "YYYY/MM/DD" AS "" FIELD "DateTimeField220" D WID 19 PIC "YYYY/MM/DD hh:mm:ss" AS "" FIELD "DateField16" D WID 7 PIC "YYYYDDD" AS "" FIELD "DateTimeField221" C WID 16 AS ""
+
+
+IMPORT EXCEL TO sampleDataS22 "D:\Brazil\sampleDataS22.fil" FROM "SampleData_XLSX_100kR2.xlsx" TABLE "SampleData_100kR_XLSX$" KEEPTITLE FIELD "Name" C WID 20 AS "" FIELD "Phone_CAD" C WID 14 AS "" FIELD "PhoneFax" C WID 14 AS "" FIELD "Email" C WID 51 AS "" FIELD "Date1" D WID 12 PIC "MMM DD,YYYY" AS "" FIELD "DateTime" D WID 19 PIC "YYYY-MM-DD hh:mm:ss" AS "" FIELD "Company" C WID 38 AS "" FIELD "Street_Add" C WID 35 AS "" FIELD "Text1" C WID 158 AS "" FIELD "Test2" C WID 400 AS "" FIELD "Password1" C WID 11 AS "" FIELD "GuID" C WID 36 AS "" FIELD "F13" C WID 10 AS "" FIELD "Colors" C WID 6 AS "" FIELD "Extanded_100" C WID 100 AS "" FIELD "Extanded_10" C WID 10 AS "" FIELD "NUM1" N WID 21 DEC 18 AS "" FIELD "NUM2" N WID 17 DEC 7 AS "" FIELD "NUM3" N WID 17 DEC 8 AS "" FIELD "Curency1" C WID 6 AS "" FIELD "Curency2" C WID 6 AS "" FIELD "Currency3" N WID 4 DEC 2 AS "" FIELD "Currency4" C WID 6 AS "" FIELD "Currency5" C WID 8 AS "" FIELD "DateField" D WID 8 PIC "DD.MM.YY" AS "" FIELD "DateTimeField2" D WID 17 PIC "DD.MM.YY hh:mm:ss" AS "" FIELD "TimeField_" D WID 19 PIC "hh:mm:ss" AS "" FIELD "DateField_" D WID 19 PIC "YYYY-MM-DD" AS "" FIELD "DateTimeField_" D WID 19 PIC "YYYY-MM-DD hh:mm:ss" AS "" FIELD "DateTimeField21" D WID 14 PIC "DD.MM.YY hh:mm" AS "" FIELD "DateTimeField22" D WID 22 PIC "YYYY/MM/DD hh:mm:ss AM" AS "" FIELD "DateTimeField23" D WID 22 PIC "DD/MM/YYYY hh:mm:ss AM" AS "" FIELD "DateTimeField24" D WID 20 PIC "MMMDD,YYYYhh:mm AM" AS "" FIELD "TimeField" D WID 8 PIC "hh:mm AM" AS "" FIELD "TimeField2" D WID 11 PIC "hh:mm:ss AM" AS "" FIELD "TimeField1" D WID 5 PIC "hh:mm" AS "" FIELD "DateTimeField25" D WID 20 PIC "DD.MMM.YYYY hh:mmAM" AS "" FIELD "DateField1" D WID 9 PIC "DD.MMM.YY" AS "" FIELD "DateTimeField26" D WID 18 PIC "DD.MMM.YY hh:mm:ss" AS "" FIELD "DateField2" D WID 11 PIC "DD.MMM.YYYY" AS "" FIELD "DateTimeField27" D WID 20 PIC "DD.MMM.YYYY hh:mm:ss" AS "" FIELD "DateField3" D WID 8 PIC "DD/MM/YY" AS "" FIELD "DateTimeField28" D WID 17 PIC "DD/MM/YY hh:mm:ss" AS "" FIELD "DateField4" D WID 10 PIC "DD/MM/YYYY" AS "" FIELD "DateTimeField29" D WID 19 PIC "DD/MM/YYYY hh:mm:ss" AS "" FIELD "DateField5" D WID 9 PIC "DDMMMYYYY" AS "" FIELD "DateTimeField210" C WID 18 AS "" FIELD "DateField6" N WID 6 DEC 0 AS "" FIELD "DateTimeField211" C WID 15 AS "" FIELD "DateField7" N WID 8 DEC 0 AS "" FIELD "DateTimeField212" C WID 17 AS "" FIELD "DateField8" D WID 8 PIC "MM/DD/YY" AS "" FIELD "DateTimeField213" D WID 17 PIC "MM/DD/YY hh:mm:ss" AS "" FIELD "DateField9" D WID 10 PIC "MM/DD/YYYY" AS "" FIELD "DateTimeField214" D WID 19 PIC "MM/DD/YYYY hh:mm:ss" AS "" FIELD "DateField10" D WID 11 PIC "MMMDD,YYYY" AS "" FIELD "DateTimeField215" D WID 20 PIC "MMMDD,YYYYhh:mm:ss" AS "" FIELD "DateField11" D WID 9 PIC "MMMDD,YY" AS "" FIELD "DateTimeField216" D WID 18 PIC "MMMDD,YYhh:mm:ss" AS "" FIELD "DateField12" D WID 9 PIC "MMMDDYYYY" AS "" FIELD "DateTimeField217" C WID 18 AS "" FIELD "DateField13" N WID 5 DEC 0 AS "" FIELD "DateTimeField218" C WID 14 AS "" FIELD "DateField14" N WID 6 DEC 0 AS "" FIELD "DateTimeField219" C WID 15 AS "" FIELD "DateField15" D WID 10 PIC "YYYY/MM/DD" AS "" FIELD "DateTimeField220" D WID 19 PIC "YYYY/MM/DD hh:mm:ss" AS "" FIELD "DateField16" D WID 7 PIC "YYYYDDD" AS "" FIELD "DateTimeField221" C WID 16 AS ""
+
+IMPORT EXCEL TO sampleDataS33 "D:\Brazil\sampleDataS33.fil" FROM "SampleData_XLSX_100kR3.xlsx" TABLE "SampleData_100kR_XLSX$" KEEPTITLE FIELD "Name" C WID 20 AS "" FIELD "Phone_CAD" C WID 14 AS "" FIELD "PhoneFax" C WID 14 AS "" FIELD "Email" C WID 51 AS "" FIELD "Date1" D WID 12 PIC "MMM DD,YYYY" AS "" FIELD "DateTime" D WID 19 PIC "YYYY-MM-DD hh:mm:ss" AS "" FIELD "Company" C WID 38 AS "" FIELD "Street_Add" C WID 35 AS "" FIELD "Text1" C WID 158 AS "" FIELD "Test2" C WID 400 AS "" FIELD "Password1" C WID 11 AS "" FIELD "GuID" C WID 36 AS "" FIELD "F13" C WID 10 AS "" FIELD "Colors" C WID 6 AS "" FIELD "Extanded_100" C WID 100 AS "" FIELD "Extanded_10" C WID 10 AS "" FIELD "NUM1" N WID 21 DEC 18 AS "" FIELD "NUM2" N WID 17 DEC 7 AS "" FIELD "NUM3" N WID 17 DEC 8 AS "" FIELD "Curency1" C WID 6 AS "" FIELD "Curency2" C WID 6 AS "" FIELD "Currency3" N WID 4 DEC 2 AS "" FIELD "Currency4" C WID 6 AS "" FIELD "Currency5" C WID 8 AS "" FIELD "DateField" D WID 8 PIC "DD.MM.YY" AS "" FIELD "DateTimeField2" D WID 17 PIC "DD.MM.YY hh:mm:ss" AS "" FIELD "TimeField_" D WID 19 PIC "hh:mm:ss" AS "" FIELD "DateField_" D WID 19 PIC "YYYY-MM-DD" AS "" FIELD "DateTimeField_" D WID 19 PIC "YYYY-MM-DD hh:mm:ss" AS "" FIELD "DateTimeField21" D WID 14 PIC "DD.MM.YY hh:mm" AS "" FIELD "DateTimeField22" D WID 22 PIC "YYYY/MM/DD hh:mm:ss AM" AS "" FIELD "DateTimeField23" D WID 22 PIC "DD/MM/YYYY hh:mm:ss AM" AS "" FIELD "DateTimeField24" D WID 20 PIC "MMMDD,YYYYhh:mm AM" AS "" FIELD "TimeField" D WID 8 PIC "hh:mm AM" AS "" FIELD "TimeField2" D WID 11 PIC "hh:mm:ss AM" AS "" FIELD "TimeField1" D WID 5 PIC "hh:mm" AS "" FIELD "DateTimeField25" D WID 20 PIC "DD.MMM.YYYY hh:mmAM" AS "" FIELD "DateField1" D WID 9 PIC "DD.MMM.YY" AS "" FIELD "DateTimeField26" D WID 18 PIC "DD.MMM.YY hh:mm:ss" AS "" FIELD "DateField2" D WID 11 PIC "DD.MMM.YYYY" AS "" FIELD "DateTimeField27" D WID 20 PIC "DD.MMM.YYYY hh:mm:ss" AS "" FIELD "DateField3" D WID 8 PIC "DD/MM/YY" AS "" FIELD "DateTimeField28" D WID 17 PIC "DD/MM/YY hh:mm:ss" AS "" FIELD "DateField4" D WID 10 PIC "DD/MM/YYYY" AS "" FIELD "DateTimeField29" D WID 19 PIC "DD/MM/YYYY hh:mm:ss" AS "" FIELD "DateField5" D WID 9 PIC "DDMMMYYYY" AS "" FIELD "DateTimeField210" C WID 18 AS "" FIELD "DateField6" N WID 6 DEC 0 AS "" FIELD "DateTimeField211" C WID 15 AS "" FIELD "DateField7" N WID 8 DEC 0 AS "" FIELD "DateTimeField212" C WID 17 AS "" FIELD "DateField8" D WID 8 PIC "MM/DD/YY" AS "" FIELD "DateTimeField213" D WID 17 PIC "MM/DD/YY hh:mm:ss" AS "" FIELD "DateField9" D WID 10 PIC "MM/DD/YYYY" AS "" FIELD "DateTimeField214" D WID 19 PIC "MM/DD/YYYY hh:mm:ss" AS "" FIELD "DateField10" D WID 11 PIC "MMMDD,YYYY" AS "" FIELD "DateTimeField215" D WID 20 PIC "MMMDD,YYYYhh:mm:ss" AS "" FIELD "DateField11" D WID 9 PIC "MMMDD,YY" AS "" FIELD "DateTimeField216" D WID 18 PIC "MMMDD,YYhh:mm:ss" AS "" FIELD "DateField12" D WID 9 PIC "MMMDDYYYY" AS "" FIELD "DateTimeField217" C WID 18 AS "" FIELD "DateField13" N WID 5 DEC 0 AS "" FIELD "DateTimeField218" C WID 14 AS "" FIELD "DateField14" N WID 6 DEC 0 AS "" FIELD "DateTimeField219" C WID 15 AS "" FIELD "DateField15" D WID 10 PIC "YYYY/MM/DD" AS "" FIELD "DateTimeField220" D WID 19 PIC "YYYY/MM/DD hh:mm:ss" AS "" FIELD "DateField16" D WID 7 PIC "YYYYDDD" AS "" FIELD "DateTimeField221" C WID 16 AS ""
+
+
+IMPORT EXCEL TO sampleDataS44 "D:\Brazil\sampleDataS44.fil" FROM "SampleData_XLSX_100kR4.xlsx" TABLE "SampleData_100kR_XLSX$" KEEPTITLE FIELD "Name" C WID 20 AS "" FIELD "Phone_CAD" C WID 14 AS "" FIELD "PhoneFax" C WID 14 AS "" FIELD "Email" C WID 51 AS "" FIELD "Date1" D WID 12 PIC "MMM DD,YYYY" AS "" FIELD "DateTime" D WID 19 PIC "YYYY-MM-DD hh:mm:ss" AS "" FIELD "Company" C WID 38 AS "" FIELD "Street_Add" C WID 35 AS "" FIELD "Text1" C WID 158 AS "" FIELD "Test2" C WID 400 AS "" FIELD "Password1" C WID 11 AS "" FIELD "GuID" C WID 36 AS "" FIELD "F13" C WID 10 AS "" FIELD "Colors" C WID 6 AS "" FIELD "Extanded_100" C WID 100 AS "" FIELD "Extanded_10" C WID 10 AS "" FIELD "NUM1" N WID 21 DEC 18 AS "" FIELD "NUM2" N WID 17 DEC 7 AS "" FIELD "NUM3" N WID 17 DEC 8 AS "" FIELD "Curency1" C WID 6 AS "" FIELD "Curency2" C WID 6 AS "" FIELD "Currency3" N WID 4 DEC 2 AS "" FIELD "Currency4" C WID 6 AS "" FIELD "Currency5" C WID 8 AS "" FIELD "DateField" D WID 8 PIC "DD.MM.YY" AS "" FIELD "DateTimeField2" D WID 17 PIC "DD.MM.YY hh:mm:ss" AS "" FIELD "TimeField_" D WID 19 PIC "hh:mm:ss" AS "" FIELD "DateField_" D WID 19 PIC "YYYY-MM-DD" AS "" FIELD "DateTimeField_" D WID 19 PIC "YYYY-MM-DD hh:mm:ss" AS "" FIELD "DateTimeField21" D WID 14 PIC "DD.MM.YY hh:mm" AS "" FIELD "DateTimeField22" D WID 22 PIC "YYYY/MM/DD hh:mm:ss AM" AS "" FIELD "DateTimeField23" D WID 22 PIC "DD/MM/YYYY hh:mm:ss AM" AS "" FIELD "DateTimeField24" D WID 20 PIC "MMMDD,YYYYhh:mm AM" AS "" FIELD "TimeField" D WID 8 PIC "hh:mm AM" AS "" FIELD "TimeField2" D WID 11 PIC "hh:mm:ss AM" AS "" FIELD "TimeField1" D WID 5 PIC "hh:mm" AS "" FIELD "DateTimeField25" D WID 20 PIC "DD.MMM.YYYY hh:mmAM" AS "" FIELD "DateField1" D WID 9 PIC "DD.MMM.YY" AS "" FIELD "DateTimeField26" D WID 18 PIC "DD.MMM.YY hh:mm:ss" AS "" FIELD "DateField2" D WID 11 PIC "DD.MMM.YYYY" AS "" FIELD "DateTimeField27" D WID 20 PIC "DD.MMM.YYYY hh:mm:ss" AS "" FIELD "DateField3" D WID 8 PIC "DD/MM/YY" AS "" FIELD "DateTimeField28" D WID 17 PIC "DD/MM/YY hh:mm:ss" AS "" FIELD "DateField4" D WID 10 PIC "DD/MM/YYYY" AS "" FIELD "DateTimeField29" D WID 19 PIC "DD/MM/YYYY hh:mm:ss" AS "" FIELD "DateField5" D WID 9 PIC "DDMMMYYYY" AS "" FIELD "DateTimeField210" C WID 18 AS "" FIELD "DateField6" N WID 6 DEC 0 AS "" FIELD "DateTimeField211" C WID 15 AS "" FIELD "DateField7" N WID 8 DEC 0 AS "" FIELD "DateTimeField212" C WID 17 AS "" FIELD "DateField8" D WID 8 PIC "MM/DD/YY" AS "" FIELD "DateTimeField213" D WID 17 PIC "MM/DD/YY hh:mm:ss" AS "" FIELD "DateField9" D WID 10 PIC "MM/DD/YYYY" AS "" FIELD "DateTimeField214" D WID 19 PIC "MM/DD/YYYY hh:mm:ss" AS "" FIELD "DateField10" D WID 11 PIC "MMMDD,YYYY" AS "" FIELD "DateTimeField215" D WID 20 PIC "MMMDD,YYYYhh:mm:ss" AS "" FIELD "DateField11" D WID 9 PIC "MMMDD,YY" AS "" FIELD "DateTimeField216" D WID 18 PIC "MMMDD,YYhh:mm:ss" AS "" FIELD "DateField12" D WID 9 PIC "MMMDDYYYY" AS "" FIELD "DateTimeField217" C WID 18 AS "" FIELD "DateField13" N WID 5 DEC 0 AS "" FIELD "DateTimeField218" C WID 14 AS "" FIELD "DateField14" N WID 6 DEC 0 AS "" FIELD "DateTimeField219" C WID 15 AS "" FIELD "DateField15" D WID 10 PIC "YYYY/MM/DD" AS "" FIELD "DateTimeField220" D WID 19 PIC "YYYY/MM/DD hh:mm:ss" AS "" FIELD "DateField16" D WID 7 PIC "YYYYDDD" AS "" FIELD "DateTimeField221" C WID 16 AS ""
+
+
+IMPORT EXCEL TO sampleDataS55 "D:\Brazil\sampleDataS55.fil" FROM "SampleData_XLSX_100kR5.xlsx" TABLE "SampleData_100kR_XLSX$" KEEPTITLE FIELD "Name" C WID 20 AS "" FIELD "Phone_CAD" C WID 14 AS "" FIELD "PhoneFax" C WID 14 AS "" FIELD "Email" C WID 51 AS "" FIELD "Date1" D WID 12 PIC "MMM DD,YYYY" AS "" FIELD "DateTime" D WID 19 PIC "YYYY-MM-DD hh:mm:ss" AS "" FIELD "Company" C WID 38 AS "" FIELD "Street_Add" C WID 35 AS "" FIELD "Text1" C WID 158 AS "" FIELD "Test2" C WID 400 AS "" FIELD "Password1" C WID 11 AS "" FIELD "GuID" C WID 36 AS "" FIELD "F13" C WID 10 AS "" FIELD "Colors" C WID 6 AS "" FIELD "Extanded_100" C WID 100 AS "" FIELD "Extanded_10" C WID 10 AS "" FIELD "NUM1" N WID 21 DEC 18 AS "" FIELD "NUM2" N WID 17 DEC 7 AS "" FIELD "NUM3" N WID 17 DEC 8 AS "" FIELD "Curency1" C WID 6 AS "" FIELD "Curency2" C WID 6 AS "" FIELD "Currency3" N WID 4 DEC 2 AS "" FIELD "Currency4" C WID 6 AS "" FIELD "Currency5" C WID 8 AS "" FIELD "DateField" D WID 8 PIC "DD.MM.YY" AS "" FIELD "DateTimeField2" D WID 17 PIC "DD.MM.YY hh:mm:ss" AS "" FIELD "TimeField_" D WID 19 PIC "hh:mm:ss" AS "" FIELD "DateField_" D WID 19 PIC "YYYY-MM-DD" AS "" FIELD "DateTimeField_" D WID 19 PIC "YYYY-MM-DD hh:mm:ss" AS "" FIELD "DateTimeField21" D WID 14 PIC "DD.MM.YY hh:mm" AS "" FIELD "DateTimeField22" D WID 22 PIC "YYYY/MM/DD hh:mm:ss AM" AS "" FIELD "DateTimeField23" D WID 22 PIC "DD/MM/YYYY hh:mm:ss AM" AS "" FIELD "DateTimeField24" D WID 20 PIC "MMMDD,YYYYhh:mm AM" AS "" FIELD "TimeField" D WID 8 PIC "hh:mm AM" AS "" FIELD "TimeField2" D WID 11 PIC "hh:mm:ss AM" AS "" FIELD "TimeField1" D WID 5 PIC "hh:mm" AS "" FIELD "DateTimeField25" D WID 20 PIC "DD.MMM.YYYY hh:mmAM" AS "" FIELD "DateField1" D WID 9 PIC "DD.MMM.YY" AS "" FIELD "DateTimeField26" D WID 18 PIC "DD.MMM.YY hh:mm:ss" AS "" FIELD "DateField2" D WID 11 PIC "DD.MMM.YYYY" AS "" FIELD "DateTimeField27" D WID 20 PIC "DD.MMM.YYYY hh:mm:ss" AS "" FIELD "DateField3" D WID 8 PIC "DD/MM/YY" AS "" FIELD "DateTimeField28" D WID 17 PIC "DD/MM/YY hh:mm:ss" AS "" FIELD "DateField4" D WID 10 PIC "DD/MM/YYYY" AS "" FIELD "DateTimeField29" D WID 19 PIC "DD/MM/YYYY hh:mm:ss" AS "" FIELD "DateField5" D WID 9 PIC "DDMMMYYYY" AS "" FIELD "DateTimeField210" C WID 18 AS "" FIELD "DateField6" N WID 6 DEC 0 AS "" FIELD "DateTimeField211" C WID 15 AS "" FIELD "DateField7" N WID 8 DEC 0 AS "" FIELD "DateTimeField212" C WID 17 AS "" FIELD "DateField8" D WID 8 PIC "MM/DD/YY" AS "" FIELD "DateTimeField213" D WID 17 PIC "MM/DD/YY hh:mm:ss" AS "" FIELD "DateField9" D WID 10 PIC "MM/DD/YYYY" AS "" FIELD "DateTimeField214" D WID 19 PIC "MM/DD/YYYY hh:mm:ss" AS "" FIELD "DateField10" D WID 11 PIC "MMMDD,YYYY" AS "" FIELD "DateTimeField215" D WID 20 PIC "MMMDD,YYYYhh:mm:ss" AS "" FIELD "DateField11" D WID 9 PIC "MMMDD,YY" AS "" FIELD "DateTimeField216" D WID 18 PIC "MMMDD,YYhh:mm:ss" AS "" FIELD "DateField12" D WID 9 PIC "MMMDDYYYY" AS "" FIELD "DateTimeField217" C WID 18 AS "" FIELD "DateField13" N WID 5 DEC 0 AS "" FIELD "DateTimeField218" C WID 14 AS "" FIELD "DateField14" N WID 6 DEC 0 AS "" FIELD "DateTimeField219" C WID 15 AS "" FIELD "DateField15" D WID 10 PIC "YYYY/MM/DD" AS "" FIELD "DateTimeField220" D WID 19 PIC "YYYY/MM/DD hh:mm:ss" AS "" FIELD "DateField16" D WID 7 PIC "YYYYDDD" AS "" FIELD "DateTimeField221" C WID 16 AS ""
+^REPORT   Default_View                       sampleData1                      D.T,
+[SKIP] 0
+[TLINES] 0
+[RLINES] 1
+[LINE] 1
+Name                 PICTURE ""
+[LINE] 1
+Phone_CAD            PICTURE ""
+[LINE] 1
+PhoneFax             PICTURE ""
+[LINE] 1
+Email                PICTURE ""
+[LINE] 1
+Date1                PICTURE ""
+[LINE] 1
+DateTime             PICTURE ""
+[LINE] 1
+Company              PICTURE ""
+[LINE] 1
+Street_Add           PICTURE ""
+[LINE] 1
+Text1                PICTURE ""
+[LINE] 1
+Test2                PICTURE ""
+[LINE] 1
+Password1            PICTURE ""
+[LINE] 1
+GuID                 PICTURE ""
+[LINE] 1
+F13                  PICTURE ""
+[LINE] 1
+Colors               PICTURE ""
+[LINE] 1
+Extanded_100         PICTURE ""
+[LINE] 1
+Extanded_10          WIDTH 11 PICTURE ""
+[LINE] 1
+NUM1                 PICTURE ""
+[LINE] 1
+NUM2                 PICTURE ""
+[LINE] 1
+NUM3                 PICTURE ""
+[LINE] 1
+Curency1             WIDTH 8 PICTURE ""
+[LINE] 1
+Curency2             WIDTH 8 PICTURE ""
+[LINE] 1
+Currency3            WIDTH 9 PICTURE ""
+[LINE] 1
+Currency4            WIDTH 9 PICTURE ""
+[LINE] 1
+Currency5            WIDTH 9 PICTURE ""
+[LINE] 1
+DateField            PICTURE ""
+[LINE] 1
+DateTimeField2       PICTURE ""
+[LINE] 1
+TimeField_           PICTURE ""
+[LINE] 1
+DateField_           PICTURE ""
+[LINE] 1
+DateTimeField_       PICTURE ""
+[LINE] 1
+DateTimeField21      PICTURE ""
+[LINE] 1
+DateTimeField22      PICTURE ""
+[LINE] 1
+DateTimeField23      PICTURE ""
+[LINE] 1
+DateTimeField24      PICTURE ""
+[LINE] 1
+TimeField            PICTURE ""
+[LINE] 1
+TimeField2           PICTURE ""
+[LINE] 1
+TimeField1           PICTURE ""
+[LINE] 1
+DateTimeField25      PICTURE ""
+[LINE] 1
+DateField1           PICTURE ""
+[LINE] 1
+DateTimeField26      PICTURE ""
+[LINE] 1
+DateField2           PICTURE ""
+[LINE] 1
+DateTimeField27      PICTURE ""
+[LINE] 1
+DateField3           PICTURE ""
+[LINE] 1
+DateTimeField28      PICTURE ""
+[LINE] 1
+DateField4           PICTURE ""
+[LINE] 1
+DateTimeField29      PICTURE ""
+[LINE] 1
+DateField5           PICTURE ""
+[LINE] 1
+DateTimeField210     PICTURE ""
+[LINE] 1
+DateField6           WIDTH 10 PICTURE ""
+[LINE] 1
+DateTimeField211     WIDTH 16 PICTURE ""
+[LINE] 1
+DateField7           PICTURE ""
+[LINE] 1
+DateTimeField212     PICTURE ""
+[LINE] 1
+DateField8           PICTURE ""
+[LINE] 1
+DateTimeField213     PICTURE ""
+[LINE] 1
+DateField9           PICTURE ""
+[LINE] 1
+DateTimeField214     PICTURE ""
+[LINE] 1
+DateField10          PICTURE ""
+[LINE] 1
+DateTimeField215     PICTURE ""
+[LINE] 1
+DateField11          PICTURE ""
+[LINE] 1
+DateTimeField216     PICTURE ""
+[LINE] 1
+DateField12          PICTURE ""
+[LINE] 1
+DateTimeField217     PICTURE ""
+[LINE] 1
+DateField13          WIDTH 11 PICTURE ""
+[LINE] 1
+DateTimeField218     WIDTH 16 PICTURE ""
+[LINE] 1
+DateField14          WIDTH 11 PICTURE ""
+[LINE] 1
+DateTimeField219     WIDTH 16 PICTURE ""
+[LINE] 1
+DateField15          PICTURE ""
+[LINE] 1
+DateTimeField220     PICTURE ""
+[LINE] 1
+DateField16          PICTURE ""
+[LINE] 1
+DateTimeField221     PICTURE ""
+^BATCH    BCimp1                             
+[PARENT_FOLDER_ID] 1375901682
+
+set safety off
+
+IMPORT EXCEL TO sampleData1 "D:\Brazil\sampleData11.fil" FROM "SampleData_XLSX_100kR.xlsx" TABLE "SampleData_100kR_XLSX$" KEEPTITLE FIELD "Name" C WID 20 AS "" FIELD "Phone_CAD" C WID 14 AS "" FIELD "PhoneFax" C WID 14 AS "" FIELD "Email" C WID 51 AS "" FIELD "Date1" D WID 12 PIC "MMM DD,YYYY" AS "" FIELD "DateTime" D WID 19 PIC "YYYY-MM-DD hh:mm:ss" AS "" FIELD "Company" C WID 38 AS "" FIELD "Street_Add" C WID 35 AS "" FIELD "Text1" C WID 158 AS "" FIELD "Test2" C WID 400 AS "" FIELD "Password1" C WID 11 AS "" FIELD "GuID" C WID 36 AS "" FIELD "F13" C WID 10 AS "" FIELD "Colors" C WID 6 AS "" FIELD "Extanded_100" C WID 100 AS "" FIELD "Extanded_10" C WID 10 AS "" FIELD "NUM1" N WID 21 DEC 18 AS "" FIELD "NUM2" N WID 17 DEC 7 AS "" FIELD "NUM3" N WID 17 DEC 8 AS "" FIELD "Curency1" C WID 6 AS "" FIELD "Curency2" C WID 6 AS "" FIELD "Currency3" N WID 4 DEC 2 AS "" FIELD "Currency4" C WID 6 AS "" FIELD "Currency5" C WID 8 AS "" FIELD "DateField" D WID 8 PIC "DD.MM.YY" AS "" FIELD "DateTimeField2" D WID 17 PIC "DD.MM.YY hh:mm:ss" AS "" FIELD "TimeField_" D WID 19 PIC "hh:mm:ss" AS "" FIELD "DateField_" D WID 19 PIC "YYYY-MM-DD" AS "" FIELD "DateTimeField_" D WID 19 PIC "YYYY-MM-DD hh:mm:ss" AS "" FIELD "DateTimeField21" D WID 14 PIC "DD.MM.YY hh:mm" AS "" FIELD "DateTimeField22" D WID 22 PIC "YYYY/MM/DD hh:mm:ss AM" AS "" FIELD "DateTimeField23" D WID 22 PIC "DD/MM/YYYY hh:mm:ss AM" AS "" FIELD "DateTimeField24" D WID 20 PIC "MMMDD,YYYYhh:mm AM" AS "" FIELD "TimeField" D WID 8 PIC "hh:mm AM" AS "" FIELD "TimeField2" D WID 11 PIC "hh:mm:ss AM" AS "" FIELD "TimeField1" D WID 5 PIC "hh:mm" AS "" FIELD "DateTimeField25" D WID 20 PIC "DD.MMM.YYYY hh:mmAM" AS "" FIELD "DateField1" D WID 9 PIC "DD.MMM.YY" AS "" FIELD "DateTimeField26" D WID 18 PIC "DD.MMM.YY hh:mm:ss" AS "" FIELD "DateField2" D WID 11 PIC "DD.MMM.YYYY" AS "" FIELD "DateTimeField27" D WID 20 PIC "DD.MMM.YYYY hh:mm:ss" AS "" FIELD "DateField3" D WID 8 PIC "DD/MM/YY" AS "" FIELD "DateTimeField28" D WID 17 PIC "DD/MM/YY hh:mm:ss" AS "" FIELD "DateField4" D WID 10 PIC "DD/MM/YYYY" AS "" FIELD "DateTimeField29" D WID 19 PIC "DD/MM/YYYY hh:mm:ss" AS "" FIELD "DateField5" D WID 9 PIC "DDMMMYYYY" AS "" FIELD "DateTimeField210" C WID 18 AS "" FIELD "DateField6" N WID 6 DEC 0 AS "" FIELD "DateTimeField211" C WID 15 AS "" FIELD "DateField7" N WID 8 DEC 0 AS "" FIELD "DateTimeField212" C WID 17 AS "" FIELD "DateField8" D WID 8 PIC "MM/DD/YY" AS "" FIELD "DateTimeField213" D WID 17 PIC "MM/DD/YY hh:mm:ss" AS "" FIELD "DateField9" D WID 10 PIC "MM/DD/YYYY" AS "" FIELD "DateTimeField214" D WID 19 PIC "MM/DD/YYYY hh:mm:ss" AS "" FIELD "DateField10" D WID 11 PIC "MMMDD,YYYY" AS "" FIELD "DateTimeField215" D WID 20 PIC "MMMDD,YYYYhh:mm:ss" AS "" FIELD "DateField11" D WID 9 PIC "MMMDD,YY" AS "" FIELD "DateTimeField216" D WID 18 PIC "MMMDD,YYhh:mm:ss" AS "" FIELD "DateField12" D WID 9 PIC "MMMDDYYYY" AS "" FIELD "DateTimeField217" C WID 18 AS "" FIELD "DateField13" N WID 5 DEC 0 AS "" FIELD "DateTimeField218" C WID 14 AS "" FIELD "DateField14" N WID 6 DEC 0 AS "" FIELD "DateTimeField219" C WID 15 AS "" FIELD "DateField15" D WID 10 PIC "YYYY/MM/DD" AS "" FIELD "DateTimeField220" D WID 19 PIC "YYYY/MM/DD hh:mm:ss" AS "" FIELD "DateField16" D WID 7 PIC "YYYYDDD" AS "" FIELD "DateTimeField221" C WID 16 AS ""
+
+
+
+Open sampleData1
+
+extra field "Name" first 1 to "done1.txt"
+
+quit 
+
+^BATCH    New_Script32                       
+[PARENT_FOLDER_ID] 1375901682
+OPEN "sampleData11" FORMAT sampleData1
+OPEN "sampleData22" FORMAT sampleData2
+OPEN "sampleData33" FORMAT sampleData3
+OPEN "sampleData44" FORMAT sampleData4
+OPEN "sampleData55" FORMAT sampleData5
+
+
+set safety off
+OPEN sampleData5
+EXTRACT RECORD TO "test333" OPEN FIRST 10
+^FOLDER   AsynchronousExcelExport             1375958695
+[PARENT_FOLDER_ID] 0
+^BATCH    New_Script322                      
+[PARENT_FOLDER_ID] 1375958695
+OPEN "sampleData11" FORMAT sampleData1
+OPEN "sampleData22" FORMAT sampleData2
+OPEN "sampleData33" FORMAT sampleData3
+OPEN "sampleData44" FORMAT sampleData4
+OPEN "sampleData55" FORMAT sampleData5
+
+
+set safety off
+OPEN sampleData5
+EXTRACT RECORD TO "test333" OPEN FIRST 10
+^BATCH    testDone22                         
+[PARENT_FOLDER_ID] 1375958695
+directory "done*.txt" to testCountDone
+open testCountDone
+count
+counter=count1
+close testCountDone
+^BATCH    BCimp12                            
+[PARENT_FOLDER_ID] 1375958695
+
+set safety off
+
+OPEN sampleData1
+
+EXPORT FIELDS Name AS 'Name'  Phone_CAD AS 'Phone_CAD'  PhoneFax AS 'PhoneFax'  Email AS 'Email'  Date1 AS 'Date1'  DateTime AS 'DateTime'  Company AS 'Company'  Street_Add AS 'Street_Add'  Text1 AS 'Text1'  Test2 AS 'Test2'  Password1 AS 'Password1'  GuID AS 'GuID'  F13 AS 'F13'  Colors AS 'Colors'  Extanded_100 AS 'Extanded_100'  Extanded_10 AS 'Extanded_10'  NUM1 AS 'NUM1'  NUM2 AS 'NUM2'  NUM3 AS 'NUM3'  Curency1 AS 'Curency1'  Curency2 AS 'Curency2'  Currency3 AS 'Currency3'  Currency4 AS 'Currency4'  Currency5 AS 'Currency5'  DateField AS 'DateField'  DateTimeField2 AS 'DateTimeField2'  TimeField_ AS 'TimeField_'  DateField_ AS 'DateField_'  DateTimeField_ AS 'DateTimeField_'  DateTimeField21 AS 'DateTimeField21'  DateTimeField22 AS 'DateTimeField22'  DateTimeField23 AS 'DateTimeField23'  DateTimeField24 AS 'DateTimeField24'  TimeField AS 'TimeField'  TimeField2 AS 'TimeField2'  TimeField1 AS 'TimeField1'  DateTimeField25 AS 'DateTimeField25'  DateField1 AS 'DateField1'  DateTimeField26 AS 'DateTimeField26'  DateField2 AS 'DateField2'  DateTimeField27 AS 'DateTimeField27'  DateField3 AS 'DateField3'  DateTimeField28 AS 'DateTimeField28'  DateField4 AS 'DateField4'  DateTimeField29 AS 'DateTimeField29'  DateField5 AS 'DateField5'  DateTimeField210 AS 'DateTimeField210'  DateField6 AS 'DateField6'  DateTimeField211 AS 'DateTimeField211'  DateField7 AS 'DateField7'  DateTimeField212 AS 'DateTimeField212'  DateField8 AS 'DateField8'  DateTimeField213 AS 'DateTimeField213'  DateField9 AS 'DateField9'  DateTimeField214 AS 'DateTimeField214'  DateField10 AS 'DateField10'  DateTimeField215 AS 'DateTimeField215'  DateField11 AS 'DateField11'  DateTimeField216 AS 'DateTimeField216'  DateField12 AS 'DateField12'  DateTimeField217 AS 'DateTimeField217'  DateField13 AS 'DateField13'  DateTimeField218 AS 'DateTimeField218'  DateField14 AS 'DateField14'  DateTimeField219 AS 'DateTimeField219'  DateField15 AS 'DateField15'  DateTimeField220 AS 'DateTimeField220'  DateField16 AS 'DateField16'  DateTimeField221 AS 'DateTimeField221'  XLSX TO "ExcelExportTest1"
+
+
+
+Open sampleData1
+
+extra field "Name" first 1 to "done1.txt"
+
+quit 
+
+^BATCH    BCimp22                            
+[PARENT_FOLDER_ID] 1375958695
+
+set safety off
+
+OPEN sampleData2
+
+EXPORT FIELDS Name AS 'Name'  Phone_CAD AS 'Phone_CAD'  PhoneFax AS 'PhoneFax'  Email AS 'Email'  Date1 AS 'Date1'  DateTime AS 'DateTime'  Company AS 'Company'  Street_Add AS 'Street_Add'  Text1 AS 'Text1'  Test2 AS 'Test2'  Password1 AS 'Password1'  GuID AS 'GuID'  F13 AS 'F13'  Colors AS 'Colors'  Extanded_100 AS 'Extanded_100'  Extanded_10 AS 'Extanded_10'  NUM1 AS 'NUM1'  NUM2 AS 'NUM2'  NUM3 AS 'NUM3'  Curency1 AS 'Curency1'  Curency2 AS 'Curency2'  Currency3 AS 'Currency3'  Currency4 AS 'Currency4'  Currency5 AS 'Currency5'  DateField AS 'DateField'  DateTimeField2 AS 'DateTimeField2'  TimeField_ AS 'TimeField_'  DateField_ AS 'DateField_'  DateTimeField_ AS 'DateTimeField_'  DateTimeField21 AS 'DateTimeField21'  DateTimeField22 AS 'DateTimeField22'  DateTimeField23 AS 'DateTimeField23'  DateTimeField24 AS 'DateTimeField24'  TimeField AS 'TimeField'  TimeField2 AS 'TimeField2'  TimeField1 AS 'TimeField1'  DateTimeField25 AS 'DateTimeField25'  DateField1 AS 'DateField1'  DateTimeField26 AS 'DateTimeField26'  DateField2 AS 'DateField2'  DateTimeField27 AS 'DateTimeField27'  DateField3 AS 'DateField3'  DateTimeField28 AS 'DateTimeField28'  DateField4 AS 'DateField4'  DateTimeField29 AS 'DateTimeField29'  DateField5 AS 'DateField5'  DateTimeField210 AS 'DateTimeField210'  DateField6 AS 'DateField6'  DateTimeField211 AS 'DateTimeField211'  DateField7 AS 'DateField7'  DateTimeField212 AS 'DateTimeField212'  DateField8 AS 'DateField8'  DateTimeField213 AS 'DateTimeField213'  DateField9 AS 'DateField9'  DateTimeField214 AS 'DateTimeField214'  DateField10 AS 'DateField10'  DateTimeField215 AS 'DateTimeField215'  DateField11 AS 'DateField11'  DateTimeField216 AS 'DateTimeField216'  DateField12 AS 'DateField12'  DateTimeField217 AS 'DateTimeField217'  DateField13 AS 'DateField13'  DateTimeField218 AS 'DateTimeField218'  DateField14 AS 'DateField14'  DateTimeField219 AS 'DateTimeField219'  DateField15 AS 'DateField15'  DateTimeField220 AS 'DateTimeField220'  DateField16 AS 'DateField16'  DateTimeField221 AS 'DateTimeField221'  XLSX TO "ExcelExportTest2"
+
+
+
+Open sampleData2
+
+extra field "Name" first 1 to "done2.txt"
+
+quit 
+^BATCH    BCimp32                            
+[PARENT_FOLDER_ID] 1375958695
+
+set safety off
+
+OPEN sampleData3
+
+EXPORT FIELDS Name AS 'Name'  Phone_CAD AS 'Phone_CAD'  PhoneFax AS 'PhoneFax'  Email AS 'Email'  Date1 AS 'Date1'  DateTime AS 'DateTime'  Company AS 'Company'  Street_Add AS 'Street_Add'  Text1 AS 'Text1'  Test2 AS 'Test2'  Password1 AS 'Password1'  GuID AS 'GuID'  F13 AS 'F13'  Colors AS 'Colors'  Extanded_100 AS 'Extanded_100'  Extanded_10 AS 'Extanded_10'  NUM1 AS 'NUM1'  NUM2 AS 'NUM2'  NUM3 AS 'NUM3'  Curency1 AS 'Curency1'  Curency2 AS 'Curency2'  Currency3 AS 'Currency3'  Currency4 AS 'Currency4'  Currency5 AS 'Currency5'  DateField AS 'DateField'  DateTimeField2 AS 'DateTimeField2'  TimeField_ AS 'TimeField_'  DateField_ AS 'DateField_'  DateTimeField_ AS 'DateTimeField_'  DateTimeField21 AS 'DateTimeField21'  DateTimeField22 AS 'DateTimeField22'  DateTimeField23 AS 'DateTimeField23'  DateTimeField24 AS 'DateTimeField24'  TimeField AS 'TimeField'  TimeField2 AS 'TimeField2'  TimeField1 AS 'TimeField1'  DateTimeField25 AS 'DateTimeField25'  DateField1 AS 'DateField1'  DateTimeField26 AS 'DateTimeField26'  DateField2 AS 'DateField2'  DateTimeField27 AS 'DateTimeField27'  DateField3 AS 'DateField3'  DateTimeField28 AS 'DateTimeField28'  DateField4 AS 'DateField4'  DateTimeField29 AS 'DateTimeField29'  DateField5 AS 'DateField5'  DateTimeField210 AS 'DateTimeField210'  DateField6 AS 'DateField6'  DateTimeField211 AS 'DateTimeField211'  DateField7 AS 'DateField7'  DateTimeField212 AS 'DateTimeField212'  DateField8 AS 'DateField8'  DateTimeField213 AS 'DateTimeField213'  DateField9 AS 'DateField9'  DateTimeField214 AS 'DateTimeField214'  DateField10 AS 'DateField10'  DateTimeField215 AS 'DateTimeField215'  DateField11 AS 'DateField11'  DateTimeField216 AS 'DateTimeField216'  DateField12 AS 'DateField12'  DateTimeField217 AS 'DateTimeField217'  DateField13 AS 'DateField13'  DateTimeField218 AS 'DateTimeField218'  DateField14 AS 'DateField14'  DateTimeField219 AS 'DateTimeField219'  DateField15 AS 'DateField15'  DateTimeField220 AS 'DateTimeField220'  DateField16 AS 'DateField16'  DateTimeField221 AS 'DateTimeField221'  XLSX TO "ExcelExportTest3"
+
+
+
+
+Open sampleData3
+
+extra field "Name" first 1 to "done3.txt"
+
+quit 
+^BATCH    BCimp42                            
+[PARENT_FOLDER_ID] 1375958695
+
+set safety off
+
+OPEN sampleData4
+
+EXPORT FIELDS Name AS 'Name'  Phone_CAD AS 'Phone_CAD'  PhoneFax AS 'PhoneFax'  Email AS 'Email'  Date1 AS 'Date1'  DateTime AS 'DateTime'  Company AS 'Company'  Street_Add AS 'Street_Add'  Text1 AS 'Text1'  Test2 AS 'Test2'  Password1 AS 'Password1'  GuID AS 'GuID'  F13 AS 'F13'  Colors AS 'Colors'  Extanded_100 AS 'Extanded_100'  Extanded_10 AS 'Extanded_10'  NUM1 AS 'NUM1'  NUM2 AS 'NUM2'  NUM3 AS 'NUM3'  Curency1 AS 'Curency1'  Curency2 AS 'Curency2'  Currency3 AS 'Currency3'  Currency4 AS 'Currency4'  Currency5 AS 'Currency5'  DateField AS 'DateField'  DateTimeField2 AS 'DateTimeField2'  TimeField_ AS 'TimeField_'  DateField_ AS 'DateField_'  DateTimeField_ AS 'DateTimeField_'  DateTimeField21 AS 'DateTimeField21'  DateTimeField22 AS 'DateTimeField22'  DateTimeField23 AS 'DateTimeField23'  DateTimeField24 AS 'DateTimeField24'  TimeField AS 'TimeField'  TimeField2 AS 'TimeField2'  TimeField1 AS 'TimeField1'  DateTimeField25 AS 'DateTimeField25'  DateField1 AS 'DateField1'  DateTimeField26 AS 'DateTimeField26'  DateField2 AS 'DateField2'  DateTimeField27 AS 'DateTimeField27'  DateField3 AS 'DateField3'  DateTimeField28 AS 'DateTimeField28'  DateField4 AS 'DateField4'  DateTimeField29 AS 'DateTimeField29'  DateField5 AS 'DateField5'  DateTimeField210 AS 'DateTimeField210'  DateField6 AS 'DateField6'  DateTimeField211 AS 'DateTimeField211'  DateField7 AS 'DateField7'  DateTimeField212 AS 'DateTimeField212'  DateField8 AS 'DateField8'  DateTimeField213 AS 'DateTimeField213'  DateField9 AS 'DateField9'  DateTimeField214 AS 'DateTimeField214'  DateField10 AS 'DateField10'  DateTimeField215 AS 'DateTimeField215'  DateField11 AS 'DateField11'  DateTimeField216 AS 'DateTimeField216'  DateField12 AS 'DateField12'  DateTimeField217 AS 'DateTimeField217'  DateField13 AS 'DateField13'  DateTimeField218 AS 'DateTimeField218'  DateField14 AS 'DateField14'  DateTimeField219 AS 'DateTimeField219'  DateField15 AS 'DateField15'  DateTimeField220 AS 'DateTimeField220'  DateField16 AS 'DateField16'  DateTimeField221 AS 'DateTimeField221'  XLSX TO "ExcelExportTest4"
+
+
+
+
+Open sampleData4
+
+extra field "Name" first 1 to "done4.txt"
+
+quit 
+^BATCH    BCimp52                            
+[PARENT_FOLDER_ID] 1375958695
+
+set safety off
+
+OPEN sampleData5
+
+EXPORT FIELDS Name AS 'Name'  Phone_CAD AS 'Phone_CAD'  PhoneFax AS 'PhoneFax'  Email AS 'Email'  Date1 AS 'Date1'  DateTime AS 'DateTime'  Company AS 'Company'  Street_Add AS 'Street_Add'  Text1 AS 'Text1'  Test2 AS 'Test2'  Password1 AS 'Password1'  GuID AS 'GuID'  F13 AS 'F13'  Colors AS 'Colors'  Extanded_100 AS 'Extanded_100'  Extanded_10 AS 'Extanded_10'  NUM1 AS 'NUM1'  NUM2 AS 'NUM2'  NUM3 AS 'NUM3'  Curency1 AS 'Curency1'  Curency2 AS 'Curency2'  Currency3 AS 'Currency3'  Currency4 AS 'Currency4'  Currency5 AS 'Currency5'  DateField AS 'DateField'  DateTimeField2 AS 'DateTimeField2'  TimeField_ AS 'TimeField_'  DateField_ AS 'DateField_'  DateTimeField_ AS 'DateTimeField_'  DateTimeField21 AS 'DateTimeField21'  DateTimeField22 AS 'DateTimeField22'  DateTimeField23 AS 'DateTimeField23'  DateTimeField24 AS 'DateTimeField24'  TimeField AS 'TimeField'  TimeField2 AS 'TimeField2'  TimeField1 AS 'TimeField1'  DateTimeField25 AS 'DateTimeField25'  DateField1 AS 'DateField1'  DateTimeField26 AS 'DateTimeField26'  DateField2 AS 'DateField2'  DateTimeField27 AS 'DateTimeField27'  DateField3 AS 'DateField3'  DateTimeField28 AS 'DateTimeField28'  DateField4 AS 'DateField4'  DateTimeField29 AS 'DateTimeField29'  DateField5 AS 'DateField5'  DateTimeField210 AS 'DateTimeField210'  DateField6 AS 'DateField6'  DateTimeField211 AS 'DateTimeField211'  DateField7 AS 'DateField7'  DateTimeField212 AS 'DateTimeField212'  DateField8 AS 'DateField8'  DateTimeField213 AS 'DateTimeField213'  DateField9 AS 'DateField9'  DateTimeField214 AS 'DateTimeField214'  DateField10 AS 'DateField10'  DateTimeField215 AS 'DateTimeField215'  DateField11 AS 'DateField11'  DateTimeField216 AS 'DateTimeField216'  DateField12 AS 'DateField12'  DateTimeField217 AS 'DateTimeField217'  DateField13 AS 'DateField13'  DateTimeField218 AS 'DateTimeField218'  DateField14 AS 'DateField14'  DateTimeField219 AS 'DateTimeField219'  DateField15 AS 'DateField15'  DateTimeField220 AS 'DateTimeField220'  DateField16 AS 'DateField16'  DateTimeField221 AS 'DateTimeField221'  XLSX TO "ExcelExportTest5"
+
+
+
+
+Open sampleData5
+
+extra field "Name" first 1 to "done5.txt"
+
+quit 
+^BATCH    Main32                             
+[PARENT_FOLDER_ID] 1375958695
+COMMENT
+//ANALYTIC Teste Sum Tab20GB_FIL
+//RESULT LOG
+END
+set safety off
+
+execute 'cmd /c copy /y AclProject.ACL AclProject1.ACL'
+execute 'cmd /c copy /y AclProject.ACL AclProject2.ACL'
+execute 'cmd /c copy /y AclProject.ACL AclProject3.ACL'
+execute 'cmd /c copy /y AclProject.ACL AclProject4.ACL'
+execute 'cmd /c copy /y AclProject.ACL AclProject5.ACL'
+
+
+
+execute async 'cmd /c ACLscript.exe "AclProject1.ACL" /bBCimp12'
+execute async 'cmd /c ACLscript.exe "AclProject2.ACL" /bBCimp22'
+execute async 'cmd /c ACLscript.exe "AclProject3.ACL" /bBCimp32'
+execute async 'cmd /c ACLscript.exe "AclProject4.ACL" /bBCimp42'
+execute async 'cmd /c ACLscript.exe "AclProject5.ACL" /bBCimp52'
+
+counter=0
+set echo none
+do testDone22 while  counter<5
+set echo on
+
+DO SCRIPT New_Script322
+^BATCH    SequentialExcelExport              
+[PARENT_FOLDER_ID] 0
+OPEN sampleData1
+
+EXPORT FIELDS Name AS 'Name'  Phone_CAD AS 'Phone_CAD'  PhoneFax AS 'PhoneFax'  Email AS 'Email'  Date1 AS 'Date1'  DateTime AS 'DateTime'  Company AS 'Company'  Street_Add AS 'Street_Add'  Text1 AS 'Text1'  Test2 AS 'Test2'  Password1 AS 'Password1'  GuID AS 'GuID'  F13 AS 'F13'  Colors AS 'Colors'  Extanded_100 AS 'Extanded_100'  Extanded_10 AS 'Extanded_10'  NUM1 AS 'NUM1'  NUM2 AS 'NUM2'  NUM3 AS 'NUM3'  Curency1 AS 'Curency1'  Curency2 AS 'Curency2'  Currency3 AS 'Currency3'  Currency4 AS 'Currency4'  Currency5 AS 'Currency5'  DateField AS 'DateField'  DateTimeField2 AS 'DateTimeField2'  TimeField_ AS 'TimeField_'  DateField_ AS 'DateField_'  DateTimeField_ AS 'DateTimeField_'  DateTimeField21 AS 'DateTimeField21'  DateTimeField22 AS 'DateTimeField22'  DateTimeField23 AS 'DateTimeField23'  DateTimeField24 AS 'DateTimeField24'  TimeField AS 'TimeField'  TimeField2 AS 'TimeField2'  TimeField1 AS 'TimeField1'  DateTimeField25 AS 'DateTimeField25'  DateField1 AS 'DateField1'  DateTimeField26 AS 'DateTimeField26'  DateField2 AS 'DateField2'  DateTimeField27 AS 'DateTimeField27'  DateField3 AS 'DateField3'  DateTimeField28 AS 'DateTimeField28'  DateField4 AS 'DateField4'  DateTimeField29 AS 'DateTimeField29'  DateField5 AS 'DateField5'  DateTimeField210 AS 'DateTimeField210'  DateField6 AS 'DateField6'  DateTimeField211 AS 'DateTimeField211'  DateField7 AS 'DateField7'  DateTimeField212 AS 'DateTimeField212'  DateField8 AS 'DateField8'  DateTimeField213 AS 'DateTimeField213'  DateField9 AS 'DateField9'  DateTimeField214 AS 'DateTimeField214'  DateField10 AS 'DateField10'  DateTimeField215 AS 'DateTimeField215'  DateField11 AS 'DateField11'  DateTimeField216 AS 'DateTimeField216'  DateField12 AS 'DateField12'  DateTimeField217 AS 'DateTimeField217'  DateField13 AS 'DateField13'  DateTimeField218 AS 'DateTimeField218'  DateField14 AS 'DateField14'  DateTimeField219 AS 'DateTimeField219'  DateField15 AS 'DateField15'  DateTimeField220 AS 'DateTimeField220'  DateField16 AS 'DateField16'  DateTimeField221 AS 'DateTimeField221'  XLSX TO "ExcelExportTest11"
+
+OPEN sampleData2
+
+EXPORT FIELDS Name AS 'Name'  Phone_CAD AS 'Phone_CAD'  PhoneFax AS 'PhoneFax'  Email AS 'Email'  Date1 AS 'Date1'  DateTime AS 'DateTime'  Company AS 'Company'  Street_Add AS 'Street_Add'  Text1 AS 'Text1'  Test2 AS 'Test2'  Password1 AS 'Password1'  GuID AS 'GuID'  F13 AS 'F13'  Colors AS 'Colors'  Extanded_100 AS 'Extanded_100'  Extanded_10 AS 'Extanded_10'  NUM1 AS 'NUM1'  NUM2 AS 'NUM2'  NUM3 AS 'NUM3'  Curency1 AS 'Curency1'  Curency2 AS 'Curency2'  Currency3 AS 'Currency3'  Currency4 AS 'Currency4'  Currency5 AS 'Currency5'  DateField AS 'DateField'  DateTimeField2 AS 'DateTimeField2'  TimeField_ AS 'TimeField_'  DateField_ AS 'DateField_'  DateTimeField_ AS 'DateTimeField_'  DateTimeField21 AS 'DateTimeField21'  DateTimeField22 AS 'DateTimeField22'  DateTimeField23 AS 'DateTimeField23'  DateTimeField24 AS 'DateTimeField24'  TimeField AS 'TimeField'  TimeField2 AS 'TimeField2'  TimeField1 AS 'TimeField1'  DateTimeField25 AS 'DateTimeField25'  DateField1 AS 'DateField1'  DateTimeField26 AS 'DateTimeField26'  DateField2 AS 'DateField2'  DateTimeField27 AS 'DateTimeField27'  DateField3 AS 'DateField3'  DateTimeField28 AS 'DateTimeField28'  DateField4 AS 'DateField4'  DateTimeField29 AS 'DateTimeField29'  DateField5 AS 'DateField5'  DateTimeField210 AS 'DateTimeField210'  DateField6 AS 'DateField6'  DateTimeField211 AS 'DateTimeField211'  DateField7 AS 'DateField7'  DateTimeField212 AS 'DateTimeField212'  DateField8 AS 'DateField8'  DateTimeField213 AS 'DateTimeField213'  DateField9 AS 'DateField9'  DateTimeField214 AS 'DateTimeField214'  DateField10 AS 'DateField10'  DateTimeField215 AS 'DateTimeField215'  DateField11 AS 'DateField11'  DateTimeField216 AS 'DateTimeField216'  DateField12 AS 'DateField12'  DateTimeField217 AS 'DateTimeField217'  DateField13 AS 'DateField13'  DateTimeField218 AS 'DateTimeField218'  DateField14 AS 'DateField14'  DateTimeField219 AS 'DateTimeField219'  DateField15 AS 'DateField15'  DateTimeField220 AS 'DateTimeField220'  DateField16 AS 'DateField16'  DateTimeField221 AS 'DateTimeField221'  XLSX TO "ExcelExportTest22"
+
+OPEN sampleData3
+
+EXPORT FIELDS Name AS 'Name'  Phone_CAD AS 'Phone_CAD'  PhoneFax AS 'PhoneFax'  Email AS 'Email'  Date1 AS 'Date1'  DateTime AS 'DateTime'  Company AS 'Company'  Street_Add AS 'Street_Add'  Text1 AS 'Text1'  Test2 AS 'Test2'  Password1 AS 'Password1'  GuID AS 'GuID'  F13 AS 'F13'  Colors AS 'Colors'  Extanded_100 AS 'Extanded_100'  Extanded_10 AS 'Extanded_10'  NUM1 AS 'NUM1'  NUM2 AS 'NUM2'  NUM3 AS 'NUM3'  Curency1 AS 'Curency1'  Curency2 AS 'Curency2'  Currency3 AS 'Currency3'  Currency4 AS 'Currency4'  Currency5 AS 'Currency5'  DateField AS 'DateField'  DateTimeField2 AS 'DateTimeField2'  TimeField_ AS 'TimeField_'  DateField_ AS 'DateField_'  DateTimeField_ AS 'DateTimeField_'  DateTimeField21 AS 'DateTimeField21'  DateTimeField22 AS 'DateTimeField22'  DateTimeField23 AS 'DateTimeField23'  DateTimeField24 AS 'DateTimeField24'  TimeField AS 'TimeField'  TimeField2 AS 'TimeField2'  TimeField1 AS 'TimeField1'  DateTimeField25 AS 'DateTimeField25'  DateField1 AS 'DateField1'  DateTimeField26 AS 'DateTimeField26'  DateField2 AS 'DateField2'  DateTimeField27 AS 'DateTimeField27'  DateField3 AS 'DateField3'  DateTimeField28 AS 'DateTimeField28'  DateField4 AS 'DateField4'  DateTimeField29 AS 'DateTimeField29'  DateField5 AS 'DateField5'  DateTimeField210 AS 'DateTimeField210'  DateField6 AS 'DateField6'  DateTimeField211 AS 'DateTimeField211'  DateField7 AS 'DateField7'  DateTimeField212 AS 'DateTimeField212'  DateField8 AS 'DateField8'  DateTimeField213 AS 'DateTimeField213'  DateField9 AS 'DateField9'  DateTimeField214 AS 'DateTimeField214'  DateField10 AS 'DateField10'  DateTimeField215 AS 'DateTimeField215'  DateField11 AS 'DateField11'  DateTimeField216 AS 'DateTimeField216'  DateField12 AS 'DateField12'  DateTimeField217 AS 'DateTimeField217'  DateField13 AS 'DateField13'  DateTimeField218 AS 'DateTimeField218'  DateField14 AS 'DateField14'  DateTimeField219 AS 'DateTimeField219'  DateField15 AS 'DateField15'  DateTimeField220 AS 'DateTimeField220'  DateField16 AS 'DateField16'  DateTimeField221 AS 'DateTimeField221'  XLSX TO "ExcelExportTest33"
+
+OPEN sampleData4
+
+EXPORT FIELDS Name AS 'Name'  Phone_CAD AS 'Phone_CAD'  PhoneFax AS 'PhoneFax'  Email AS 'Email'  Date1 AS 'Date1'  DateTime AS 'DateTime'  Company AS 'Company'  Street_Add AS 'Street_Add'  Text1 AS 'Text1'  Test2 AS 'Test2'  Password1 AS 'Password1'  GuID AS 'GuID'  F13 AS 'F13'  Colors AS 'Colors'  Extanded_100 AS 'Extanded_100'  Extanded_10 AS 'Extanded_10'  NUM1 AS 'NUM1'  NUM2 AS 'NUM2'  NUM3 AS 'NUM3'  Curency1 AS 'Curency1'  Curency2 AS 'Curency2'  Currency3 AS 'Currency3'  Currency4 AS 'Currency4'  Currency5 AS 'Currency5'  DateField AS 'DateField'  DateTimeField2 AS 'DateTimeField2'  TimeField_ AS 'TimeField_'  DateField_ AS 'DateField_'  DateTimeField_ AS 'DateTimeField_'  DateTimeField21 AS 'DateTimeField21'  DateTimeField22 AS 'DateTimeField22'  DateTimeField23 AS 'DateTimeField23'  DateTimeField24 AS 'DateTimeField24'  TimeField AS 'TimeField'  TimeField2 AS 'TimeField2'  TimeField1 AS 'TimeField1'  DateTimeField25 AS 'DateTimeField25'  DateField1 AS 'DateField1'  DateTimeField26 AS 'DateTimeField26'  DateField2 AS 'DateField2'  DateTimeField27 AS 'DateTimeField27'  DateField3 AS 'DateField3'  DateTimeField28 AS 'DateTimeField28'  DateField4 AS 'DateField4'  DateTimeField29 AS 'DateTimeField29'  DateField5 AS 'DateField5'  DateTimeField210 AS 'DateTimeField210'  DateField6 AS 'DateField6'  DateTimeField211 AS 'DateTimeField211'  DateField7 AS 'DateField7'  DateTimeField212 AS 'DateTimeField212'  DateField8 AS 'DateField8'  DateTimeField213 AS 'DateTimeField213'  DateField9 AS 'DateField9'  DateTimeField214 AS 'DateTimeField214'  DateField10 AS 'DateField10'  DateTimeField215 AS 'DateTimeField215'  DateField11 AS 'DateField11'  DateTimeField216 AS 'DateTimeField216'  DateField12 AS 'DateField12'  DateTimeField217 AS 'DateTimeField217'  DateField13 AS 'DateField13'  DateTimeField218 AS 'DateTimeField218'  DateField14 AS 'DateField14'  DateTimeField219 AS 'DateTimeField219'  DateField15 AS 'DateField15'  DateTimeField220 AS 'DateTimeField220'  DateField16 AS 'DateField16'  DateTimeField221 AS 'DateTimeField221'  XLSX TO "ExcelExportTest44"
+
+OPEN sampleData5
+
+EXPORT FIELDS Name AS 'Name'  Phone_CAD AS 'Phone_CAD'  PhoneFax AS 'PhoneFax'  Email AS 'Email'  Date1 AS 'Date1'  DateTime AS 'DateTime'  Company AS 'Company'  Street_Add AS 'Street_Add'  Text1 AS 'Text1'  Test2 AS 'Test2'  Password1 AS 'Password1'  GuID AS 'GuID'  F13 AS 'F13'  Colors AS 'Colors'  Extanded_100 AS 'Extanded_100'  Extanded_10 AS 'Extanded_10'  NUM1 AS 'NUM1'  NUM2 AS 'NUM2'  NUM3 AS 'NUM3'  Curency1 AS 'Curency1'  Curency2 AS 'Curency2'  Currency3 AS 'Currency3'  Currency4 AS 'Currency4'  Currency5 AS 'Currency5'  DateField AS 'DateField'  DateTimeField2 AS 'DateTimeField2'  TimeField_ AS 'TimeField_'  DateField_ AS 'DateField_'  DateTimeField_ AS 'DateTimeField_'  DateTimeField21 AS 'DateTimeField21'  DateTimeField22 AS 'DateTimeField22'  DateTimeField23 AS 'DateTimeField23'  DateTimeField24 AS 'DateTimeField24'  TimeField AS 'TimeField'  TimeField2 AS 'TimeField2'  TimeField1 AS 'TimeField1'  DateTimeField25 AS 'DateTimeField25'  DateField1 AS 'DateField1'  DateTimeField26 AS 'DateTimeField26'  DateField2 AS 'DateField2'  DateTimeField27 AS 'DateTimeField27'  DateField3 AS 'DateField3'  DateTimeField28 AS 'DateTimeField28'  DateField4 AS 'DateField4'  DateTimeField29 AS 'DateTimeField29'  DateField5 AS 'DateField5'  DateTimeField210 AS 'DateTimeField210'  DateField6 AS 'DateField6'  DateTimeField211 AS 'DateTimeField211'  DateField7 AS 'DateField7'  DateTimeField212 AS 'DateTimeField212'  DateField8 AS 'DateField8'  DateTimeField213 AS 'DateTimeField213'  DateField9 AS 'DateField9'  DateTimeField214 AS 'DateTimeField214'  DateField10 AS 'DateField10'  DateTimeField215 AS 'DateTimeField215'  DateField11 AS 'DateField11'  DateTimeField216 AS 'DateTimeField216'  DateField12 AS 'DateField12'  DateTimeField217 AS 'DateTimeField217'  DateField13 AS 'DateField13'  DateTimeField218 AS 'DateTimeField218'  DateField14 AS 'DateField14'  DateTimeField219 AS 'DateTimeField219'  DateField15 AS 'DateField15'  DateTimeField220 AS 'DateTimeField220'  DateField16 AS 'DateField16'  DateTimeField221 AS 'DateTimeField221'  XLSX TO "ExcelExportTest55"
+
+^FORMAT   testCountDone                      testCountDone                    "" "testCountDone.FIL" 0 ASCII 
+[PARENT_FOLDER_ID] 0
+~.08/08/2013   04:19:03   directory "done*.txt" to testCountDone
+^FORMAT   sampleData1                        sampleData1                      "" "sampleData11.FIL" 0 ASCII 
+[PARENT_FOLDER_ID] 1375901682
+[LASTVIEW] "Default_View"
+[RETRIEVE] 0
+[REFRESH] EXCEL "D:\Brazil\sampleData.fil" FROM "SampleData_XLSX_100kR.xlsx" TABLE "SampleData_100kR_XLSX$" KEEPTITLE FIELD "Name" C WID 20 AS "" FIELD "Phone_CAD" C WID 14 AS "" FIELD "PhoneFax" C WID 14 AS "" FIELD "Email" C WID 51 AS "" FIELD "Date1" D WID 12 PIC "MMM DD,YYYY" AS "" FIELD "DateTime" D WID 19 PIC "YYYY-MM-DD hh:mm:ss" AS "" FIELD "Company" C WID 38 AS "" FIELD "Street_Add" C WID 35 AS "" FIELD "Text1" C WID 158 AS "" FIELD "Test2" C WID 400 AS "" FIELD "Password1" C WID 11 AS "" FIELD "GuID" C WID 36 AS "" FIELD "F13" C WID 10 AS "" FIELD "Colors" C WID 6 AS "" FIELD "Extanded_100" C WID 100 AS "" FIELD "Extanded_10" C WID 10 AS "" FIELD "NUM1" N WID 21 DEC 18 AS "" FIELD "NUM2" N WID 17 DEC 7 AS "" FIELD "NUM3" N WID 17 DEC 8 AS "" FIELD "Curency1" C WID 6 AS "" FIELD "Curency2" C WID 6 AS "" FIELD "Currency3" N WID 4 DEC 2 AS "" FIELD "Currency4" C WID 6 AS "" FIELD "Currency5" C WID 8 AS "" FIELD "DateField" D WID 8 PIC "DD.MM.YY" AS "" FIELD "DateTimeField2" D WID 17 PIC "DD.MM.YY hh:mm:ss" AS "" FIELD "TimeField_" D WID 19 PIC "hh:mm:ss" AS "" FIELD "DateField_" D WID 19 PIC "YYYY-MM-DD" AS "" FIELD "DateTimeField_" D WID 19 PIC "YYYY-MM-DD hh:mm:ss" AS "" FIELD "DateTimeField21" D WID 14 PIC "DD.MM.YY hh:mm" AS "" FIELD "DateTimeField22" D WID 22 PIC "YYYY/MM/DD hh:mm:ss AM" AS "" FIELD "DateTimeField23" D WID 22 PIC "DD/MM/YYYY hh:mm:ss AM" AS "" FIELD "DateTimeField24" D WID 20 PIC "MMMDD,YYYYhh:mm AM" AS "" FIELD "TimeField" D WID 8 PIC "hh:mm AM" AS "" FIELD "TimeField2" D WID 11 PIC "hh:mm:ss AM" AS "" FIELD "TimeField1" D WID 5 PIC "hh:mm" AS "" FIELD "DateTimeField25" D WID 20 PIC "DD.MMM.YYYY hh:mmAM" AS "" FIELD "DateField1" D WID 9 PIC "DD.MMM.YY" AS "" FIELD "DateTimeField26" D WID 18 PIC "DD.MMM.YY hh:mm:ss" AS "" FIELD "DateField2" D WID 11 PIC "DD.MMM.YYYY" AS "" FIELD "DateTimeField27" D WID 20 PIC "DD.MMM.YYYY hh:mm:ss" AS "" FIELD "DateField3" D WID 8 PIC "DD/MM/YY" AS "" FIELD "DateTimeField28" D WID 17 PIC "DD/MM/YY hh:mm:ss" AS "" FIELD "DateField4" D WID 10 PIC "DD/MM/YYYY" AS "" FIELD "DateTimeField29" D WID 19 PIC "DD/MM/YYYY hh:mm:ss" AS "" FIELD "DateField5" D WID 9 PIC "DDMMMYYYY" AS "" FIELD "DateTimeField210" C WID 18 AS "" FIELD "DateField6" N WID 6 DEC 0 AS "" FIELD "DateTimeField211" C WID 15 AS "" FIELD "DateField7" N WID 8 DEC 0 AS "" FIELD "DateTimeField212" C WID 17 AS "" FIELD "DateField8" D WID 8 PIC "MM/DD/YY" AS "" FIELD "DateTimeField213" D WID 17 PIC "MM/DD/YY hh:mm:ss" AS "" FIELD "DateField9" D WID 10 PIC "MM/DD/YYYY" AS "" FIELD "DateTimeField214" D WID 19 PIC "MM/DD/YYYY hh:mm:ss" AS "" FIELD "DateField10" D WID 11 PIC "MMMDD,YYYY" AS "" FIELD "DateTimeField215" D WID 20 PIC "MMMDD,YYYYhh:mm:ss" AS "" FIELD "DateField11" D WID 9 PIC "MMMDD,YY" AS "" FIELD "DateTimeField216" D WID 18 PIC "MMMDD,YYhh:mm:ss" AS "" FIELD "DateField12" D WID 9 PIC "MMMDDYYYY" AS "" FIELD "DateTimeField217" C WID 18 AS "" FIELD "DateField13" N WID 5 DEC 0 AS "" FIELD "DateTimeField218" C WID 14 AS "" FIELD "DateField14" N WID 6 DEC 0 AS "" FIELD "DateTimeField219" C WID 15 AS "" FIELD "DateField15" D WID 10 PIC "YYYY/MM/DD" AS "" FIELD "DateTimeField220" D WID 19 PIC "YYYY/MM/DD hh:mm:ss" AS "" FIELD "DateField16" D WID 7 PIC "YYYYDDD" AS "" FIELD "DateTimeField221" C WID 16 AS ""
+
+^FORMAT   sampleData2                        sampleData2                      "" "sampleData22.FIL" 0 ASCII 
+[PARENT_FOLDER_ID] 1375901682
+[LASTVIEW] "Default_View"
+[RETRIEVE] 0
+[REFRESH] EXCEL "D:\Brazil\sampleData.fil" FROM "SampleData_XLSX_100kR.xlsx" TABLE "SampleData_100kR_XLSX$" KEEPTITLE FIELD "Name" C WID 20 AS "" FIELD "Phone_CAD" C WID 14 AS "" FIELD "PhoneFax" C WID 14 AS "" FIELD "Email" C WID 51 AS "" FIELD "Date1" D WID 12 PIC "MMM DD,YYYY" AS "" FIELD "DateTime" D WID 19 PIC "YYYY-MM-DD hh:mm:ss" AS "" FIELD "Company" C WID 38 AS "" FIELD "Street_Add" C WID 35 AS "" FIELD "Text1" C WID 158 AS "" FIELD "Test2" C WID 400 AS "" FIELD "Password1" C WID 11 AS "" FIELD "GuID" C WID 36 AS "" FIELD "F13" C WID 10 AS "" FIELD "Colors" C WID 6 AS "" FIELD "Extanded_100" C WID 100 AS "" FIELD "Extanded_10" C WID 10 AS "" FIELD "NUM1" N WID 21 DEC 18 AS "" FIELD "NUM2" N WID 17 DEC 7 AS "" FIELD "NUM3" N WID 17 DEC 8 AS "" FIELD "Curency1" C WID 6 AS "" FIELD "Curency2" C WID 6 AS "" FIELD "Currency3" N WID 4 DEC 2 AS "" FIELD "Currency4" C WID 6 AS "" FIELD "Currency5" C WID 8 AS "" FIELD "DateField" D WID 8 PIC "DD.MM.YY" AS "" FIELD "DateTimeField2" D WID 17 PIC "DD.MM.YY hh:mm:ss" AS "" FIELD "TimeField_" D WID 19 PIC "hh:mm:ss" AS "" FIELD "DateField_" D WID 19 PIC "YYYY-MM-DD" AS "" FIELD "DateTimeField_" D WID 19 PIC "YYYY-MM-DD hh:mm:ss" AS "" FIELD "DateTimeField21" D WID 14 PIC "DD.MM.YY hh:mm" AS "" FIELD "DateTimeField22" D WID 22 PIC "YYYY/MM/DD hh:mm:ss AM" AS "" FIELD "DateTimeField23" D WID 22 PIC "DD/MM/YYYY hh:mm:ss AM" AS "" FIELD "DateTimeField24" D WID 20 PIC "MMMDD,YYYYhh:mm AM" AS "" FIELD "TimeField" D WID 8 PIC "hh:mm AM" AS "" FIELD "TimeField2" D WID 11 PIC "hh:mm:ss AM" AS "" FIELD "TimeField1" D WID 5 PIC "hh:mm" AS "" FIELD "DateTimeField25" D WID 20 PIC "DD.MMM.YYYY hh:mmAM" AS "" FIELD "DateField1" D WID 9 PIC "DD.MMM.YY" AS "" FIELD "DateTimeField26" D WID 18 PIC "DD.MMM.YY hh:mm:ss" AS "" FIELD "DateField2" D WID 11 PIC "DD.MMM.YYYY" AS "" FIELD "DateTimeField27" D WID 20 PIC "DD.MMM.YYYY hh:mm:ss" AS "" FIELD "DateField3" D WID 8 PIC "DD/MM/YY" AS "" FIELD "DateTimeField28" D WID 17 PIC "DD/MM/YY hh:mm:ss" AS "" FIELD "DateField4" D WID 10 PIC "DD/MM/YYYY" AS "" FIELD "DateTimeField29" D WID 19 PIC "DD/MM/YYYY hh:mm:ss" AS "" FIELD "DateField5" D WID 9 PIC "DDMMMYYYY" AS "" FIELD "DateTimeField210" C WID 18 AS "" FIELD "DateField6" N WID 6 DEC 0 AS "" FIELD "DateTimeField211" C WID 15 AS "" FIELD "DateField7" N WID 8 DEC 0 AS "" FIELD "DateTimeField212" C WID 17 AS "" FIELD "DateField8" D WID 8 PIC "MM/DD/YY" AS "" FIELD "DateTimeField213" D WID 17 PIC "MM/DD/YY hh:mm:ss" AS "" FIELD "DateField9" D WID 10 PIC "MM/DD/YYYY" AS "" FIELD "DateTimeField214" D WID 19 PIC "MM/DD/YYYY hh:mm:ss" AS "" FIELD "DateField10" D WID 11 PIC "MMMDD,YYYY" AS "" FIELD "DateTimeField215" D WID 20 PIC "MMMDD,YYYYhh:mm:ss" AS "" FIELD "DateField11" D WID 9 PIC "MMMDD,YY" AS "" FIELD "DateTimeField216" D WID 18 PIC "MMMDD,YYhh:mm:ss" AS "" FIELD "DateField12" D WID 9 PIC "MMMDDYYYY" AS "" FIELD "DateTimeField217" C WID 18 AS "" FIELD "DateField13" N WID 5 DEC 0 AS "" FIELD "DateTimeField218" C WID 14 AS "" FIELD "DateField14" N WID 6 DEC 0 AS "" FIELD "DateTimeField219" C WID 15 AS "" FIELD "DateField15" D WID 10 PIC "YYYY/MM/DD" AS "" FIELD "DateTimeField220" D WID 19 PIC "YYYY/MM/DD hh:mm:ss" AS "" FIELD "DateField16" D WID 7 PIC "YYYYDDD" AS "" FIELD "DateTimeField221" C WID 16 AS ""
+
+^FORMAT   sampleData3                        sampleData3                      "" "sampleData33.FIL" 0 ASCII 
+[PARENT_FOLDER_ID] 1375901682
+[LASTVIEW] "Default_View"
+[RETRIEVE] 0
+[REFRESH] EXCEL "D:\Brazil\sampleData.fil" FROM "SampleData_XLSX_100kR.xlsx" TABLE "SampleData_100kR_XLSX$" KEEPTITLE FIELD "Name" C WID 20 AS "" FIELD "Phone_CAD" C WID 14 AS "" FIELD "PhoneFax" C WID 14 AS "" FIELD "Email" C WID 51 AS "" FIELD "Date1" D WID 12 PIC "MMM DD,YYYY" AS "" FIELD "DateTime" D WID 19 PIC "YYYY-MM-DD hh:mm:ss" AS "" FIELD "Company" C WID 38 AS "" FIELD "Street_Add" C WID 35 AS "" FIELD "Text1" C WID 158 AS "" FIELD "Test2" C WID 400 AS "" FIELD "Password1" C WID 11 AS "" FIELD "GuID" C WID 36 AS "" FIELD "F13" C WID 10 AS "" FIELD "Colors" C WID 6 AS "" FIELD "Extanded_100" C WID 100 AS "" FIELD "Extanded_10" C WID 10 AS "" FIELD "NUM1" N WID 21 DEC 18 AS "" FIELD "NUM2" N WID 17 DEC 7 AS "" FIELD "NUM3" N WID 17 DEC 8 AS "" FIELD "Curency1" C WID 6 AS "" FIELD "Curency2" C WID 6 AS "" FIELD "Currency3" N WID 4 DEC 2 AS "" FIELD "Currency4" C WID 6 AS "" FIELD "Currency5" C WID 8 AS "" FIELD "DateField" D WID 8 PIC "DD.MM.YY" AS "" FIELD "DateTimeField2" D WID 17 PIC "DD.MM.YY hh:mm:ss" AS "" FIELD "TimeField_" D WID 19 PIC "hh:mm:ss" AS "" FIELD "DateField_" D WID 19 PIC "YYYY-MM-DD" AS "" FIELD "DateTimeField_" D WID 19 PIC "YYYY-MM-DD hh:mm:ss" AS "" FIELD "DateTimeField21" D WID 14 PIC "DD.MM.YY hh:mm" AS "" FIELD "DateTimeField22" D WID 22 PIC "YYYY/MM/DD hh:mm:ss AM" AS "" FIELD "DateTimeField23" D WID 22 PIC "DD/MM/YYYY hh:mm:ss AM" AS "" FIELD "DateTimeField24" D WID 20 PIC "MMMDD,YYYYhh:mm AM" AS "" FIELD "TimeField" D WID 8 PIC "hh:mm AM" AS "" FIELD "TimeField2" D WID 11 PIC "hh:mm:ss AM" AS "" FIELD "TimeField1" D WID 5 PIC "hh:mm" AS "" FIELD "DateTimeField25" D WID 20 PIC "DD.MMM.YYYY hh:mmAM" AS "" FIELD "DateField1" D WID 9 PIC "DD.MMM.YY" AS "" FIELD "DateTimeField26" D WID 18 PIC "DD.MMM.YY hh:mm:ss" AS "" FIELD "DateField2" D WID 11 PIC "DD.MMM.YYYY" AS "" FIELD "DateTimeField27" D WID 20 PIC "DD.MMM.YYYY hh:mm:ss" AS "" FIELD "DateField3" D WID 8 PIC "DD/MM/YY" AS "" FIELD "DateTimeField28" D WID 17 PIC "DD/MM/YY hh:mm:ss" AS "" FIELD "DateField4" D WID 10 PIC "DD/MM/YYYY" AS "" FIELD "DateTimeField29" D WID 19 PIC "DD/MM/YYYY hh:mm:ss" AS "" FIELD "DateField5" D WID 9 PIC "DDMMMYYYY" AS "" FIELD "DateTimeField210" C WID 18 AS "" FIELD "DateField6" N WID 6 DEC 0 AS "" FIELD "DateTimeField211" C WID 15 AS "" FIELD "DateField7" N WID 8 DEC 0 AS "" FIELD "DateTimeField212" C WID 17 AS "" FIELD "DateField8" D WID 8 PIC "MM/DD/YY" AS "" FIELD "DateTimeField213" D WID 17 PIC "MM/DD/YY hh:mm:ss" AS "" FIELD "DateField9" D WID 10 PIC "MM/DD/YYYY" AS "" FIELD "DateTimeField214" D WID 19 PIC "MM/DD/YYYY hh:mm:ss" AS "" FIELD "DateField10" D WID 11 PIC "MMMDD,YYYY" AS "" FIELD "DateTimeField215" D WID 20 PIC "MMMDD,YYYYhh:mm:ss" AS "" FIELD "DateField11" D WID 9 PIC "MMMDD,YY" AS "" FIELD "DateTimeField216" D WID 18 PIC "MMMDD,YYhh:mm:ss" AS "" FIELD "DateField12" D WID 9 PIC "MMMDDYYYY" AS "" FIELD "DateTimeField217" C WID 18 AS "" FIELD "DateField13" N WID 5 DEC 0 AS "" FIELD "DateTimeField218" C WID 14 AS "" FIELD "DateField14" N WID 6 DEC 0 AS "" FIELD "DateTimeField219" C WID 15 AS "" FIELD "DateField15" D WID 10 PIC "YYYY/MM/DD" AS "" FIELD "DateTimeField220" D WID 19 PIC "YYYY/MM/DD hh:mm:ss" AS "" FIELD "DateField16" D WID 7 PIC "YYYYDDD" AS "" FIELD "DateTimeField221" C WID 16 AS ""
+
+^FORMAT   sampleData4                        sampleData4                      "" "sampleData44.FIL" 0 ASCII 
+[PARENT_FOLDER_ID] 1375901682
+[LASTVIEW] "Default_View"
+[RETRIEVE] 0
+[REFRESH] EXCEL "D:\Brazil\sampleData.fil" FROM "SampleData_XLSX_100kR.xlsx" TABLE "SampleData_100kR_XLSX$" KEEPTITLE FIELD "Name" C WID 20 AS "" FIELD "Phone_CAD" C WID 14 AS "" FIELD "PhoneFax" C WID 14 AS "" FIELD "Email" C WID 51 AS "" FIELD "Date1" D WID 12 PIC "MMM DD,YYYY" AS "" FIELD "DateTime" D WID 19 PIC "YYYY-MM-DD hh:mm:ss" AS "" FIELD "Company" C WID 38 AS "" FIELD "Street_Add" C WID 35 AS "" FIELD "Text1" C WID 158 AS "" FIELD "Test2" C WID 400 AS "" FIELD "Password1" C WID 11 AS "" FIELD "GuID" C WID 36 AS "" FIELD "F13" C WID 10 AS "" FIELD "Colors" C WID 6 AS "" FIELD "Extanded_100" C WID 100 AS "" FIELD "Extanded_10" C WID 10 AS "" FIELD "NUM1" N WID 21 DEC 18 AS "" FIELD "NUM2" N WID 17 DEC 7 AS "" FIELD "NUM3" N WID 17 DEC 8 AS "" FIELD "Curency1" C WID 6 AS "" FIELD "Curency2" C WID 6 AS "" FIELD "Currency3" N WID 4 DEC 2 AS "" FIELD "Currency4" C WID 6 AS "" FIELD "Currency5" C WID 8 AS "" FIELD "DateField" D WID 8 PIC "DD.MM.YY" AS "" FIELD "DateTimeField2" D WID 17 PIC "DD.MM.YY hh:mm:ss" AS "" FIELD "TimeField_" D WID 19 PIC "hh:mm:ss" AS "" FIELD "DateField_" D WID 19 PIC "YYYY-MM-DD" AS "" FIELD "DateTimeField_" D WID 19 PIC "YYYY-MM-DD hh:mm:ss" AS "" FIELD "DateTimeField21" D WID 14 PIC "DD.MM.YY hh:mm" AS "" FIELD "DateTimeField22" D WID 22 PIC "YYYY/MM/DD hh:mm:ss AM" AS "" FIELD "DateTimeField23" D WID 22 PIC "DD/MM/YYYY hh:mm:ss AM" AS "" FIELD "DateTimeField24" D WID 20 PIC "MMMDD,YYYYhh:mm AM" AS "" FIELD "TimeField" D WID 8 PIC "hh:mm AM" AS "" FIELD "TimeField2" D WID 11 PIC "hh:mm:ss AM" AS "" FIELD "TimeField1" D WID 5 PIC "hh:mm" AS "" FIELD "DateTimeField25" D WID 20 PIC "DD.MMM.YYYY hh:mmAM" AS "" FIELD "DateField1" D WID 9 PIC "DD.MMM.YY" AS "" FIELD "DateTimeField26" D WID 18 PIC "DD.MMM.YY hh:mm:ss" AS "" FIELD "DateField2" D WID 11 PIC "DD.MMM.YYYY" AS "" FIELD "DateTimeField27" D WID 20 PIC "DD.MMM.YYYY hh:mm:ss" AS "" FIELD "DateField3" D WID 8 PIC "DD/MM/YY" AS "" FIELD "DateTimeField28" D WID 17 PIC "DD/MM/YY hh:mm:ss" AS "" FIELD "DateField4" D WID 10 PIC "DD/MM/YYYY" AS "" FIELD "DateTimeField29" D WID 19 PIC "DD/MM/YYYY hh:mm:ss" AS "" FIELD "DateField5" D WID 9 PIC "DDMMMYYYY" AS "" FIELD "DateTimeField210" C WID 18 AS "" FIELD "DateField6" N WID 6 DEC 0 AS "" FIELD "DateTimeField211" C WID 15 AS "" FIELD "DateField7" N WID 8 DEC 0 AS "" FIELD "DateTimeField212" C WID 17 AS "" FIELD "DateField8" D WID 8 PIC "MM/DD/YY" AS "" FIELD "DateTimeField213" D WID 17 PIC "MM/DD/YY hh:mm:ss" AS "" FIELD "DateField9" D WID 10 PIC "MM/DD/YYYY" AS "" FIELD "DateTimeField214" D WID 19 PIC "MM/DD/YYYY hh:mm:ss" AS "" FIELD "DateField10" D WID 11 PIC "MMMDD,YYYY" AS "" FIELD "DateTimeField215" D WID 20 PIC "MMMDD,YYYYhh:mm:ss" AS "" FIELD "DateField11" D WID 9 PIC "MMMDD,YY" AS "" FIELD "DateTimeField216" D WID 18 PIC "MMMDD,YYhh:mm:ss" AS "" FIELD "DateField12" D WID 9 PIC "MMMDDYYYY" AS "" FIELD "DateTimeField217" C WID 18 AS "" FIELD "DateField13" N WID 5 DEC 0 AS "" FIELD "DateTimeField218" C WID 14 AS "" FIELD "DateField14" N WID 6 DEC 0 AS "" FIELD "DateTimeField219" C WID 15 AS "" FIELD "DateField15" D WID 10 PIC "YYYY/MM/DD" AS "" FIELD "DateTimeField220" D WID 19 PIC "YYYY/MM/DD hh:mm:ss" AS "" FIELD "DateField16" D WID 7 PIC "YYYYDDD" AS "" FIELD "DateTimeField221" C WID 16 AS ""
+
+^FORMAT   sampleData5                        sampleData5                      "" "sampleData55.FIL" 0 ASCII 
+[PARENT_FOLDER_ID] 1375901682
+[LASTVIEW] "Default_View"
+[RETRIEVE] 0
+[REFRESH] EXCEL "D:\Brazil\sampleData.fil" FROM "SampleData_XLSX_100kR.xlsx" TABLE "SampleData_100kR_XLSX$" KEEPTITLE FIELD "Name" C WID 20 AS "" FIELD "Phone_CAD" C WID 14 AS "" FIELD "PhoneFax" C WID 14 AS "" FIELD "Email" C WID 51 AS "" FIELD "Date1" D WID 12 PIC "MMM DD,YYYY" AS "" FIELD "DateTime" D WID 19 PIC "YYYY-MM-DD hh:mm:ss" AS "" FIELD "Company" C WID 38 AS "" FIELD "Street_Add" C WID 35 AS "" FIELD "Text1" C WID 158 AS "" FIELD "Test2" C WID 400 AS "" FIELD "Password1" C WID 11 AS "" FIELD "GuID" C WID 36 AS "" FIELD "F13" C WID 10 AS "" FIELD "Colors" C WID 6 AS "" FIELD "Extanded_100" C WID 100 AS "" FIELD "Extanded_10" C WID 10 AS "" FIELD "NUM1" N WID 21 DEC 18 AS "" FIELD "NUM2" N WID 17 DEC 7 AS "" FIELD "NUM3" N WID 17 DEC 8 AS "" FIELD "Curency1" C WID 6 AS "" FIELD "Curency2" C WID 6 AS "" FIELD "Currency3" N WID 4 DEC 2 AS "" FIELD "Currency4" C WID 6 AS "" FIELD "Currency5" C WID 8 AS "" FIELD "DateField" D WID 8 PIC "DD.MM.YY" AS "" FIELD "DateTimeField2" D WID 17 PIC "DD.MM.YY hh:mm:ss" AS "" FIELD "TimeField_" D WID 19 PIC "hh:mm:ss" AS "" FIELD "DateField_" D WID 19 PIC "YYYY-MM-DD" AS "" FIELD "DateTimeField_" D WID 19 PIC "YYYY-MM-DD hh:mm:ss" AS "" FIELD "DateTimeField21" D WID 14 PIC "DD.MM.YY hh:mm" AS "" FIELD "DateTimeField22" D WID 22 PIC "YYYY/MM/DD hh:mm:ss AM" AS "" FIELD "DateTimeField23" D WID 22 PIC "DD/MM/YYYY hh:mm:ss AM" AS "" FIELD "DateTimeField24" D WID 20 PIC "MMMDD,YYYYhh:mm AM" AS "" FIELD "TimeField" D WID 8 PIC "hh:mm AM" AS "" FIELD "TimeField2" D WID 11 PIC "hh:mm:ss AM" AS "" FIELD "TimeField1" D WID 5 PIC "hh:mm" AS "" FIELD "DateTimeField25" D WID 20 PIC "DD.MMM.YYYY hh:mmAM" AS "" FIELD "DateField1" D WID 9 PIC "DD.MMM.YY" AS "" FIELD "DateTimeField26" D WID 18 PIC "DD.MMM.YY hh:mm:ss" AS "" FIELD "DateField2" D WID 11 PIC "DD.MMM.YYYY" AS "" FIELD "DateTimeField27" D WID 20 PIC "DD.MMM.YYYY hh:mm:ss" AS "" FIELD "DateField3" D WID 8 PIC "DD/MM/YY" AS "" FIELD "DateTimeField28" D WID 17 PIC "DD/MM/YY hh:mm:ss" AS "" FIELD "DateField4" D WID 10 PIC "DD/MM/YYYY" AS "" FIELD "DateTimeField29" D WID 19 PIC "DD/MM/YYYY hh:mm:ss" AS "" FIELD "DateField5" D WID 9 PIC "DDMMMYYYY" AS "" FIELD "DateTimeField210" C WID 18 AS "" FIELD "DateField6" N WID 6 DEC 0 AS "" FIELD "DateTimeField211" C WID 15 AS "" FIELD "DateField7" N WID 8 DEC 0 AS "" FIELD "DateTimeField212" C WID 17 AS "" FIELD "DateField8" D WID 8 PIC "MM/DD/YY" AS "" FIELD "DateTimeField213" D WID 17 PIC "MM/DD/YY hh:mm:ss" AS "" FIELD "DateField9" D WID 10 PIC "MM/DD/YYYY" AS "" FIELD "DateTimeField214" D WID 19 PIC "MM/DD/YYYY hh:mm:ss" AS "" FIELD "DateField10" D WID 11 PIC "MMMDD,YYYY" AS "" FIELD "DateTimeField215" D WID 20 PIC "MMMDD,YYYYhh:mm:ss" AS "" FIELD "DateField11" D WID 9 PIC "MMMDD,YY" AS "" FIELD "DateTimeField216" D WID 18 PIC "MMMDD,YYhh:mm:ss" AS "" FIELD "DateField12" D WID 9 PIC "MMMDDYYYY" AS "" FIELD "DateTimeField217" C WID 18 AS "" FIELD "DateField13" N WID 5 DEC 0 AS "" FIELD "DateTimeField218" C WID 14 AS "" FIELD "DateField14" N WID 6 DEC 0 AS "" FIELD "DateTimeField219" C WID 15 AS "" FIELD "DateField15" D WID 10 PIC "YYYY/MM/DD" AS "" FIELD "DateTimeField220" D WID 19 PIC "YYYY/MM/DD hh:mm:ss" AS "" FIELD "DateField16" D WID 7 PIC "YYYYDDD" AS "" FIELD "DateTimeField221" C WID 16 AS ""
+
+^FORMAT   test333                            test333                          "" "test333.FIL" 0 ASCII 
+[PARENT_FOLDER_ID] 1375901682
+~.08/08/2013   04:19:03 sampleData5 EXTRACT RECORD TO "test333" OPEN FIRST 10
+~Input : Records:10          Control Total:0                    
+~Output: Records:10          Control Total:0                    
+^OPEN 
