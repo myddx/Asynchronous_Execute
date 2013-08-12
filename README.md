@@ -1,0 +1,12 @@
+Asynchronous_Execute
+====================
+
+Parallel
+Here is an execute template project that you might be interested in using on daily basis. With this project, I was trying to explore the benefit of using asynchronous execute command or running ACL commands in parallel processes. Export or Import commands can benefit significantly from running in asynchronous mode as a separate ACL process instead of running in sequential mode. E.g. It took 5 minutes to import 5 (100k rec) excel documents in asynchronous mode (5 ACL processes) and it took 15 min to do it in sequential mode (1 ACL process). Same applies to Export command; it took 7 min to export to Excel in asynchronous mode (5 ACL processes) and 25min to do it in sequential mode (1 ACL Process); 66% improvement on import and 72% on export, but the benefit can even go beyond these percentages if I have higher number exports/imports and of ACL processes (e.g. 10 v.s. 5 exports).
+ 
+I haven’t yet tried ODBC, SAP, ACLSE or delimited imports but technically it should work the same way since these are not as disk intensive processes as Sort command. Running Sort on five 28GB tables in asynchronous mode vs. sequential produced the same results (46-42 min) in both cases. Sort command cannot benefit from asynchronous execute. Therefore, in case if you want to use this template and split your ACL scripts in multiple processes, do not split sorts as it will slow down your OS if you try to do so. Splitting ACL scripts in multiple parallel processes with asynchronous execute command provides an opportunity to utilize the benefit of having powerful machines, or if you don’t have one there is enough evidence to request one from IT. Additionally, there are many other ways of using asynchronous execute command in your ACL scripts, (many other commands to be explored)
+ 
+Short description of the script is as follows. Script is designed to run on Analytic Engine but it can be modified to Desktop by changing exe in the main script. It has 3 examples: parallel export to Excel, parallel import to Excel, and parallel sort. Main script creates 5 copies of original ACL project and executes 5 separate asynchronous ACL processes; while they are running, the main project is checking for completion of those processes by running testDone script, and when they are done table layouts are relinked to new FILs.
+ 
+I hope you enjoy experimenting with asynchronous execute command or running ACL commands in parallel processes. You just need to copy ACL project and substitute you own data.
+ 
